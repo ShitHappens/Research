@@ -1,0 +1,42 @@
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Logic\bin\Debug\Research.Logic.dll
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Logic\bin\Debug\Research.Logic.pdb
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Logic\obj\Debug\Research.Logic.dll
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Logic\obj\Debug\Research.Logic.pdb
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Logic\obj\Debug\Research.Logic.csprojResolveAssemblyReference.cache
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Logic\bin\Debug\DevReactor.Toolbox.BO.dll
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Logic\bin\Debug\DevReactor.Toolbox.Encrypting.dll
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Logic\bin\Debug\DevReactor.Toolbox.Tools.dll
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Logic\bin\Debug\log4net.dll
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Logic\bin\Debug\MaxMind.Db.dll
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Logic\bin\Debug\MaxMind.GeoIP2.dll
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Logic\bin\Debug\Newtonsoft.Json.dll
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Logic\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Logic\bin\Debug\Research.BO.dll
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Logic\bin\Debug\RestSharp.dll
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Logic\bin\Debug\Research.BO.pdb
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Logic\bin\Debug\log4net.xml
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Logic\bin\Debug\MaxMind.Db.xml
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Logic\bin\Debug\MaxMind.GeoIP2.xml
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Logic\bin\Debug\Newtonsoft.Json.xml
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Logic\bin\Debug\RestSharp.xml
+C:\_\Research\Research.Logic\bin\Debug\Research.Logic.dll
+C:\_\Research\Research.Logic\bin\Debug\Research.Logic.pdb
+C:\_\Research\Research.Logic\bin\Debug\DevReactor.Toolbox.BO.dll
+C:\_\Research\Research.Logic\bin\Debug\DevReactor.Toolbox.Encrypting.dll
+C:\_\Research\Research.Logic\bin\Debug\DevReactor.Toolbox.Tools.dll
+C:\_\Research\Research.Logic\bin\Debug\log4net.dll
+C:\_\Research\Research.Logic\bin\Debug\MaxMind.Db.dll
+C:\_\Research\Research.Logic\bin\Debug\MaxMind.GeoIP2.dll
+C:\_\Research\Research.Logic\bin\Debug\Newtonsoft.Json.dll
+C:\_\Research\Research.Logic\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\_\Research\Research.Logic\bin\Debug\Research.BO.dll
+C:\_\Research\Research.Logic\bin\Debug\RestSharp.dll
+C:\_\Research\Research.Logic\bin\Debug\Research.BO.pdb
+C:\_\Research\Research.Logic\bin\Debug\log4net.xml
+C:\_\Research\Research.Logic\bin\Debug\MaxMind.Db.xml
+C:\_\Research\Research.Logic\bin\Debug\MaxMind.GeoIP2.xml
+C:\_\Research\Research.Logic\bin\Debug\Newtonsoft.Json.xml
+C:\_\Research\Research.Logic\bin\Debug\RestSharp.xml
+C:\_\Research\Research.Logic\obj\Debug\Research.Logic.csprojResolveAssemblyReference.cache
+C:\_\Research\Research.Logic\obj\Debug\Research.Logic.dll
+C:\_\Research\Research.Logic\obj\Debug\Research.Logic.pdb

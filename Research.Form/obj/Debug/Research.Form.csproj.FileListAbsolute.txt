@@ -1,0 +1,24 @@
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Form\bin\Debug\Research.Form.exe
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Form\bin\Debug\Research.Form.pdb
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Form\obj\Debug\Research.Form.csprojResolveAssemblyReference.cache
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Form\obj\Debug\MainWindow.baml
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Form\obj\Debug\MainWindow.g.cs
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Form\obj\Debug\App.g.cs
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Form\obj\Debug\Research.Form_MarkupCompile.cache
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Form\obj\Debug\Research.Form.g.resources
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Form\obj\Debug\Research.Form.Properties.Resources.resources
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Form\obj\Debug\Research.Form.csproj.GenerateResource.Cache
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Form\obj\Debug\Research.Form.exe
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Form\obj\Debug\Research.Form.pdb
+C:\_\Research\Research.Form\bin\Debug\Research.Form.exe
+C:\_\Research\Research.Form\bin\Debug\Research.Form.pdb
+C:\_\Research\Research.Form\obj\Debug\Research.Form.csprojResolveAssemblyReference.cache
+C:\_\Research\Research.Form\obj\Debug\MainWindow.baml
+C:\_\Research\Research.Form\obj\Debug\MainWindow.g.cs
+C:\_\Research\Research.Form\obj\Debug\App.g.cs
+C:\_\Research\Research.Form\obj\Debug\Research.Form_MarkupCompile.cache
+C:\_\Research\Research.Form\obj\Debug\Research.Form.g.resources
+C:\_\Research\Research.Form\obj\Debug\Research.Form.Properties.Resources.resources
+C:\_\Research\Research.Form\obj\Debug\Research.Form.csproj.GenerateResource.Cache
+C:\_\Research\Research.Form\obj\Debug\Research.Form.exe
+C:\_\Research\Research.Form\obj\Debug\Research.Form.pdb

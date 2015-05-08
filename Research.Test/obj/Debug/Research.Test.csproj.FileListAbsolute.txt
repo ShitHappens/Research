@@ -1,0 +1,54 @@
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\bin\Debug\Research.Test.exe
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\bin\Debug\Research.Test.pdb
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\obj\Debug\Research.Test.exe
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\obj\Debug\Research.Test.pdb
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\bin\Debug\log4net.dll
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\bin\Debug\Research.Test.exe.config
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\bin\Debug\DevReactor.Toolbox.Tools.dll
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\obj\Debug\Research.Test.csprojResolveAssemblyReference.cache
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\bin\Debug\config\common.config
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\bin\Debug\config\db.config
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\bin\Debug\config\log\log4net.console.config
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\bin\Debug\DevReactor.Toolbox.BO.dll
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\bin\Debug\Research.BO.dll
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\bin\Debug\Research.BO.pdb
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\bin\Debug\DevReactor.Toolbox.Encrypting.dll
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\bin\Debug\MaxMind.Db.dll
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\bin\Debug\MaxMind.GeoIP2.dll
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\bin\Debug\Newtonsoft.Json.dll
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\bin\Debug\Oracle.ManagedDataAccess.dll
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\bin\Debug\RestSharp.dll
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\bin\Debug\log4net.xml
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\bin\Debug\MaxMind.Db.xml
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\bin\Debug\MaxMind.GeoIP2.xml
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\bin\Debug\Newtonsoft.Json.xml
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\bin\Debug\RestSharp.xml
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\bin\Debug\Research.Logic.dll
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Test\bin\Debug\Research.Logic.pdb
+C:\_\Research\Research.Test\bin\Debug\Research.Test.exe.config
+C:\_\Research\Research.Test\obj\Debug\Research.Test.exe
+C:\_\Research\Research.Test\obj\Debug\Research.Test.pdb
+C:\_\Research\Research.Test\bin\Debug\config\common.config
+C:\_\Research\Research.Test\bin\Debug\config\db.config
+C:\_\Research\Research.Test\bin\Debug\config\log\log4net.console.config
+C:\_\Research\Research.Test\bin\Debug\Research.Test.exe
+C:\_\Research\Research.Test\bin\Debug\Research.Test.pdb
+C:\_\Research\Research.Test\bin\Debug\DevReactor.Toolbox.BO.dll
+C:\_\Research\Research.Test\bin\Debug\DevReactor.Toolbox.Encrypting.dll
+C:\_\Research\Research.Test\bin\Debug\DevReactor.Toolbox.Tools.dll
+C:\_\Research\Research.Test\bin\Debug\log4net.dll
+C:\_\Research\Research.Test\bin\Debug\MaxMind.Db.dll
+C:\_\Research\Research.Test\bin\Debug\MaxMind.GeoIP2.dll
+C:\_\Research\Research.Test\bin\Debug\Newtonsoft.Json.dll
+C:\_\Research\Research.Test\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\_\Research\Research.Test\bin\Debug\Research.BO.dll
+C:\_\Research\Research.Test\bin\Debug\Research.Logic.dll
+C:\_\Research\Research.Test\bin\Debug\RestSharp.dll
+C:\_\Research\Research.Test\bin\Debug\Research.BO.pdb
+C:\_\Research\Research.Test\bin\Debug\Research.Logic.pdb
+C:\_\Research\Research.Test\bin\Debug\log4net.xml
+C:\_\Research\Research.Test\bin\Debug\MaxMind.Db.xml
+C:\_\Research\Research.Test\bin\Debug\MaxMind.GeoIP2.xml
+C:\_\Research\Research.Test\bin\Debug\Newtonsoft.Json.xml
+C:\_\Research\Research.Test\bin\Debug\RestSharp.xml
+C:\_\Research\Research.Test\obj\Debug\Research.Test.csprojResolveAssemblyReference.cache

@@ -1,0 +1,129 @@
+2015-05-08 13:26:03,538 INFO  File: Research.Api started
+2015-05-08 13:26:03,554 INFO  File: DBSessionStorage.Purge
+2015-05-08 13:26:03,565 INFO  File: db.config setting connection-string-regex is empty. Using default: (?:(?<engine>[^|]+?)\|)?(?<conn>[^|]+)
+2015-05-08 13:26:03,570 INFO  File: iConnectionStringPreparer IS NULL, using StandardConnectionStringPreparer.Instance
+2015-05-08 13:26:03,573 INFO  File: Decrypting connection string dbId=default
+2015-05-08 13:26:03,584 INFO  File: Config section 'encrypting' not found. Check web.config!
+2015-05-08 13:26:03,615 INFO  File: System.Exception: Error 'Failed to load direct softAES dbAccess encrypting profile.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.Exception: Failed to load direct softAES dbAccess encrypting profile. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+2015-05-08 13:26:03,633 INFO  File: System.Exception: Error 'Object reference not set to an instance of an object.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+2015-05-08 13:26:03,637 INFO  File: Error decrypting db password. Using password as is.
+2015-05-08 13:26:03,643 INFO  File: m_connectionStringsPrepared.Add(Server=.\SQL2012;User ID=sa;password=scauser1991;Database=ndr;Persist Security Info=True, Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991)
+2015-05-08 13:26:03,668 INFO  File: toolbox-command-timeout=30
+2015-05-08 13:26:03,755 INFO  File: 
+--Connection Open #21653700 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Execution result: Failure
+EXEC websession_purge
+
+2015-05-08 13:26:03,762 ERROR File: Error 'Direct.Exec: websession_purge' in method DevReactor.Toolbox.BO.Database.Direct.Exec
+System.Exception: Direct.Exec: websession_purge ---> System.Data.SqlClient.SqlException: Could not find stored procedure 'websession_purge'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DevReactor.Toolbox.BO.Database.MSSQL.Connection.ExecuteNonQuery(Command cmd)
+   at DevReactor.Toolbox.BO.Database.Command.ExecuteNonQuery()
+   at DevReactor.Toolbox.BO.Database.Direct.Exec(String dbId, IConnectionStringPreparer iConnectionStringPreparer, String query, PrepareCmd _prepareCmd, SPResultType resultType, CallingConvention callingConvention)
+   --- End of inner exception stack trace ---
+2015-05-08 13:26:03,780 ERROR File: Error 'Could not find stored procedure 'websession_purge'.' in method DevReactor.Toolbox.API.Sessions.DBSessionStorage.Purge
+System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'websession_purge'.
+   at DevReactor.Toolbox.BO.Database.Direct.Exec(String dbId, IConnectionStringPreparer iConnectionStringPreparer, String query, PrepareCmd _prepareCmd, SPResultType resultType, CallingConvention callingConvention)
+   at DevReactor.Toolbox.BO.Database.Direct.Sp(String dbId, IConnectionStringPreparer iConnectionStringPreparer, String sp, PrepareCmd _prepareCmd, SPResultType resultType, CallingConvention callingConvention)
+   at DevReactor.Toolbox.API.Sessions.DB.Websession.Purge()
+   at DevReactor.Toolbox.API.Sessions.DBSessionStorage.Purge()
+ClientConnectionId:a186db99-1278-4156-b653-0f19e2667a20
+2015-05-08 13:35:57,034 INFO  File: Research.Api started
+2015-05-08 13:35:57,087 INFO  File: DBSessionStorage.Purge
+2015-05-08 13:35:57,096 INFO  File: db.config setting connection-string-regex is empty. Using default: (?:(?<engine>[^|]+?)\|)?(?<conn>[^|]+)
+2015-05-08 13:35:57,104 INFO  File: iConnectionStringPreparer IS NULL, using StandardConnectionStringPreparer.Instance
+2015-05-08 13:35:57,109 INFO  File: Decrypting connection string dbId=default
+2015-05-08 13:35:57,338 INFO  File: Config section 'encrypting' not found. Check web.config!
+2015-05-08 13:35:57,384 INFO  File: System.Exception: Error 'Failed to load direct softAES dbAccess encrypting profile.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.Exception: Failed to load direct softAES dbAccess encrypting profile. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+2015-05-08 13:35:57,407 INFO  File: System.Exception: Error 'Object reference not set to an instance of an object.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+2015-05-08 13:35:57,413 INFO  File: Error decrypting db password. Using password as is.
+2015-05-08 13:35:57,420 INFO  File: m_connectionStringsPrepared.Add(Server=.\SQL2012;User ID=sa;password=scauser1991;Database=ndr;Persist Security Info=True, Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991)
+2015-05-08 13:35:57,466 INFO  File: toolbox-command-timeout=30
+2015-05-08 13:35:57,606 INFO  File: 
+--Connection Open #47501665 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Execution result: Failure
+EXEC websession_purge
+
+2015-05-08 13:35:57,614 ERROR File: Error 'Direct.Exec: websession_purge' in method DevReactor.Toolbox.BO.Database.Direct.Exec
+System.Exception: Direct.Exec: websession_purge ---> System.Data.SqlClient.SqlException: Could not find stored procedure 'websession_purge'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DevReactor.Toolbox.BO.Database.MSSQL.Connection.ExecuteNonQuery(Command cmd)
+   at DevReactor.Toolbox.BO.Database.Command.ExecuteNonQuery()
+   at DevReactor.Toolbox.BO.Database.Direct.Exec(String dbId, IConnectionStringPreparer iConnectionStringPreparer, String query, PrepareCmd _prepareCmd, SPResultType resultType, CallingConvention callingConvention)
+   --- End of inner exception stack trace ---
+2015-05-08 13:35:57,665 ERROR File: Error 'Could not find stored procedure 'websession_purge'.' in method DevReactor.Toolbox.API.Sessions.DBSessionStorage.Purge
+System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'websession_purge'.
+   at DevReactor.Toolbox.BO.Database.Direct.Exec(String dbId, IConnectionStringPreparer iConnectionStringPreparer, String query, PrepareCmd _prepareCmd, SPResultType resultType, CallingConvention callingConvention)
+   at DevReactor.Toolbox.BO.Database.Direct.Sp(String dbId, IConnectionStringPreparer iConnectionStringPreparer, String sp, PrepareCmd _prepareCmd, SPResultType resultType, CallingConvention callingConvention)
+   at DevReactor.Toolbox.API.Sessions.DB.Websession.Purge()
+   at DevReactor.Toolbox.API.Sessions.DBSessionStorage.Purge()
+ClientConnectionId:b5f315b5-fb1c-4a79-9bd3-96a2f671cb48
+2015-05-08 14:41:59,261 INFO  File: Research.Api started
+2015-05-08 14:41:59,305 INFO  File: DBSessionStorage.Purge
+2015-05-08 14:41:59,317 INFO  File: db.config setting connection-string-regex is empty. Using default: (?:(?<engine>[^|]+?)\|)?(?<conn>[^|]+)
+2015-05-08 14:41:59,324 INFO  File: iConnectionStringPreparer IS NULL, using StandardConnectionStringPreparer.Instance
+2015-05-08 14:41:59,330 INFO  File: Decrypting connection string dbId=default
+2015-05-08 14:41:59,487 INFO  File: Config section 'encrypting' not found. Check web.config!
+2015-05-08 14:41:59,518 INFO  File: System.Exception: Error 'Failed to load direct softAES dbAccess encrypting profile.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.Exception: Failed to load direct softAES dbAccess encrypting profile. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+2015-05-08 14:41:59,537 INFO  File: System.Exception: Error 'Object reference not set to an instance of an object.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+2015-05-08 14:41:59,542 INFO  File: Error decrypting db password. Using password as is.
+2015-05-08 14:41:59,547 INFO  File: m_connectionStringsPrepared.Add(Server=.\SQL2012;User ID=sa;password=scauser1991;Database=ndr;Persist Security Info=True, Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991)
+2015-05-08 14:41:59,582 INFO  File: toolbox-command-timeout=30
+2015-05-08 14:41:59,653 INFO  File: 
+--Connection Open #47501665 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Execution result: Failure
+EXEC websession_purge
+
+2015-05-08 14:41:59,659 ERROR File: Error 'Direct.Exec: websession_purge' in method DevReactor.Toolbox.BO.Database.Direct.Exec
+System.Exception: Direct.Exec: websession_purge ---> System.Data.SqlClient.SqlException: Could not find stored procedure 'websession_purge'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DevReactor.Toolbox.BO.Database.MSSQL.Connection.ExecuteNonQuery(Command cmd)
+   at DevReactor.Toolbox.BO.Database.Command.ExecuteNonQuery()
+   at DevReactor.Toolbox.BO.Database.Direct.Exec(String dbId, IConnectionStringPreparer iConnectionStringPreparer, String query, PrepareCmd _prepareCmd, SPResultType resultType, CallingConvention callingConvention)
+   --- End of inner exception stack trace ---
+2015-05-08 14:41:59,678 ERROR File: Error 'Could not find stored procedure 'websession_purge'.' in method DevReactor.Toolbox.API.Sessions.DBSessionStorage.Purge
+System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'websession_purge'.
+   at DevReactor.Toolbox.BO.Database.Direct.Exec(String dbId, IConnectionStringPreparer iConnectionStringPreparer, String query, PrepareCmd _prepareCmd, SPResultType resultType, CallingConvention callingConvention)
+   at DevReactor.Toolbox.BO.Database.Direct.Sp(String dbId, IConnectionStringPreparer iConnectionStringPreparer, String sp, PrepareCmd _prepareCmd, SPResultType resultType, CallingConvention callingConvention)
+   at DevReactor.Toolbox.API.Sessions.DB.Websession.Purge()
+   at DevReactor.Toolbox.API.Sessions.DBSessionStorage.Purge()
+ClientConnectionId:0030d7d4-b143-4dba-a4cf-84fcc6654429

@@ -1,0 +1,50 @@
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Web.API\obj\Debug\Research.Web.API.csprojResolveAssemblyReference.cache
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Web.API\bin\Research.Web.API.dll.config
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Web.API\bin\Research.Web.API.dll
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Web.API\bin\Research.Web.API.pdb
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Web.API\bin\DevReactor.Toolbox.API.dll
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Web.API\bin\DevReactor.Toolbox.BO.dll
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Web.API\bin\DevReactor.Toolbox.Encrypting.dll
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Web.API\bin\DevReactor.Toolbox.Tools.dll
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Web.API\bin\log4net.dll
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Web.API\bin\MaxMind.Db.dll
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Web.API\bin\MaxMind.GeoIP2.dll
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Web.API\bin\Newtonsoft.Json.dll
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Web.API\bin\Oracle.ManagedDataAccess.dll
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Web.API\bin\Research.Logic.dll
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Web.API\bin\RestSharp.dll
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Web.API\bin\Research.BO.dll
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Web.API\bin\Research.Logic.pdb
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Web.API\bin\log4net.xml
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Web.API\bin\MaxMind.Db.xml
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Web.API\bin\MaxMind.GeoIP2.xml
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Web.API\bin\Newtonsoft.Json.xml
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Web.API\bin\RestSharp.xml
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Web.API\bin\Research.BO.pdb
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Web.API\obj\Debug\Research.Web.API.dll
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.Web.API\obj\Debug\Research.Web.API.pdb
+C:\_\Research\Research.Web.API\bin\Research.Web.API.dll.config
+C:\_\Research\Research.Web.API\bin\Research.Web.API.dll
+C:\_\Research\Research.Web.API\bin\Research.Web.API.pdb
+C:\_\Research\Research.Web.API\bin\DevReactor.Toolbox.API.dll
+C:\_\Research\Research.Web.API\bin\DevReactor.Toolbox.BO.dll
+C:\_\Research\Research.Web.API\bin\DevReactor.Toolbox.Encrypting.dll
+C:\_\Research\Research.Web.API\bin\DevReactor.Toolbox.Tools.dll
+C:\_\Research\Research.Web.API\bin\log4net.dll
+C:\_\Research\Research.Web.API\bin\MaxMind.Db.dll
+C:\_\Research\Research.Web.API\bin\MaxMind.GeoIP2.dll
+C:\_\Research\Research.Web.API\bin\Newtonsoft.Json.dll
+C:\_\Research\Research.Web.API\bin\Oracle.ManagedDataAccess.dll
+C:\_\Research\Research.Web.API\bin\Research.Logic.dll
+C:\_\Research\Research.Web.API\bin\RestSharp.dll
+C:\_\Research\Research.Web.API\bin\Research.BO.dll
+C:\_\Research\Research.Web.API\bin\Research.Logic.pdb
+C:\_\Research\Research.Web.API\bin\log4net.xml
+C:\_\Research\Research.Web.API\bin\MaxMind.Db.xml
+C:\_\Research\Research.Web.API\bin\MaxMind.GeoIP2.xml
+C:\_\Research\Research.Web.API\bin\Newtonsoft.Json.xml
+C:\_\Research\Research.Web.API\bin\RestSharp.xml
+C:\_\Research\Research.Web.API\bin\Research.BO.pdb
+C:\_\Research\Research.Web.API\obj\Debug\Research.Web.API.csprojResolveAssemblyReference.cache
+C:\_\Research\Research.Web.API\obj\Debug\Research.Web.API.dll
+C:\_\Research\Research.Web.API\obj\Debug\Research.Web.API.pdb

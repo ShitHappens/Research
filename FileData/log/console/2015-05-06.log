@@ -1,0 +1,331 @@
+2015-05-06 17:18:58,866 INFO  File: Finished
+2015-05-06 17:41:19,365 INFO  File: db.config setting connection-string-regex is empty. Using default: (?:(?<engine>[^|]+?)\|)?(?<conn>[^|]+)
+2015-05-06 17:41:19,387 INFO  File: Decrypting connection string dbId=default
+2015-05-06 17:41:19,485 INFO  File: Error preparing connection string dbId=default, trying using as is
+2015-05-06 17:41:19,555 INFO  File: 
+--<null> Command
+2015-05-06 17:41:19,595 ERROR File: Error 'filter:QuestionType:QuestionType_get:&pk=1' in method DevReactor.Toolbox.BO.BaseObject`1.run
+System.Exception: filter:QuestionType:QuestionType_get:&pk=1 ---> System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DevReactor.Toolbox.BO.Database.MSSQL.Connection.Open()
+   at DevReactor.Toolbox.BO.Database.Manager.GetConnectionAndOpen(String dbId, IConnectionStringPreparer iConnectionStringPreparer)
+   at DevReactor.Toolbox.BO.BaseObject`1.run(Filter filter)
+   --- End of inner exception stack trace ---
+2015-05-06 17:44:45,011 INFO  File: db.config setting connection-string-regex is empty. Using default: (?:(?<engine>[^|]+?)\|)?(?<conn>[^|]+)
+2015-05-06 17:44:45,033 INFO  File: Decrypting connection string dbId=default
+2015-05-06 17:44:45,110 INFO  File: Error preparing connection string dbId=default, trying using as is
+2015-05-06 17:44:45,156 INFO  File: 
+--<null> Command
+2015-05-06 17:44:45,162 ERROR File: Error 'filter:QuestionType:QuestionType_get:&pk=1' in method DevReactor.Toolbox.BO.BaseObject`1.run
+System.Exception: filter:QuestionType:QuestionType_get:&pk=1 ---> System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DevReactor.Toolbox.BO.Database.MSSQL.Connection.Open()
+   at DevReactor.Toolbox.BO.Database.Manager.GetConnectionAndOpen(String dbId, IConnectionStringPreparer iConnectionStringPreparer)
+   at DevReactor.Toolbox.BO.BaseObject`1.run(Filter filter)
+   --- End of inner exception stack trace ---
+2015-05-06 17:59:33,032 INFO  File: db.config setting connection-string-regex is empty. Using default: (?:(?<engine>[^|]+?)\|)?(?<conn>[^|]+)
+2015-05-06 17:59:33,077 INFO  File: Decrypting connection string dbId=default
+2015-05-06 17:59:33,181 INFO  File: Error preparing connection string dbId=default, trying using as is
+2015-05-06 17:59:33,227 INFO  File: 
+--<null> Command
+2015-05-06 17:59:36,465 ERROR File: Error 'filter:QuestionType:QuestionType_get:&pk=1' in method DevReactor.Toolbox.BO.BaseObject`1.run
+System.Exception: filter:QuestionType:QuestionType_get:&pk=1 ---> System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DevReactor.Toolbox.BO.Database.MSSQL.Connection.Open()
+   at DevReactor.Toolbox.BO.Database.Manager.GetConnectionAndOpen(String dbId, IConnectionStringPreparer iConnectionStringPreparer)
+   at DevReactor.Toolbox.BO.BaseObject`1.run(Filter filter)
+   --- End of inner exception stack trace ---
+2015-05-06 18:09:55,536 INFO  File: db.config setting connection-string-regex is empty. Using default: (?:(?<engine>[^|]+?)\|)?(?<conn>[^|]+)
+2015-05-06 18:09:55,568 INFO  File: Decrypting connection string dbId=Server=.\SQL2012;User ID=sa;password=scauser1991;Database=ndr;Persist Security Info=True
+2015-05-06 18:09:55,664 INFO  File: Error preparing connection string dbId=Server=.\SQL2012;User ID=sa;password=scauser1991;Database=ndr;Persist Security Info=True, trying using as is
+2015-05-06 18:09:55,726 INFO  File: 
+--<null> Command
+2015-05-06 18:09:55,735 ERROR File: Error 'filter:QuestionType:QuestionType_get:&pk=1' in method DevReactor.Toolbox.BO.BaseObject`1.run
+System.Exception: filter:QuestionType:QuestionType_get:&pk=1 ---> System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DevReactor.Toolbox.BO.Database.MSSQL.Connection.Open()
+   at DevReactor.Toolbox.BO.Database.Manager.GetConnectionAndOpen(String dbId, IConnectionStringPreparer iConnectionStringPreparer)
+   at DevReactor.Toolbox.BO.BaseObject`1.run(Filter filter)
+   --- End of inner exception stack trace ---
+2015-05-06 18:15:49,834 INFO  File: db.config setting connection-string-regex is empty. Using default: (?:(?<engine>[^|]+?)\|)?(?<conn>[^|]+)
+2015-05-06 18:15:49,859 INFO  File: Decrypting connection string dbId=default
+2015-05-06 18:15:49,948 INFO  File: Error preparing connection string dbId=default, trying using as is
+2015-05-06 18:15:50,001 INFO  File: 
+--<null> Command
+2015-05-06 18:15:50,009 ERROR File: Error 'filter:QuestionType:QuestionType_get:&pk=1' in method DevReactor.Toolbox.BO.BaseObject`1.run
+System.Exception: filter:QuestionType:QuestionType_get:&pk=1 ---> System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DevReactor.Toolbox.BO.Database.MSSQL.Connection.Open()
+   at DevReactor.Toolbox.BO.Database.Manager.GetConnectionAndOpen(String dbId, IConnectionStringPreparer iConnectionStringPreparer)
+   at DevReactor.Toolbox.BO.BaseObject`1.run(Filter filter)
+   --- End of inner exception stack trace ---
+2015-05-06 18:21:10,354 INFO  File: db.config setting connection-string-regex is empty. Using default: (?:(?<engine>[^|]+?)\|)?(?<conn>[^|]+)
+2015-05-06 18:21:10,381 INFO  File: Decrypting connection string dbId=default
+2015-05-06 18:21:10,552 INFO  File: Config section 'encrypting' not found. Check web.config!
+2015-05-06 18:21:10,586 INFO  File: System.Exception: Error 'Failed to load direct softAES dbAccess encrypting profile.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.Exception: Failed to load direct softAES dbAccess encrypting profile. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+2015-05-06 18:21:10,612 INFO  File: System.Exception: Error 'Object reference not set to an instance of an object.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+2015-05-06 18:21:10,617 INFO  File: Error decrypting db password. Using password as is.
+2015-05-06 18:21:10,628 INFO  File: m_connectionStringsPrepared.Add(Server=.\SQL2012;User ID=sa;password=scauser1991;Database=ndr;Persist Security Info=True, Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991)
+2015-05-06 18:21:10,862 INFO  File: toolbox-command-timeout=30
+2015-05-06 18:21:11,159 INFO  File: 
+--Connection Open #64145261 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+EXEC QuestionType_get	@pk = 1
+
+
+2015-05-06 18:21:11,167 ERROR File: Error 'filter:QuestionType:QuestionType_get:&pk=1' in method DevReactor.Toolbox.BO.BaseObject`1.run
+System.Exception: filter:QuestionType:QuestionType_get:&pk=1 ---> System.Data.SqlClient.SqlException: Could not find stored procedure 'QuestionType_get'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at DevReactor.Toolbox.BO.Database.MSSQL.Connection.ExecuteXmlString(Command cmd)
+   at DevReactor.Toolbox.BO.Database.MSSQL.Connection.ExecuteXmlNav(Command cmd)
+   at DevReactor.Toolbox.BO.Database.Command.ExecuteXmlNav()
+   at DevReactor.Toolbox.BO.BaseObject`1.run(Filter filter)
+   --- End of inner exception stack trace ---
+2015-05-06 18:23:33,325 INFO  File: db.config setting connection-string-regex is empty. Using default: (?:(?<engine>[^|]+?)\|)?(?<conn>[^|]+)
+2015-05-06 18:23:33,357 INFO  File: Decrypting connection string dbId=default
+2015-05-06 18:23:33,405 INFO  File: Config section 'encrypting' not found. Check web.config!
+2015-05-06 18:23:33,436 INFO  File: System.Exception: Error 'Failed to load direct softAES dbAccess encrypting profile.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.Exception: Failed to load direct softAES dbAccess encrypting profile. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+2015-05-06 18:23:33,460 INFO  File: System.Exception: Error 'Object reference not set to an instance of an object.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+2015-05-06 18:23:33,465 INFO  File: Error decrypting db password. Using password as is.
+2015-05-06 18:23:33,475 INFO  File: m_connectionStringsPrepared.Add(Server=.\SQL2012;User ID=sa;password=scauser1991;Database=ndr;Persist Security Info=True, Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991)
+2015-05-06 18:23:33,515 INFO  File: toolbox-command-timeout=30
+2015-05-06 18:23:34,002 INFO  File: XMLToLowerCase.xslt loaded successfully
+2015-05-06 18:23:34,044 ERROR File: Error 'Failed to load toolbox-baseobject-cache-get-standard settings in db.config. Using default instead.' in method DevReactor.Toolbox.BO.Filter.get_cCacheTimeGetStandard
+System.Exception: Failed to load toolbox-baseobject-cache-get-standard settings in db.config. Using default instead. ---> System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at DevReactor.Toolbox.BO.Filter.get_cCacheTimeGetStandard()
+   --- End of inner exception stack trace ---
+2015-05-06 19:08:25,403 INFO  File: db.config setting connection-string-regex is empty. Using default: (?:(?<engine>[^|]+?)\|)?(?<conn>[^|]+)
+2015-05-06 19:08:25,429 INFO  File: Decrypting connection string dbId=default
+2015-05-06 19:08:25,480 INFO  File: Config section 'encrypting' not found. Check web.config!
+2015-05-06 19:08:25,513 INFO  File: System.Exception: Error 'Failed to load direct softAES dbAccess encrypting profile.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.Exception: Failed to load direct softAES dbAccess encrypting profile. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+2015-05-06 19:08:25,547 INFO  File: System.Exception: Error 'Object reference not set to an instance of an object.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+2015-05-06 19:08:25,554 INFO  File: Error decrypting db password. Using password as is.
+2015-05-06 19:08:25,565 INFO  File: m_connectionStringsPrepared.Add(Server=.\SQL2012;User ID=sa;password=scauser1991;Database=ndr;Persist Security Info=True, Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991)
+2015-05-06 19:08:25,619 INFO  File: toolbox-command-timeout=30
+2015-05-06 19:08:25,761 INFO  File: XMLToLowerCase.xslt loaded successfully
+2015-05-06 19:08:25,802 ERROR File: Error 'Failed to load toolbox-baseobject-cache-get-standard settings in db.config. Using default instead.' in method DevReactor.Toolbox.BO.Filter.get_cCacheTimeGetStandard
+System.Exception: Failed to load toolbox-baseobject-cache-get-standard settings in db.config. Using default instead. ---> System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at DevReactor.Toolbox.BO.Filter.get_cCacheTimeGetStandard()
+   --- End of inner exception stack trace ---
+2015-05-06 20:40:26,520 INFO  File: db.config setting connection-string-regex is empty. Using default: (?:(?<engine>[^|]+?)\|)?(?<conn>[^|]+)
+2015-05-06 20:40:26,544 INFO  File: Decrypting connection string dbId=default
+2015-05-06 20:40:26,586 INFO  File: Config section 'encrypting' not found. Check web.config!
+2015-05-06 20:40:26,618 INFO  File: System.Exception: Error 'Failed to load direct softAES dbAccess encrypting profile.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.Exception: Failed to load direct softAES dbAccess encrypting profile. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+2015-05-06 20:40:26,643 INFO  File: System.Exception: Error 'Object reference not set to an instance of an object.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+2015-05-06 20:40:26,648 INFO  File: Error decrypting db password. Using password as is.
+2015-05-06 20:40:26,656 INFO  File: m_connectionStringsPrepared.Add(Server=.\SQL2012;User ID=sa;password=scauser1991;Database=ndr;Persist Security Info=True, Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991)
+2015-05-06 20:40:26,697 INFO  File: toolbox-command-timeout=30
+2015-05-06 20:40:26,828 INFO  File: XMLToLowerCase.xslt loaded successfully
+2015-05-06 20:45:05,442 INFO  File: db.config setting connection-string-regex is empty. Using default: (?:(?<engine>[^|]+?)\|)?(?<conn>[^|]+)
+2015-05-06 20:45:05,516 INFO  File: Decrypting connection string dbId=default
+2015-05-06 20:45:05,674 INFO  File: Config section 'encrypting' not found. Check web.config!
+2015-05-06 20:45:05,712 INFO  File: System.Exception: Error 'Failed to load direct softAES dbAccess encrypting profile.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.Exception: Failed to load direct softAES dbAccess encrypting profile. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+2015-05-06 20:45:05,760 INFO  File: System.Exception: Error 'Object reference not set to an instance of an object.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+2015-05-06 20:45:05,772 INFO  File: Error decrypting db password. Using password as is.
+2015-05-06 20:45:05,795 INFO  File: m_connectionStringsPrepared.Add(Server=.\SQL2012;User ID=sa;password=scauser1991;Database=ndr;Persist Security Info=True, Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991)
+2015-05-06 20:45:05,856 INFO  File: toolbox-command-timeout=30
+2015-05-06 20:45:06,011 INFO  File: XMLToLowerCase.xslt loaded successfully
+2015-05-06 20:54:12,905 INFO  File: db.config setting connection-string-regex is empty. Using default: (?:(?<engine>[^|]+?)\|)?(?<conn>[^|]+)
+2015-05-06 20:54:12,932 INFO  File: Decrypting connection string dbId=default
+2015-05-06 20:54:12,976 INFO  File: Config section 'encrypting' not found. Check web.config!
+2015-05-06 20:54:13,004 INFO  File: System.Exception: Error 'Failed to load direct softAES dbAccess encrypting profile.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.Exception: Failed to load direct softAES dbAccess encrypting profile. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+2015-05-06 20:54:13,030 INFO  File: System.Exception: Error 'Object reference not set to an instance of an object.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+2015-05-06 20:54:13,036 INFO  File: Error decrypting db password. Using password as is.
+2015-05-06 20:54:13,046 INFO  File: m_connectionStringsPrepared.Add(Server=.\SQL2012;User ID=sa;password=scauser1991;Database=ndr;Persist Security Info=True, Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991)
+2015-05-06 20:54:13,085 INFO  File: toolbox-command-timeout=30
+2015-05-06 20:54:13,228 INFO  File: XMLToLowerCase.xslt loaded successfully
+2015-05-06 20:58:59,569 INFO  File: db.config setting connection-string-regex is empty. Using default: (?:(?<engine>[^|]+?)\|)?(?<conn>[^|]+)
+2015-05-06 20:58:59,596 INFO  File: Decrypting connection string dbId=default
+2015-05-06 20:58:59,635 INFO  File: Config section 'encrypting' not found. Check web.config!
+2015-05-06 20:58:59,661 INFO  File: System.Exception: Error 'Failed to load direct softAES dbAccess encrypting profile.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.Exception: Failed to load direct softAES dbAccess encrypting profile. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+2015-05-06 20:58:59,686 INFO  File: System.Exception: Error 'Object reference not set to an instance of an object.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+2015-05-06 20:58:59,692 INFO  File: Error decrypting db password. Using password as is.
+2015-05-06 20:58:59,702 INFO  File: m_connectionStringsPrepared.Add(Server=.\SQL2012;User ID=sa;password=scauser1991;Database=ndr;Persist Security Info=True, Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991)
+2015-05-06 20:58:59,740 INFO  File: toolbox-command-timeout=30
+2015-05-06 20:58:59,886 INFO  File: XMLToLowerCase.xslt loaded successfully
+2015-05-06 20:58:59,907 INFO  File: 
+--Connection Open #10589941 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  154 ms;
+EXEC Theme_get
+
+2015-05-06 21:03:21,859 INFO  File: db.config setting connection-string-regex is empty. Using default: (?:(?<engine>[^|]+?)\|)?(?<conn>[^|]+)
+2015-05-06 21:03:21,887 INFO  File: Decrypting connection string dbId=default
+2015-05-06 21:03:21,987 INFO  File: Config section 'encrypting' not found. Check web.config!
+2015-05-06 21:03:22,021 INFO  File: System.Exception: Error 'Failed to load direct softAES dbAccess encrypting profile.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.Exception: Failed to load direct softAES dbAccess encrypting profile. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+2015-05-06 21:03:22,055 INFO  File: System.Exception: Error 'Object reference not set to an instance of an object.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+2015-05-06 21:03:22,060 INFO  File: Error decrypting db password. Using password as is.
+2015-05-06 21:03:22,071 INFO  File: m_connectionStringsPrepared.Add(Server=.\SQL2012;User ID=sa;password=scauser1991;Database=ndr;Persist Security Info=True, Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991)
+2015-05-06 21:03:22,117 INFO  File: toolbox-command-timeout=30
+2015-05-06 21:03:22,275 INFO  File: XMLToLowerCase.xslt loaded successfully
+2015-05-06 21:03:22,291 INFO  File: 
+--Connection Open #10589941 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  163 ms;
+EXEC Theme_get
+
+2015-05-06 21:03:26,565 INFO  File: 
+--Connection Open #60467532 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  025 ms;
+EXEC Question_get	@fk_theme = 1
+
+
+2015-05-06 21:06:55,193 INFO  File: db.config setting connection-string-regex is empty. Using default: (?:(?<engine>[^|]+?)\|)?(?<conn>[^|]+)
+2015-05-06 21:06:55,216 INFO  File: Decrypting connection string dbId=default
+2015-05-06 21:06:55,256 INFO  File: Config section 'encrypting' not found. Check web.config!
+2015-05-06 21:06:55,283 INFO  File: System.Exception: Error 'Failed to load direct softAES dbAccess encrypting profile.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.Exception: Failed to load direct softAES dbAccess encrypting profile. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+2015-05-06 21:06:55,309 INFO  File: System.Exception: Error 'Object reference not set to an instance of an object.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+2015-05-06 21:06:55,323 INFO  File: Error decrypting db password. Using password as is.
+2015-05-06 21:06:55,334 INFO  File: m_connectionStringsPrepared.Add(Server=.\SQL2012;User ID=sa;password=scauser1991;Database=ndr;Persist Security Info=True, Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991)
+2015-05-06 21:06:55,373 INFO  File: toolbox-command-timeout=30
+2015-05-06 21:06:55,495 INFO  File: XMLToLowerCase.xslt loaded successfully
+2015-05-06 21:06:55,512 INFO  File: 
+--Connection Open #10589941 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  128 ms;
+EXEC Theme_get
+
+2015-05-06 21:06:56,924 INFO  File: 
+--Connection Open #60467532 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  032 ms;
+EXEC Question_get	@fk_theme = 1
+
+
+2015-05-06 21:06:57,018 INFO  File: 
+--Connection Open #63249743 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  071 ms;
+EXEC Answer_get	@fk_question = 2
+
+
+2015-05-06 21:07:02,270 INFO  File: 
+--Connection Open #43102667 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  033 ms;
+EXEC Answer_get	@pk = 1
+
+
+2015-05-06 21:07:02,374 ERROR File: Error 'Failed to load toolbox-baseobject-cache-get-standard settings in db.config. Using default instead.' in method DevReactor.Toolbox.BO.Filter.get_cCacheTimeGetStandard
+System.Exception: Failed to load toolbox-baseobject-cache-get-standard settings in db.config. Using default instead. ---> System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at DevReactor.Toolbox.BO.Filter.get_cCacheTimeGetStandard()
+   --- End of inner exception stack trace ---
+2015-05-06 21:07:02,392 INFO  File: 
+--Connection Open #22378904 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  011 ms;
+EXEC Answer_get	@fk_question = 3
+
+
+2015-05-06 21:07:08,876 INFO  File: 
+--Connection Open #45119864 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  035 ms;
+EXEC Answer_get	@fk_question = 4
+
+
+2015-05-06 21:07:14,406 INFO  File: 
+--Connection Open #37975124 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  029 ms;
+EXEC Answer_get	@pk = 11
+
+
+2015-05-06 21:07:14,453 INFO  File: 
+--Connection Open #13476220 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  031 ms;
+EXEC Answer_get	@fk_question = 5
+
+
+2015-05-06 21:07:26,214 INFO  File: 
+--Connection Open #15654122 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  030 ms;
+EXEC Answer_get	@pk = 12
+
+
+2015-05-06 21:07:26,258 INFO  File: 
+--Connection Open #37839230 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  030 ms;
+EXEC Answer_get	@fk_question = 6
+
+
+2015-05-06 21:08:51,992 INFO  File: 
+--Connection Open #7904578 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  031 ms;
+EXEC Answer_get	@pk = 16
+
+
+2015-05-06 21:10:27,223 INFO  File: Finished

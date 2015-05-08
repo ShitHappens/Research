@@ -1,0 +1,16 @@
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.BO\bin\Debug\Research.BO.dll
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.BO\bin\Debug\Research.BO.pdb
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.BO\bin\Debug\DevReactor.Toolbox.BO.dll
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.BO\bin\Debug\DevReactor.Toolbox.Tools.dll
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.BO\obj\Debug\Research.BO.dll
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.BO\obj\Debug\Research.BO.pdb
+c:\users\scauser1\documents\visual studio 2013\Projects\Research\Research.BO\bin\Debug\log4net.dll
+C:\Users\scauser1\documents\visual studio 2013\Projects\Research\Research.BO\obj\Debug\Research.BO.csprojResolveAssemblyReference.cache
+C:\_\Research\Research.BO\bin\Debug\Research.BO.dll
+C:\_\Research\Research.BO\bin\Debug\Research.BO.pdb
+C:\_\Research\Research.BO\bin\Debug\DevReactor.Toolbox.BO.dll
+C:\_\Research\Research.BO\bin\Debug\DevReactor.Toolbox.Tools.dll
+C:\_\Research\Research.BO\bin\Debug\log4net.dll
+C:\_\Research\Research.BO\obj\Debug\Research.BO.csprojResolveAssemblyReference.cache
+C:\_\Research\Research.BO\obj\Debug\Research.BO.dll
+C:\_\Research\Research.BO\obj\Debug\Research.BO.pdb
