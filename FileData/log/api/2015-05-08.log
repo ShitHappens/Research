@@ -36,3 +36,4 @@ System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure
    at DevReactor.Toolbox.BO.Database.Direct.Exec(String dbId, IConnectionStringPreparer iConnectionStringPreparer, String query, PrepareCmd _prepareCmd, SPResultType resultType, CallingConvention callingConvention)
    at DevReactor.Toolbox.API.Sessions.DBSessionStorage.Purge()
 ClientConnectionId:7b58d47a-27b2-4257-b7e8-19c622b265ce
+2015-05-08 18:39:33,770 INFO  File: Research.Api ended
