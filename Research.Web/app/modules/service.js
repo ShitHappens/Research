@@ -10,7 +10,7 @@
 
         //eventService.emitLoadReport = function (element) {
         //    this.emit(element, 'loadReport');
-        //    //$rootScope.$broadcast('loadReport');
+        //    $rootScope.$broadcast('loadReport');
         //}
 
         return eventService;

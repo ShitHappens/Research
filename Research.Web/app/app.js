@@ -7,9 +7,9 @@
     $routeSegmentProvider.options.strictMode = true;
 
     $routeSegmentProvider
-    .when('/register', 'start.register')
+    //.when('/register', 'start.register')
     //.when('/login', 'start.login')
-    //.when('/request', 'start.request')
+    .when('/request', 'start.request')
     //.when('/emailConfirmation', 'start.emailConfirmation')
     //.when('/dashboard', 'site.dashboard')
     //.when('/category/:categoryid', 'site.category')
@@ -24,13 +24,13 @@
     //.when('/items', 'site.items')
     //.when('/itemsSpreadsheet', 'site.itemsSpreadsheet')
     //.when('/invites', 'site.invites')
-    //.when('/profile', 'site.profile')
+    .when('/profile', 'site.profile')
     //.when('/subscription', 'site.subscription')
     //.when('/users', 'site.users')
     //.when('/admins', 'site.admins')
     //.when('/currencies', 'site.currencies')
     //.when('/assemblies', 'site.assemblies')
-    .when('/adminProfile', 'site.adminProfile');
+    //.when('/adminProfile', 'site.adminProfile');
     //#endregion routes
 
     //#region master segments
@@ -77,7 +77,7 @@
 
     //$routeSegmentProvider.within('site').segment('invites', { templateUrl: '/templates/invites/common.html' });
 
-    //$routeSegmentProvider.within('site').segment('profile', { templateUrl: '/templates/profile/common.html' });
+    $routeSegmentProvider.within('site').segment('profile', { templateUrl: '/templates/profile/common.html' });
 
     //$routeSegmentProvider.within('site').segment('subscription', { templateUrl: '/templates/subscription/common.html' });
 
@@ -89,7 +89,7 @@
 
     //$routeSegmentProvider.within('site').segment('assemblies', { templateUrl: '/templates/admin/assemblies.html' });
 
-    $routeSegmentProvider.within('site').segment('adminProfile', { templateUrl: '/templates/profile/common.html' });
+    //$routeSegmentProvider.within('site').segment('adminProfile', { templateUrl: '/templates/adminProfile/common.html' });
 
     //#endregion segments
 

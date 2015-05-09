@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevReactor.Toolbox.API">
+      <HintPath>..\packages\DevReactor.Toolbox.API.1.0.317\lib\net40\DevReactor.Toolbox.API.dll</HintPath>
+    </Reference>
     <Reference Include="DevReactor.Toolbox.BO">
       <HintPath>..\packages\DevReactor.Toolbox.BO.1.0.317\lib\net40\DevReactor.Toolbox.BO.dll</HintPath>
     </Reference>
@@ -68,6 +71,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test.cs" />
+    <Compile Include="Web\Questions.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Research.BO\Research.BO.csproj">

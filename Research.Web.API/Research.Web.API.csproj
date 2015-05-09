@@ -103,6 +103,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Questions.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -122,6 +123,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Research.BO\Research.BO.csproj">
+      <Project>{47d0a571-f287-42eb-af51-1e04e2f8d82e}</Project>
+      <Name>Research.BO</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Research.Logic\Research.Logic.csproj">
       <Project>{8920a4f9-8bc9-44cf-a05c-c4e04e15ed2d}</Project>
       <Name>Research.Logic</Name>

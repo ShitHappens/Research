@@ -42,9 +42,9 @@
             //case $urls.Request():
             //    return 'Password Request';
             //    break
-            //case $urls.Profile():
-            //    return 'Profile';
-            //    break
+            case $urls.Profile():
+                return 'Profile';
+                break
             //case $urls.Users():
             //    return 'Admin - Users';
             //    break

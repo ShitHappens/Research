@@ -8,7 +8,7 @@ provider('urls', function () {
             //login: '/login',
             //request: '/request',
             //emailConfirmation: '/emailConfirmation',
-            //profile: '/profile',
+            profile: '/profile',
             //dashboard: '/dashboard',
             //category: '/category',
             //product: '/product',
@@ -62,12 +62,9 @@ service('$urls', function (urls, $location) {
     //this.Request = function (params) {
     //    return this._build('request', params);
     //}
-    //this.EmailConfirmation = function (params) {
-    //    return this._build('emailConfirmation', params);
-    //}
-    //this.Profile = function (params) {
-    //    return this._build('profile', params);
-    //}
+    this.Profile = function (params) {
+        return this._build('profile', params);
+    }
     //this.Dashboard = function (params) {
     //    return this._build('dashboard', params);
     //}

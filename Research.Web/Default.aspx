@@ -5,7 +5,7 @@
 <html lang="en" ng-app="app">
 <head ng-controller="HeadCtrl" ng-init="init()">
     <title ng-bind="Page"></title>
-    <link rel="icon" type="image/png" href="/img/favicon.png">
+    <link rel="icon" type="image/png" href="/img/favicon.jpg">
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,12 +13,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-     <!-- Style -->    
-    <link rel="stylesheet" href="/css/custom2.css" media="all" />
-    <link rel="stylesheet" href="/css/bootstrap.css" media="all" />
+    <!-- Style -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" media="all" />
+    <link rel="stylesheet" href="/css/font-awesome.min.css" media="all" />
+    <link rel="stylesheet" href="/css/ionicons.min.css" media="all" />
+    <link rel="stylesheet" href="/css/style.css" media="all" />
     <link rel="stylesheet" href="/css/custom.css" media="all" />
-    <link rel="stylesheet" href="/css/angular-csp.css" media="all" />
-    <link rel="stylesheet" href="/css/elusive-webfont.css" media="all" />
 
 
 </head>
@@ -28,8 +28,35 @@
     <!-- Config -->
     <script src="/js/config.aspx"></script>
 
+    <!-- jQuery -->
+    <script src="/js/jquery/jquery.min.js"></script>
+    <script src="/js/jquery/jquery-ui-1.10.3.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="/js/bootstrap/bootstrap.min.js"></script>
+
     <!-- AngularJS -->
-    <script src="/js/angularjs/angular.min.js"></script>
+    <script src="/js/angularjs/angular.js"></script>
+    <script src="/js/angularjs/angular-route.js"></script>
+    <script src="/js/angularjs/angular-route-segment.js"></script>
+
+    <!-- AngularJS Modules -->
+    <script src="/app/app.js"></script>
+    <script src="/app/modules/storage.js"></script>
+    <script src="/app/modules/ajax.js"></script>
+    <script src="/app/modules/service.js"></script>
+    <script src="/app/modules/urls.js"></script>
+    <script src="/app/modules/access.js"></script>
+    <script src="/app/modules/alert.js"></script>
+
+    <!-- AngularJS Controllers -->
+    <script src="/app/controllers/common/ctrl.head.js"></script>
+    <script src="/app/controllers/common/ctrl.page.js"></script>
+    <script src="/app/controllers/common/ctrl.side_menu.js"></script>
+
+        <!-- Site -->
+    <script src="/app/controllers/site/ctrl.header.js"></script>
+    <script src="/app/controllers/profile/ctrl.profile.js"></script>
 
 </body>
 </html>

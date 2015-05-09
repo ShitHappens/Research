@@ -1,0 +1,32 @@
+﻿<div class="sitemaster" id="wrapper">
+    <div id="main">
+        <ng-include src="'/templates/site/navbar.html'"></ng-include>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 col-md-2 sidebar">
+                    <ng-include src="'/templates/site/side_menu.html'"></ng-include>
+                </div>
+                <!--<div id="dataloading">
+                </div>-->
+                <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+                    <div app-view-segment="1" class="controller-parent"></div>
+                </div>
+                <!--<div class="col-lg-2 sidebar visible-lg-block">
+                    <ng-include src="'/templates/site/side_menu.html'"></ng-include>
+                </div>-->
+                <!--<div class="hidden-lg sidebar col-xs-2 col-sm-2 col-md-2" style="z-index: 1;" ng-show="showSideBar">
+                    <ng-include src="'/templates/site/side_menu.html'"></ng-include>
+                </div>-->
+                <!--<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 main">
+                    <div app-view-segment="1" class="controller-parent"></div>
+                </div>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer" class="sitemaster_footer">
+    <br />
+    Inventorix 2013-2015
+</div>

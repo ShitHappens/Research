@@ -40,3 +40,4 @@ C:\_\Research\Research.Logic\bin\Debug\RestSharp.xml
 C:\_\Research\Research.Logic\obj\Debug\Research.Logic.csprojResolveAssemblyReference.cache
 C:\_\Research\Research.Logic\obj\Debug\Research.Logic.dll
 C:\_\Research\Research.Logic\obj\Debug\Research.Logic.pdb
+C:\_\Research\Research.Logic\bin\Debug\DevReactor.Toolbox.API.dll
