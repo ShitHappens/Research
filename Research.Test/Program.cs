@@ -13,6 +13,10 @@ namespace Research.Test
         {
             log4net.Config.XmlConfigurator.Configure();
 
+            BO.Account.Result acc = BO.Account.Load(1);
+            Console.Write(acc.str_email);
+            Console.ReadLine();
+
             #region test
             LTest test = new LTest();
             test.SimpleTestByTheme();

@@ -4,8 +4,8 @@ angular.module('helper.urls', []).
 provider('urls', function () {
     this.$get = function () {
         var obj = {
-            //register: '/register',
-            //login: '/login',
+            register: '/register',
+            login: '/login',
             //request: '/request',
             //emailConfirmation: '/emailConfirmation',
             profile: '/profile',
@@ -53,12 +53,12 @@ service('$urls', function (urls, $location) {
         }
         return result;
     }
-    //this.Register = function (params) {
-    //    return this._build('register', params);
-    //}
-    //this.Login = function (params) {
-    //    return this._build('login', params);
-    //}
+    this.Register = function (params) {
+        return this._build('register', params);
+    }
+    this.Login = function (params) {
+        return this._build('login', params);
+    }
     //this.Request = function (params) {
     //    return this._build('request', params);
     //}

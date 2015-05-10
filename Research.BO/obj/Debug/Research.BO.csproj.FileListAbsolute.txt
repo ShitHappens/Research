@@ -13,3 +13,4 @@ C:\_\Research\Research.BO\bin\Debug\DevReactor.Toolbox.Tools.dll
 C:\_\Research\Research.BO\bin\Debug\log4net.dll
 C:\_\Research\Research.BO\obj\Debug\Research.BO.dll
 C:\_\Research\Research.BO\obj\Debug\Research.BO.pdb
+C:\_\Research\Research.BO\obj\Debug\Research.BO.csprojResolveAssemblyReference.cache

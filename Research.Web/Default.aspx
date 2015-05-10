@@ -54,6 +54,13 @@
     <script src="/app/controllers/common/ctrl.page.js"></script>
     <script src="/app/controllers/common/ctrl.side_menu.js"></script>
 
+        <!-- Start -->
+    <script src="/app/controllers/start/ctrl.login.js"></script>
+    <script src="/app/controllers/start/ctrl.register.js"></script>
+<%--    <script src="/app/controllers/start/ctrl.passwordRequest.js"></script>
+    <script src="/app/controllers/start/ctrl.email.confirm.js"></script>--%>
+
+
         <!-- Site -->
     <script src="/app/controllers/site/ctrl.header.js"></script>
     <script src="/app/controllers/profile/ctrl.profile.js"></script>

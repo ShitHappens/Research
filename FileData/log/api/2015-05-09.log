@@ -362,3 +362,15 @@ EXEC Question_get
 EXEC Question_get	@pagesize = 11
 
 
+2015-05-09 22:31:42,570 INFO  File: 
+--Connection Open #21562952 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  029 ms;
+EXEC Question_get
+
+2015-05-09 22:31:42,582 INFO  File: 
+--Connection Open #1768649 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  008 ms;
+EXEC Question_get	@pagesize = 11
+
+
+2015-05-09 22:51:58,278 INFO  File: Research.Api ended

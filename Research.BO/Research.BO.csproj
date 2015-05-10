@@ -45,6 +45,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Account\Account.Consts.cs" />
+    <Compile Include="Account\Account.cs" />
+    <Compile Include="Account\Account.Filter.cs" />
+    <Compile Include="Account\Account.Result.cs" />
+    <Compile Include="Account\Account.TypeInfo.cs" />
     <Compile Include="Answer\Answer.Consts.cs" />
     <Compile Include="Answer\Answer.cs" />
     <Compile Include="Answer\Answer.Filter.cs" />

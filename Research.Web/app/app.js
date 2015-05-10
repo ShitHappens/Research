@@ -7,8 +7,8 @@
     $routeSegmentProvider.options.strictMode = true;
 
     $routeSegmentProvider
-    //.when('/register', 'start.register')
-    //.when('/login', 'start.login')
+    .when('/register', 'start.register')
+    .when('/login', 'start.login')
     .when('/request', 'start.request')
     //.when('/emailConfirmation', 'start.emailConfirmation')
     //.when('/dashboard', 'site.dashboard')
@@ -47,9 +47,9 @@
 
 
     //#region segments
-    //$routeSegmentProvider.within('start').segment('register', { templateUrl: '/templates/start/register.html' });
+    $routeSegmentProvider.within('start').segment('register', { templateUrl: '/templates/start/register.html' });
 
-    //$routeSegmentProvider.within('start').segment('login', { templateUrl: '/templates/start/login.html' });
+    $routeSegmentProvider.within('start').segment('login', { templateUrl: '/templates/start/login.html' });
 
     //$routeSegmentProvider.within('start').segment('request', { templateUrl: '/templates/start/request.html' });
 

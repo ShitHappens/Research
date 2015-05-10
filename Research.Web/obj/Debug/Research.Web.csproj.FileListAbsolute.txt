@@ -39,6 +39,6 @@ C:\_\Research\Research.Web\bin\MaxMind.Db.xml
 C:\_\Research\Research.Web\bin\MaxMind.GeoIP2.xml
 C:\_\Research\Research.Web\bin\Newtonsoft.Json.xml
 C:\_\Research\Research.Web\bin\RestSharp.xml
-C:\_\Research\Research.Web\obj\Debug\Research.Web.csprojResolveAssemblyReference.cache
 C:\_\Research\Research.Web\obj\Debug\Research.Web.dll
 C:\_\Research\Research.Web\obj\Debug\Research.Web.pdb
+C:\_\Research\Research.Web\obj\Debug\Research.Web.csprojResolveAssemblyReference.cache
