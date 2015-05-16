@@ -14,7 +14,7 @@ namespace Research.Test
             log4net.Config.XmlConfigurator.Configure();
 
             BO.Account.Result acc = BO.Account.Load(1);
-            Console.Write(acc.str_email);
+            Console.Write(acc.dcm_avg_rating);
             Console.ReadLine();
 
             #region test

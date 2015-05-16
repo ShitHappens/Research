@@ -41,6 +41,12 @@ namespace Research.BO
                 get { return (String)this[Consts.str_password]; }
             }
 
+            public decimal? dcm_avg_rating
+            {
+                set { this[Consts.dcm_avg_rating] = value; }
+                get { return (decimal?)this[Consts.dcm_avg_rating]; }
+            }
+
 
             public DateTime dt_created
             {

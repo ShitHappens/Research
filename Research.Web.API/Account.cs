@@ -4,9 +4,6 @@ using DevReactor.Toolbox.API.Sessions;
 using DevReactor.Toolbox.Tools;
 using Newtonsoft.Json.Linq;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace Research.Web
 {
@@ -84,13 +81,14 @@ namespace Research.Web
         {
             int accountID = mi.Request.CurrentAccountAsIntGet();
 
-            BO.Account.Result acc = BO.Account.Load(accountID);
+            BO.Account.Result account = BO.Account.Load(accountID);
 
-            JObject jAcc = new JObject();
-            jAcc["ID"] = acc.pk;
-            jAcc["Email"] = acc.str_email;
+            JObject jAccount = new JObject();
+            jAccount["ID"] = account.pk;
+            jAccount["Email"] = account.str_email;
+            jAccount["Rate"] = account.dcm_avg_rating;
 
-            mi.Result.Add("Account", jAcc);
+            mi.Result.Add("Account", jAccount);
         }
 
         [AnonymMethod]
@@ -122,5 +120,15 @@ namespace Research.Web
                 mi.ErrorCode = RetCodes.Registration.Mismatch;
             }
         }
+
+        #region logout
+        [AnonymMethod]
+        public static void Logout(Method mi)
+        {
+            SessionManager.Instance.Remove(mi.Request.SessionID);
+            mi.Request.AccountId = null;
+        }
+        #endregion logout
+
     }
 }

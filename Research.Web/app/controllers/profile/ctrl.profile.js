@@ -1,32 +1,26 @@
 ﻿function ProfileCtrl($scope, ajax, $location) {
-    $scope.items = [];
+    
+    $scope.email = '';
+    $scope.rate = 'No marks yet';
 
     $scope.init = function () {
-        $scope.GetItems();
+        $scope.GetAccount();
     }
 
-    $scope.GetItems = function () {
+    $scope.GetAccount = function () {
 
         ajax.send({
             Method: {
-                Name: 'Questions.Get'
+                Name: 'Account.Read'
             },
             Callback: function (data) {
 
-                var itemsarray = [];
+                var account = data[0].Result.Account;
 
-                var items = data[0].Result.Questions;
+                $scope.email = account.Email;
 
-                for (var i = 0; i < items.length; i++) {
-
-                    var item = {
-                        ID: parseInt(items[i].ID),
-                        Text: items[i].Text,
-                    };
-                    itemsarray.push(item);
-                }
-
-                $scope.items = itemsarray;
+                if (account.Rate !== '' && account.Rate != undefined)
+                    $scope.rate = account.Rate;
             }
         });
     }

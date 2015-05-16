@@ -98,6 +98,7 @@
     <Content Include="app\controllers\profile\ctrl.profile.js" />
     <Content Include="app\controllers\start\ctrl.login.js" />
     <Content Include="app\controllers\start\ctrl.register.js" />
+    <Content Include="app\controllers\test\ctrl.test.js" />
     <Content Include="app\modules\access.js" />
     <Content Include="app\modules\ajax.js" />
     <Content Include="app\modules\alert.js" />
@@ -125,6 +126,7 @@
     <Content Include="templates\site\side_menu.html" />
     <Content Include="templates\start\login.html" />
     <Content Include="templates\start\register.html" />
+    <Content Include="templates\test\common.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

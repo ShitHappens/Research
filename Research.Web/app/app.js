@@ -11,7 +11,7 @@
     .when('/login', 'start.login')
     .when('/request', 'start.request')
     //.when('/emailConfirmation', 'start.emailConfirmation')
-    //.when('/dashboard', 'site.dashboard')
+    .when('/test', 'site.test')
     //.when('/category/:categoryid', 'site.category')
     //.when('/category', 'site.category')
     //.when('/product', 'site.product')
@@ -55,7 +55,7 @@
 
     //$routeSegmentProvider.within('start').segment('emailConfirmation', { templateUrl: '/templates/start/emailConfirmation.html' });
 
-    //$routeSegmentProvider.within('site').segment('dashboard', { templateUrl: '/templates/dashboard/common.html' });
+    $routeSegmentProvider.within('site').segment('test', { templateUrl: '/templates/test/common.html' });
 
     //$routeSegmentProvider.within('site').segment('category', { templateUrl: '/templates/category/common.html', dependencies: ['categoryid'] });
 

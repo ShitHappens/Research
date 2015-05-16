@@ -9,7 +9,7 @@ provider('urls', function () {
             //request: '/request',
             //emailConfirmation: '/emailConfirmation',
             profile: '/profile',
-            //dashboard: '/dashboard',
+            test: '/test',
             //category: '/category',
             //product: '/product',
             //country: '/country',
@@ -65,9 +65,9 @@ service('$urls', function (urls, $location) {
     this.Profile = function (params) {
         return this._build('profile', params);
     }
-    //this.Dashboard = function (params) {
-    //    return this._build('dashboard', params);
-    //}
+    this.Test = function (params) {
+        return this._build('test', params);
+    }
     //this.Category = function (params) {
     //    return this._build('category', params);
     //}

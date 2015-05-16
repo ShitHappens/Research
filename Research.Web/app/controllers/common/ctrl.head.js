@@ -12,9 +12,9 @@
     function SetTitle(path) {
 
         switch (path) {
-            //case $urls.Dashboard():
-            //    return 'Dashboard';
-            //    break
+            case $urls.Test():
+                return 'Test';
+                break
             //case $urls.Category():
             //    return 'Category Report';
             //    break

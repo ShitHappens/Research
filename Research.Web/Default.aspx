@@ -64,6 +64,7 @@
         <!-- Site -->
     <script src="/app/controllers/site/ctrl.header.js"></script>
     <script src="/app/controllers/profile/ctrl.profile.js"></script>
+    <script src="/app/controllers/test/ctrl.test.js"></script>
 
 </body>
 </html>

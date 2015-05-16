@@ -35,7 +35,7 @@ namespace Research.BO
             }
 
 
-            public Int32 fk_type
+            public Int32? fk_type
             {
                 set { this[Consts.fk_type] = value; }
                 get { return (Int32)this[Consts.fk_type]; }

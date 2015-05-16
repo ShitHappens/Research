@@ -17,6 +17,8 @@ namespace Research.BO
 
             public const string str_password = "str_password";
 
+            public const string dcm_avg_rating = "dcm_avg_rating";
+
             public const string dt_created = "dt_created";
 
             public const string dt_updated = "dt_updated";

@@ -1,0 +1,619 @@
+2015-05-11 00:07:27,092 INFO  File: Research.Api started
+2015-05-11 00:07:27,570 INFO  File: MemorySessionStorage.GetStrong(721D564F-E7FF-4AEB-A760-423FFA8CEFE5, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 00:07:27,573 INFO  File: MemorySessionStorage.GetStrong(721D564F-E7FF-4AEB-A760-423FFA8CEFE5, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=
+2015-05-11 00:07:27,573 INFO  File: MemorySessionStorage.GetStrong(721D564F-E7FF-4AEB-A760-423FFA8CEFE5, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 00:07:27,578 INFO  File: MemorySessionStorage.GetStrong(721D564F-E7FF-4AEB-A760-423FFA8CEFE5, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=
+2015-05-11 00:07:27,579 INFO  File: MemorySessionStorage.GetStrong(721D564F-E7FF-4AEB-A760-423FFA8CEFE5, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 00:07:27,586 INFO  File: MemorySessionStorage.GetStrong(721D564F-E7FF-4AEB-A760-423FFA8CEFE5, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=
+2015-05-11 00:07:27,589 INFO  File: API:Seeking methods in assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 00:07:27,613 INFO  File: ~API:Seeking methods in assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 00:07:27,615 INFO  File: API:Seeking methods in assembly System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:27,639 INFO  File: ~API:Seeking methods in assembly System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:27,642 INFO  File: API:Seeking methods in assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 00:07:27,661 INFO  File: ~API:Seeking methods in assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 00:07:27,664 INFO  File: API:Seeking methods in assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 00:07:27,675 INFO  File: ~API:Seeking methods in assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 00:07:27,678 INFO  File: API:Seeking methods in assembly System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 00:07:27,682 INFO  File: ~API:Seeking methods in assembly System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 00:07:27,684 INFO  File: API:Seeking methods in assembly System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:27,688 INFO  File: ~API:Seeking methods in assembly System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:27,691 INFO  File: API:Seeking methods in assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 00:07:27,703 INFO  File: ~API:Seeking methods in assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 00:07:27,706 INFO  File: API:Seeking methods in assembly Microsoft.Build.Utilities.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:27,710 INFO  File: ~API:Seeking methods in assembly Microsoft.Build.Utilities.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:27,713 INFO  File: API:Seeking methods in assembly System.Runtime.Caching, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:27,716 INFO  File: ~API:Seeking methods in assembly System.Runtime.Caching, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:27,719 INFO  File: API:Seeking methods in assembly Microsoft.JScript, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:27,724 INFO  File: ~API:Seeking methods in assembly Microsoft.JScript, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:27,727 INFO  File: API:Seeking methods in assembly System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 00:07:27,730 INFO  File: ~API:Seeking methods in assembly System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 00:07:27,733 INFO  File: API:Seeking methods in assembly Microsoft.VisualStudio.Web.PageInspector.Loader, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:27,736 INFO  File: ~API:Seeking methods in assembly Microsoft.VisualStudio.Web.PageInspector.Loader, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:27,739 INFO  File: API:Seeking methods in assembly System.Web.WebPages.Deployment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 00:07:27,742 INFO  File: ~API:Seeking methods in assembly System.Web.WebPages.Deployment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 00:07:27,745 INFO  File: API:Seeking methods in assembly Microsoft.VisualStudio.Web.PageInspector.Runtime, Version=12.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:27,750 INFO  File: ~API:Seeking methods in assembly Microsoft.VisualStudio.Web.PageInspector.Runtime, Version=12.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:27,753 INFO  File: API:Seeking methods in assembly Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 00:07:27,757 INFO  File: ~API:Seeking methods in assembly Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 00:07:27,760 INFO  File: API:Seeking methods in assembly App_global.asax.yjrowaay, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 00:07:27,763 INFO  File: ~API:Seeking methods in assembly App_global.asax.yjrowaay, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 00:07:27,765 INFO  File: API:Seeking methods in assembly Research.Web.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 00:07:27,769 INFO  File: API:Method added: Account.Login
+2015-05-11 00:07:27,773 INFO  File: API:Method added: Account.Read
+2015-05-11 00:07:27,776 INFO  File: API:Method added: Account.Registration
+2015-05-11 00:07:27,780 INFO  File: API:Method added: Questions.Get
+2015-05-11 00:07:27,783 INFO  File: ~API:Seeking methods in assembly Research.Web.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 00:07:27,786 INFO  File: API:Seeking methods in assembly System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 00:07:27,796 INFO  File: ~API:Seeking methods in assembly System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 00:07:27,799 INFO  File: API:Seeking methods in assembly log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a
+2015-05-11 00:07:27,808 INFO  File: ~API:Seeking methods in assembly log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a
+2015-05-11 00:07:27,811 INFO  File: API:Seeking methods in assembly DevReactor.Toolbox.Tools, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 00:07:27,815 INFO  File: ~API:Seeking methods in assembly DevReactor.Toolbox.Tools, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 00:07:27,818 INFO  File: API:Seeking methods in assembly DevReactor.Toolbox.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 00:07:27,825 INFO  File: ~API:Seeking methods in assembly DevReactor.Toolbox.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 00:07:27,828 INFO  File: API:Seeking methods in assembly System.Web.Mobile, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:27,878 INFO  File: ~API:Seeking methods in assembly System.Web.Mobile, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:27,882 INFO  File: API:Seeking methods in assembly System.Web.RegularExpressions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:27,885 INFO  File: ~API:Seeking methods in assembly System.Web.RegularExpressions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:27,888 INFO  File: API:Seeking methods in assembly Microsoft.VisualStudio.Web.PageInspector.Tracing, Version=12.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:27,893 INFO  File: ~API:Seeking methods in assembly Microsoft.VisualStudio.Web.PageInspector.Tracing, Version=12.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:27,897 INFO  File: API:Seeking methods in assembly App_Web_gxwmvrkn, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 00:07:27,904 INFO  File: ~API:Seeking methods in assembly App_Web_gxwmvrkn, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 00:07:27,908 INFO  File: API:Seeking methods in assembly Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+2015-05-11 00:07:27,929 INFO  File: ~API:Seeking methods in assembly Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+2015-05-11 00:07:27,932 INFO  File: API:Seeking methods in assembly System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 00:07:27,936 INFO  File: ~API:Seeking methods in assembly System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 00:07:27,940 INFO  File: API:Seeking methods in assembly System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 00:07:27,947 INFO  File: ~API:Seeking methods in assembly System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 00:07:27,951 INFO  File: API:Seeking methods in assembly System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 00:07:27,955 INFO  File: ~API:Seeking methods in assembly System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 00:07:27,959 INFO  File: API:Seeking methods in assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 00:07:27,976 INFO  File: ~API:Seeking methods in assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 00:07:28,011 INFO  File: API:Seeking methods in assembly System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:28,018 INFO  File: ~API:Seeking methods in assembly System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:28,022 INFO  File: API:Seeking methods in assembly MaxMind.Db, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 00:07:28,027 INFO  File: ~API:Seeking methods in assembly MaxMind.Db, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 00:07:28,030 INFO  File: API:Seeking methods in assembly System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:28,043 INFO  File: ~API:Seeking methods in assembly System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:28,048 INFO  File: API:Seeking methods in assembly System.ServiceModel.Activation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 00:07:28,053 INFO  File: ~API:Seeking methods in assembly System.ServiceModel.Activation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 00:07:28,057 INFO  File: API:Seeking methods in assembly MaxMind.GeoIP2, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 00:07:28,062 INFO  File: ~API:Seeking methods in assembly MaxMind.GeoIP2, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 00:07:28,067 INFO  File: API:Seeking methods in assembly System.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 00:07:28,093 INFO  File: ~API:Seeking methods in assembly System.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 00:07:28,098 INFO  File: API:Seeking methods in assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:28,104 INFO  File: ~API:Seeking methods in assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:28,108 INFO  File: API:Seeking methods in assembly DevReactor.Toolbox.Encrypting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 00:07:28,113 INFO  File: ~API:Seeking methods in assembly DevReactor.Toolbox.Encrypting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 00:07:28,117 INFO  File: API:Seeking methods in assembly System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 00:07:28,153 INFO  File: ~API:Seeking methods in assembly System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 00:07:28,157 INFO  File: API:Seeking methods in assembly System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 00:07:28,177 INFO  File: ~API:Seeking methods in assembly System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 00:07:28,181 INFO  File: API:Seeking methods in assembly System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 00:07:28,185 INFO  File: ~API:Seeking methods in assembly System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 00:07:28,189 INFO  File: API:Seeking methods in assembly Research.Logic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 00:07:28,194 INFO  File: ~API:Seeking methods in assembly Research.Logic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 00:07:28,197 INFO  File: API:Seeking methods in assembly System.IdentityModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 00:07:28,206 INFO  File: ~API:Seeking methods in assembly System.IdentityModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 00:07:28,210 INFO  File: API:Seeking methods in assembly DevReactor.Toolbox.BO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 00:07:28,216 INFO  File: ~API:Seeking methods in assembly DevReactor.Toolbox.BO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 00:07:28,220 INFO  File: API:Seeking methods in assembly System.ServiceModel.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 00:07:28,224 INFO  File: ~API:Seeking methods in assembly System.ServiceModel.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 00:07:28,227 INFO  File: API:Seeking methods in assembly RestSharp, Version=105.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 00:07:28,237 INFO  File: ~API:Seeking methods in assembly RestSharp, Version=105.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 00:07:28,240 INFO  File: API:Seeking methods in assembly Oracle.ManagedDataAccess, Version=4.121.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342
+2015-05-11 00:07:28,263 INFO  File: ~API:Seeking methods in assembly Oracle.ManagedDataAccess, Version=4.121.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342
+2015-05-11 00:07:28,267 INFO  File: API:Seeking methods in assembly Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:28,275 INFO  File: ~API:Seeking methods in assembly Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 00:07:28,279 INFO  File: API:Seeking methods in assembly System.Web.DynamicData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 00:07:28,291 INFO  File: ~API:Seeking methods in assembly System.Web.DynamicData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 00:07:28,296 INFO  File: API:Seeking methods in assembly System.ServiceModel.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 00:07:28,304 INFO  File: ~API:Seeking methods in assembly System.ServiceModel.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 00:07:28,309 INFO  File: API:Seeking methods in assembly Research.BO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 00:07:28,314 INFO  File: ~API:Seeking methods in assembly Research.BO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 00:07:28,317 INFO  File: API:Seeking methods in assembly System.WorkflowServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 00:07:28,355 INFO  File: ~API:Seeking methods in assembly System.WorkflowServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 00:07:28,361 INFO  File: multi-methods-mode=
+2015-05-11 00:07:28,361 INFO  File: multi-methods-mode=
+2015-05-11 00:07:28,377 INFO  File: {
+  "Name": "Account.Read",
+  "Result": {
+    "Error": {
+      "Code": 0
+    }
+  }
+}
+2015-05-11 00:07:28,377 INFO  File: {
+  "Name": "Account.Read",
+  "Result": {
+    "Error": {
+      "Code": 0
+    }
+  }
+}
+2015-05-11 00:07:28,414 INFO  File: db.config setting connection-string-regex is empty. Using default: (?:(?<engine>[^|]+?)\|)?(?<conn>[^|]+)
+2015-05-11 00:07:28,422 INFO  File: Decrypting connection string dbId=default
+2015-05-11 00:07:28,478 INFO  File: Config section 'encrypting' not found. Check web.config!
+2015-05-11 00:07:28,495 INFO  File: System.Exception: Error 'Failed to load direct softAES dbAccess encrypting profile.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.Exception: Failed to load direct softAES dbAccess encrypting profile. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+2015-05-11 00:07:28,514 INFO  File: System.Exception: Error 'Object reference not set to an instance of an object.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+2015-05-11 00:07:28,520 INFO  File: Error decrypting db password. Using password as is.
+2015-05-11 00:07:28,531 INFO  File: m_connectionStringsPrepared.Add(Server=.\SQL2012;User ID=sa;password=scauser1991;Database=ndr;Persist Security Info=True, Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991)
+2015-05-11 00:07:28,567 INFO  File: toolbox-command-timeout=30
+2015-05-11 00:07:28,626 INFO  File: XMLToLowerCase.xslt loaded successfully
+2015-05-11 00:07:28,651 INFO  File: 
+--Connection Open #59621546 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  063 ms;
+EXEC Question_get
+
+2015-05-11 00:07:28,667 INFO  File: 
+--Connection Open #34817906 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  003 ms;
+EXEC Question_get	@pagesize = 11
+
+
+2015-05-11 00:28:27,626 INFO  File: Research.Api ended
+2015-05-11 10:37:57,817 INFO  File: Research.Api started
+2015-05-11 10:58:58,476 INFO  File: Research.Api ended
+2015-05-11 17:09:19,641 INFO  File: Research.Api started
+2015-05-11 17:09:19,980 INFO  File: API:Seeking methods in assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 17:09:20,003 INFO  File: ~API:Seeking methods in assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 17:09:20,007 INFO  File: API:Seeking methods in assembly System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,030 INFO  File: ~API:Seeking methods in assembly System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,033 INFO  File: API:Seeking methods in assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 17:09:20,052 INFO  File: ~API:Seeking methods in assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 17:09:20,055 INFO  File: API:Seeking methods in assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 17:09:20,068 INFO  File: ~API:Seeking methods in assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 17:09:20,071 INFO  File: API:Seeking methods in assembly System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 17:09:20,075 INFO  File: ~API:Seeking methods in assembly System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 17:09:20,084 INFO  File: API:Seeking methods in assembly System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,090 INFO  File: ~API:Seeking methods in assembly System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,093 INFO  File: API:Seeking methods in assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 17:09:20,105 INFO  File: ~API:Seeking methods in assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 17:09:20,108 INFO  File: API:Seeking methods in assembly Microsoft.Build.Utilities.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,112 INFO  File: ~API:Seeking methods in assembly Microsoft.Build.Utilities.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,115 INFO  File: API:Seeking methods in assembly System.Runtime.Caching, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,118 INFO  File: ~API:Seeking methods in assembly System.Runtime.Caching, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,121 INFO  File: API:Seeking methods in assembly Microsoft.JScript, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,127 INFO  File: ~API:Seeking methods in assembly Microsoft.JScript, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,130 INFO  File: API:Seeking methods in assembly System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 17:09:20,133 INFO  File: ~API:Seeking methods in assembly System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 17:09:20,136 INFO  File: API:Seeking methods in assembly Microsoft.VisualStudio.Web.PageInspector.Loader, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,139 INFO  File: ~API:Seeking methods in assembly Microsoft.VisualStudio.Web.PageInspector.Loader, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,142 INFO  File: API:Seeking methods in assembly System.Web.WebPages.Deployment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 17:09:20,146 INFO  File: ~API:Seeking methods in assembly System.Web.WebPages.Deployment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 17:09:20,149 INFO  File: API:Seeking methods in assembly Microsoft.VisualStudio.Web.PageInspector.Runtime, Version=12.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,154 INFO  File: ~API:Seeking methods in assembly Microsoft.VisualStudio.Web.PageInspector.Runtime, Version=12.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,157 INFO  File: API:Seeking methods in assembly Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 17:09:20,161 INFO  File: ~API:Seeking methods in assembly Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 17:09:20,164 INFO  File: API:Seeking methods in assembly App_global.asax.yjrowaay, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 17:09:20,167 INFO  File: ~API:Seeking methods in assembly App_global.asax.yjrowaay, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 17:09:20,170 INFO  File: API:Seeking methods in assembly Research.Web.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 17:09:20,175 INFO  File: API:Method added: Account.Login
+2015-05-11 17:09:20,179 INFO  File: API:Method added: Account.Read
+2015-05-11 17:09:20,182 INFO  File: API:Method added: Account.Registration
+2015-05-11 17:09:20,186 INFO  File: API:Method added: Questions.Get
+2015-05-11 17:09:20,189 INFO  File: ~API:Seeking methods in assembly Research.Web.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 17:09:20,192 INFO  File: API:Seeking methods in assembly System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 17:09:20,206 INFO  File: ~API:Seeking methods in assembly System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 17:09:20,209 INFO  File: API:Seeking methods in assembly log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a
+2015-05-11 17:09:20,216 INFO  File: ~API:Seeking methods in assembly log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a
+2015-05-11 17:09:20,219 INFO  File: API:Seeking methods in assembly DevReactor.Toolbox.Tools, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 17:09:20,224 INFO  File: ~API:Seeking methods in assembly DevReactor.Toolbox.Tools, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 17:09:20,227 INFO  File: API:Seeking methods in assembly DevReactor.Toolbox.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 17:09:20,233 INFO  File: ~API:Seeking methods in assembly DevReactor.Toolbox.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 17:09:20,236 INFO  File: API:Seeking methods in assembly System.Web.Mobile, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,274 INFO  File: ~API:Seeking methods in assembly System.Web.Mobile, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,278 INFO  File: API:Seeking methods in assembly System.Web.RegularExpressions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,283 INFO  File: ~API:Seeking methods in assembly System.Web.RegularExpressions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,286 INFO  File: API:Seeking methods in assembly Microsoft.VisualStudio.Web.PageInspector.Tracing, Version=12.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,290 INFO  File: ~API:Seeking methods in assembly Microsoft.VisualStudio.Web.PageInspector.Tracing, Version=12.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,294 INFO  File: API:Seeking methods in assembly App_Web_gxwmvrkn, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 17:09:20,297 INFO  File: ~API:Seeking methods in assembly App_Web_gxwmvrkn, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 17:09:20,301 INFO  File: API:Seeking methods in assembly Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+2015-05-11 17:09:20,312 INFO  File: ~API:Seeking methods in assembly Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+2015-05-11 17:09:20,315 INFO  File: API:Seeking methods in assembly System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 17:09:20,319 INFO  File: ~API:Seeking methods in assembly System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 17:09:20,322 INFO  File: API:Seeking methods in assembly System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 17:09:20,329 INFO  File: ~API:Seeking methods in assembly System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 17:09:20,332 INFO  File: API:Seeking methods in assembly System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 17:09:20,336 INFO  File: ~API:Seeking methods in assembly System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 17:09:20,339 INFO  File: API:Seeking methods in assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 17:09:20,351 INFO  File: ~API:Seeking methods in assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 17:09:20,379 INFO  File: API:Seeking methods in assembly System.ServiceModel.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 17:09:20,384 INFO  File: ~API:Seeking methods in assembly System.ServiceModel.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 17:09:20,388 INFO  File: API:Seeking methods in assembly Research.BO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 17:09:20,392 INFO  File: ~API:Seeking methods in assembly Research.BO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 17:09:20,395 INFO  File: API:Seeking methods in assembly DevReactor.Toolbox.BO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 17:09:20,400 INFO  File: ~API:Seeking methods in assembly DevReactor.Toolbox.BO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 17:09:20,404 INFO  File: API:Seeking methods in assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,409 INFO  File: ~API:Seeking methods in assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,412 INFO  File: API:Seeking methods in assembly RestSharp, Version=105.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 17:09:20,421 INFO  File: ~API:Seeking methods in assembly RestSharp, Version=105.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 17:09:20,424 INFO  File: API:Seeking methods in assembly System.WorkflowServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 17:09:20,457 INFO  File: ~API:Seeking methods in assembly System.WorkflowServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 17:09:20,461 INFO  File: API:Seeking methods in assembly MaxMind.Db, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 17:09:20,464 INFO  File: ~API:Seeking methods in assembly MaxMind.Db, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 17:09:20,468 INFO  File: API:Seeking methods in assembly System.IdentityModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 17:09:20,475 INFO  File: ~API:Seeking methods in assembly System.IdentityModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 17:09:20,478 INFO  File: API:Seeking methods in assembly System.ServiceModel.Activation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 17:09:20,483 INFO  File: ~API:Seeking methods in assembly System.ServiceModel.Activation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 17:09:20,487 INFO  File: API:Seeking methods in assembly System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 17:09:20,523 INFO  File: ~API:Seeking methods in assembly System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 17:09:20,527 INFO  File: API:Seeking methods in assembly Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,533 INFO  File: ~API:Seeking methods in assembly Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,537 INFO  File: API:Seeking methods in assembly System.ServiceModel.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 17:09:20,543 INFO  File: ~API:Seeking methods in assembly System.ServiceModel.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 17:09:20,546 INFO  File: API:Seeking methods in assembly System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 17:09:20,552 INFO  File: ~API:Seeking methods in assembly System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-05-11 17:09:20,556 INFO  File: API:Seeking methods in assembly MaxMind.GeoIP2, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 17:09:20,561 INFO  File: ~API:Seeking methods in assembly MaxMind.GeoIP2, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 17:09:20,565 INFO  File: API:Seeking methods in assembly System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,570 INFO  File: ~API:Seeking methods in assembly System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,573 INFO  File: API:Seeking methods in assembly System.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 17:09:20,587 INFO  File: ~API:Seeking methods in assembly System.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 17:09:20,590 INFO  File: API:Seeking methods in assembly System.Web.DynamicData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 17:09:20,599 INFO  File: ~API:Seeking methods in assembly System.Web.DynamicData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 17:09:20,602 INFO  File: API:Seeking methods in assembly System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 17:09:20,606 INFO  File: ~API:Seeking methods in assembly System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-05-11 17:09:20,609 INFO  File: API:Seeking methods in assembly Research.Logic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 17:09:20,612 INFO  File: ~API:Seeking methods in assembly Research.Logic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 17:09:20,615 INFO  File: API:Seeking methods in assembly DevReactor.Toolbox.Encrypting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 17:09:20,619 INFO  File: ~API:Seeking methods in assembly DevReactor.Toolbox.Encrypting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-05-11 17:09:20,622 INFO  File: API:Seeking methods in assembly Oracle.ManagedDataAccess, Version=4.121.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342
+2015-05-11 17:09:20,645 INFO  File: ~API:Seeking methods in assembly Oracle.ManagedDataAccess, Version=4.121.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342
+2015-05-11 17:09:20,649 INFO  File: API:Seeking methods in assembly System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,660 INFO  File: ~API:Seeking methods in assembly System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-05-11 17:09:20,664 INFO  File: multi-methods-mode=
+2015-05-11 17:09:20,701 INFO  File: db.config setting connection-string-regex is empty. Using default: (?:(?<engine>[^|]+?)\|)?(?<conn>[^|]+)
+2015-05-11 17:09:20,707 INFO  File: Decrypting connection string dbId=default
+2015-05-11 17:09:20,728 INFO  File: Config section 'encrypting' not found. Check web.config!
+2015-05-11 17:09:20,735 INFO  File: System.Exception: Error 'Failed to load direct softAES dbAccess encrypting profile.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.Exception: Failed to load direct softAES dbAccess encrypting profile. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+2015-05-11 17:09:20,744 INFO  File: System.Exception: Error 'Object reference not set to an instance of an object.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+2015-05-11 17:09:20,747 INFO  File: Error decrypting db password. Using password as is.
+2015-05-11 17:09:20,754 INFO  File: m_connectionStringsPrepared.Add(Server=.\SQL2012;User ID=sa;password=scauser1991;Database=ndr;Persist Security Info=True, Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991)
+2015-05-11 17:09:20,774 INFO  File: toolbox-command-timeout=30
+2015-05-11 17:09:20,819 INFO  File: XMLToLowerCase.xslt loaded successfully
+2015-05-11 17:09:20,841 INFO  File: 
+--Connection Open #26843437 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  051 ms;
+EXEC Account_get	@str_email = N'anton.serhieiev@gmail.com'
+,	@str_password = N'123123123'
+
+
+2015-05-11 17:09:20,864 INFO  File: MemorySessionStorage.Add: a7480d4a-39c5-4ae2-953c-d9e845dfac6f+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:20
+2015-05-11 17:09:21,006 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:21,012 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:21
+2015-05-11 17:09:21,012 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:21,023 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:21
+2015-05-11 17:09:21,031 INFO  File: 
+--Connection Open #367991 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  008 ms;
+EXEC Account_get	@pk = 1
+
+
+2015-05-11 17:09:21,025 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:21,036 INFO  File: 
+--Connection Open #35835861 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  002 ms;
+EXEC Account_get	@pk = 1
+
+
+2015-05-11 17:09:21,041 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:21
+2015-05-11 17:09:21,045 ERROR File: Error 'Failed to load toolbox-baseobject-cache-get-standard settings in db.config. Using default instead.' in method DevReactor.Toolbox.BO.Filter.get_cCacheTimeGetStandard
+System.Exception: Failed to load toolbox-baseobject-cache-get-standard settings in db.config. Using default instead. ---> System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at DevReactor.Toolbox.BO.Filter.get_cCacheTimeGetStandard()
+   --- End of inner exception stack trace ---
+2015-05-11 17:09:21,095 INFO  File: 
+--Connection Open #12036987 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  035 ms;
+EXEC Question_get
+
+2015-05-11 17:09:21,103 INFO  File: 
+--Connection Open #42715336 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  003 ms;
+EXEC Question_get	@pagesize = 11
+
+
+2015-05-11 17:09:27,997 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:28,003 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:28
+2015-05-11 17:09:28,006 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:28,015 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:28
+2015-05-11 17:09:28,015 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:28,024 INFO  File: 
+--Connection Open #2001028 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  002 ms;
+EXEC Question_get
+
+2015-05-11 17:09:28,026 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:28
+2015-05-11 17:09:28,034 INFO  File: 
+--Connection Open #22937396 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  003 ms;
+EXEC Question_get	@pagesize = 11
+
+
+2015-05-11 17:09:31,519 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:31,523 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:31
+2015-05-11 17:09:31,534 INFO  File: 
+--Connection Open #25549860 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  005 ms;
+EXEC Question_get
+
+2015-05-11 17:09:31,559 INFO  File: 
+--Connection Open #8893044 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  009 ms;
+EXEC Question_get	@pagesize = 11
+
+
+2015-05-11 17:09:31,583 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:31,587 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:31
+2015-05-11 17:09:31,600 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:31,605 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:31
+2015-05-11 17:09:33,380 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:33,385 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:33
+2015-05-11 17:09:33,395 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:33,400 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:33
+2015-05-11 17:09:33,402 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:33,405 INFO  File: 
+--Connection Open #12143729 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  015 ms;
+EXEC Question_get
+
+2015-05-11 17:09:33,411 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:33
+2015-05-11 17:09:33,421 INFO  File: 
+--Connection Open #65198764 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  004 ms;
+EXEC Question_get	@pagesize = 11
+
+
+2015-05-11 17:09:34,869 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:34,873 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:34
+2015-05-11 17:09:34,881 INFO  File: 
+--Connection Open #64642676 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  004 ms;
+EXEC Question_get
+
+2015-05-11 17:09:34,907 INFO  File: 
+--Connection Open #23239276 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  017 ms;
+EXEC Question_get	@pagesize = 11
+
+
+2015-05-11 17:09:34,942 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:34,947 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:34
+2015-05-11 17:09:34,956 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:34,960 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:34
+2015-05-11 17:09:38,917 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:38,921 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:38
+2015-05-11 17:09:38,932 INFO  File: 
+--Connection Open #39134480 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  006 ms;
+EXEC Question_get
+
+2015-05-11 17:09:38,942 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:38,954 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:38
+2015-05-11 17:09:38,954 INFO  File: 
+--Connection Open #16221154 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  014 ms;
+EXEC Question_get	@pagesize = 11
+
+
+2015-05-11 17:09:38,955 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:38,974 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:38
+2015-05-11 17:09:39,940 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:39,944 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:39
+2015-05-11 17:09:39,955 INFO  File: 
+--Connection Open #36963566 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  004 ms;
+EXEC Question_get
+
+2015-05-11 17:09:39,966 INFO  File: 
+--Connection Open #25474675 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  006 ms;
+EXEC Question_get	@pagesize = 11
+
+
+2015-05-11 17:09:39,996 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:40,001 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:40
+2015-05-11 17:09:40,008 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:40,013 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:40
+2015-05-11 17:09:40,982 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:40,987 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:40
+2015-05-11 17:09:40,992 INFO  File: 
+--Connection Open #3507177 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  002 ms;
+EXEC Question_get
+
+2015-05-11 17:09:41,018 INFO  File: 
+--Connection Open #20570570 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  011 ms;
+EXEC Question_get	@pagesize = 11
+
+
+2015-05-11 17:09:41,035 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:41,039 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:41
+2015-05-11 17:09:41,047 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:41,052 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:41
+2015-05-11 17:09:41,980 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:41,984 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:41
+2015-05-11 17:09:41,992 INFO  File: 
+--Connection Open #4075575 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  003 ms;
+EXEC Question_get
+
+2015-05-11 17:09:42,009 INFO  File: 
+--Connection Open #276258 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  005 ms;
+EXEC Question_get	@pagesize = 11
+
+
+2015-05-11 17:09:42,042 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:42,047 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:42
+2015-05-11 17:09:42,047 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:09:42,060 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:09:42
+2015-05-11 17:10:18,679 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:18,685 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:18
+2015-05-11 17:10:18,686 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:18,700 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:18
+2015-05-11 17:10:18,700 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:18,715 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:18
+2015-05-11 17:10:18,752 INFO  File: 
+--Connection Open #58863303 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  045 ms;
+EXEC Question_get
+
+2015-05-11 17:10:18,761 INFO  File: 
+--Connection Open #31602955 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  004 ms;
+EXEC Question_get	@pagesize = 11
+
+
+2015-05-11 17:10:20,388 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:20,391 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:20
+2015-05-11 17:10:20,399 INFO  File: 
+--Connection Open #12846871 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  004 ms;
+EXEC Question_get
+
+2015-05-11 17:10:20,408 INFO  File: 
+--Connection Open #41238287 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  005 ms;
+EXEC Question_get	@pagesize = 11
+
+
+2015-05-11 17:10:20,444 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:20,447 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:20
+2015-05-11 17:10:20,456 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:20,460 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:20
+2015-05-11 17:10:21,499 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:21,503 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:21
+2015-05-11 17:10:21,509 INFO  File: 
+--Connection Open #43783597 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  002 ms;
+EXEC Question_get
+
+2015-05-11 17:10:21,523 INFO  File: 
+--Connection Open #24104834 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  009 ms;
+EXEC Question_get	@pagesize = 11
+
+
+2015-05-11 17:10:21,550 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:21,554 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:21
+2015-05-11 17:10:21,562 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:21,565 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:21
+2015-05-11 17:10:22,593 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:22,600 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:22
+2015-05-11 17:10:22,606 INFO  File: 
+--Connection Open #10975720 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  003 ms;
+EXEC Question_get
+
+2015-05-11 17:10:22,614 INFO  File: 
+--Connection Open #24145387 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  004 ms;
+EXEC Question_get	@pagesize = 11
+
+
+2015-05-11 17:10:22,651 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:22,655 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:22
+2015-05-11 17:10:22,665 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:22,669 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:22
+2015-05-11 17:10:26,298 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:26,305 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:26
+2015-05-11 17:10:26,308 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:26,318 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:26,323 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:26
+2015-05-11 17:10:26,319 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:26
+2015-05-11 17:10:26,340 INFO  File: 
+--Connection Open #37121646 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  004 ms;
+EXEC Question_get
+
+2015-05-11 17:10:26,346 INFO  File: 
+--Connection Open #45592480 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  003 ms;
+EXEC Question_get	@pagesize = 11
+
+
+2015-05-11 17:10:29,022 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:29,027 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:29
+2015-05-11 17:10:29,038 INFO  File: 
+--Connection Open #20554616 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  006 ms;
+EXEC Question_get
+
+2015-05-11 17:10:29,058 INFO  File: 
+--Connection Open #30762424 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  010 ms;
+EXEC Question_get	@pagesize = 11
+
+
+2015-05-11 17:10:29,075 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:29,080 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:29
+2015-05-11 17:10:29,085 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:29,090 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:29
+2015-05-11 17:10:30,215 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:30,218 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:30
+2015-05-11 17:10:30,226 INFO  File: 
+--Connection Open #57352375 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  004 ms;
+EXEC Question_get
+
+2015-05-11 17:10:30,255 INFO  File: 
+--Connection Open #2637164 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  018 ms;
+EXEC Question_get	@pagesize = 11
+
+
+2015-05-11 17:10:30,286 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:30,290 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:30
+2015-05-11 17:10:30,300 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:30,304 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:30
+2015-05-11 17:10:31,245 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:31,249 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:31
+2015-05-11 17:10:31,255 INFO  File: 
+--Connection Open #41014879 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  002 ms;
+EXEC Question_get
+
+2015-05-11 17:10:31,268 INFO  File: 
+--Connection Open #3888474 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  009 ms;
+EXEC Question_get	@pagesize = 11
+
+
+2015-05-11 17:10:31,289 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:31,293 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:31
+2015-05-11 17:10:31,325 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:31,329 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:31
+2015-05-11 17:10:47,995 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:48,003 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:48
+2015-05-11 17:10:48,004 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:48,018 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:48
+2015-05-11 17:10:48,018 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)
+2015-05-11 17:10:48,016 INFO  File: 
+--Connection Open #8627704 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  008 ms;
+EXEC Question_get
+
+2015-05-11 17:10:48,028 INFO  File: MemorySessionStorage.GetStrong(E10CC455-691A-4FD5-81CB-35B1EA5D14F6, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36, 127.0.0.1)=E10CC455-691A-4FD5-81CB-35B1EA5D14F6+1+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36+127.0.0.1+http://api.research.local+API_WEB+11.05.2015 17:10:48
+2015-05-11 17:10:48,037 INFO  File: 
+--Connection Open #22017131 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  003 ms;
+EXEC Question_get	@pagesize = 11
+
+
+2015-05-11 17:31:20,329 INFO  File: Research.Api ended

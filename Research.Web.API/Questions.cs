@@ -11,7 +11,7 @@ namespace Research.Web
     [Namespace]
     public class Questions
     {
-        [AnonymMethod]
+        [AuthMethod]
         public static void Get(Method mi)
         {
             JArray jQuestions = new JArray();
@@ -26,5 +26,25 @@ namespace Research.Web
             }
             mi.Result["Questions"] = jQuestions;
         }
+        [AuthMethod]
+        public static void GetTypes(Method mi)
+        {
+            JArray jTypes = new JArray();
+            BO.QuestionType.Result types = BO.QuestionType.GetAll(new BO.QuestionType.Filter());
+
+            foreach (BO.QuestionType.Result type in types)
+            {
+                JObject jType = new JObject();
+
+                BO.Question.Result questionsByType = BO.Question.GetAll(new BO.Question.Filter() { fk_type = type.pk });
+
+                jType["ID"] = type.pk;
+                jType["Description"] = type.str_description;
+                jType["NumberOfQuestions"] = questionsByType.Count;
+                jTypes.Add(jType);
+            }
+            mi.Result["Types"] = jTypes;
+        }
+
     }
 }
