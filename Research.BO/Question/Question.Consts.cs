@@ -28,6 +28,8 @@ namespace Research.BO
 
             public abstract class Sort
             {
+                public const string harder = "harder";
+                public const string easier = "easier";
             }
             public abstract class RetCode
             {

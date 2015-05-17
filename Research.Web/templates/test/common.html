@@ -1,29 +1,59 @@
 ﻿<div data-ng-controller="TestCtrl" ng-init="init()">
     <div class="panel">
-        <header class="panel-heading">
-            Type of tests
-        </header>
-        <div class="panel-body table-responsive">
-            <div class="box-tools m-b-15">
-                <div class="input-group">
-                   <!-- <input type="text" name="table_search" class="form-control input-sm pull-right" style="width: 150px;" placeholder="Search" />-->
-                    <!--<div class="input-group-btn">
+        <div ng-show="tryTest === false">
+            <header class="panel-heading">
+                Type of tests
+            </header>
+            <div class="panel-body table-responsive">
+                <div class="box-tools m-b-15">
+                    <div class="input-group">
+                        <!-- <input type="text" name="table_search" class="form-control input-sm pull-right" style="width: 150px;" placeholder="Search" />-->
+                        <!--<div class="input-group-btn">
                         <button class="btn btn-sm btn-default"><i class="fa fa-search"></i></button>
                     </div>-->
+                    </div>
                 </div>
+                <table class="table table-hover">
+                    <tr>
+                        <th>ID</th>
+                        <th>Description</th>
+                        <th>Number of questions</th>
+                        <th>Pass the test</th>
+                    </tr>
+                    <tr ng-repeat="t in types">
+                        <td>{{t.ID}}</td>
+                        <td>{{t.Description}}</td>
+                        <td>{{t.NumberOfQuestions}}</td>
+                        <td ng-show="t.NumberOfQuestions == 0"> Sorry, no questions </td>
+                        <td ng-show="t.NumberOfQuestions > 0">
+                            <button type="button" ng-click="passTest(t.ID)" class="btn btn-primary">Try</button>
+                        </td>
+                    </tr>
+                </table>
+            </div><!-- /.box-body -->
+        </div>
+    <div ng-show="tryTest === true">
+        <section class="panel">
+            <header class="panel-heading">
+                Give the right answer
+            </header>
+            <div class="panel-body">
+                <form class="form-horizontal tasi-form" method="get">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label col-lg-2" for="inputSuccess">{{question.Text}}</label>
+                        <div class="col-lg-10">
+                            <div class="radio" ng-repeat="a in answers">
+                                <label>
+                                    <input type="radio" name="optionsRadios" id="a.ID" value="{{a.ID}}" checked="">
+                                    {{a.Text}}
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-success" style="margin-top: 20px;" ng-click="nextQuestion()">Submit</button>
+                        </div>
+                    </div>
+                </form>
             </div>
-            <table class="table table-hover">
-                <tr>
-                    <th>ID</th>
-                    <th>Description</th>
-                    <th>Number of questions</th>
-                </tr>
-                <tr ng-repeat="t in types">
-                    <td>{{t.ID}}</td>
-                    <td>{{t.Description}}</td>
-                    <td>{{t.NumberOfQuestions}}</td>
-                </tr>
-            </table>
-        </div><!-- /.box-body -->
+        </section>
+    </div>
     </div><!-- /.box -->
 </div>

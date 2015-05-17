@@ -33,5 +33,15 @@ namespace Research.BO
             return (Question.Result)BaseObject<Question>.getAll(filter);
         }
 
+        public static Result GetHarder(Filter filter)
+        {
+            filter.sort = Consts.Sort.harder;
+            return Get(filter);
+        }
+        public static Result GetEasier(Filter filter)
+        {
+            filter.sort = Consts.Sort.easier;
+            return Get(filter);
+        }
     }
 }
