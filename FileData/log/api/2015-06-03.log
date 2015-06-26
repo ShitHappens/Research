@@ -1,0 +1,147 @@
+2015-06-03 22:03:39,324 INFO  File: Research.Api started
+2015-06-03 22:03:40,764 INFO  File: MemorySessionStorage.GetStrong(35402BC5-325A-4644-9AB4-BAA3CC1A6169, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36, 127.0.0.1)
+2015-06-03 22:03:40,777 INFO  File: MemorySessionStorage.GetStrong(35402BC5-325A-4644-9AB4-BAA3CC1A6169, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36, 127.0.0.1)=
+2015-06-03 22:03:40,777 INFO  File: MemorySessionStorage.GetStrong(35402BC5-325A-4644-9AB4-BAA3CC1A6169, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36, 127.0.0.1)
+2015-06-03 22:03:40,784 INFO  File: MemorySessionStorage.GetStrong(35402BC5-325A-4644-9AB4-BAA3CC1A6169, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36, 127.0.0.1)=
+2015-06-03 22:03:40,780 INFO  File: API:Seeking methods in assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-06-03 22:03:40,785 INFO  File: MemorySessionStorage.GetStrong(35402BC5-325A-4644-9AB4-BAA3CC1A6169, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36, 127.0.0.1)
+2015-06-03 22:03:40,871 INFO  File: MemorySessionStorage.GetStrong(35402BC5-325A-4644-9AB4-BAA3CC1A6169, Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36, 127.0.0.1)=
+2015-06-03 22:03:40,867 INFO  File: ~API:Seeking methods in assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-06-03 22:03:40,888 INFO  File: API:Seeking methods in assembly System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:40,933 INFO  File: ~API:Seeking methods in assembly System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:40,938 INFO  File: API:Seeking methods in assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-06-03 22:03:40,992 INFO  File: ~API:Seeking methods in assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-06-03 22:03:41,044 INFO  File: API:Seeking methods in assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-06-03 22:03:41,109 INFO  File: ~API:Seeking methods in assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-06-03 22:03:41,127 INFO  File: API:Seeking methods in assembly System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-06-03 22:03:41,137 INFO  File: ~API:Seeking methods in assembly System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-06-03 22:03:41,144 INFO  File: API:Seeking methods in assembly System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:41,153 INFO  File: ~API:Seeking methods in assembly System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:41,158 INFO  File: API:Seeking methods in assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-06-03 22:03:41,182 INFO  File: ~API:Seeking methods in assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-06-03 22:03:41,189 INFO  File: API:Seeking methods in assembly Microsoft.Build.Utilities.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:41,195 INFO  File: ~API:Seeking methods in assembly Microsoft.Build.Utilities.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:41,199 INFO  File: API:Seeking methods in assembly System.Runtime.Caching, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:41,205 INFO  File: ~API:Seeking methods in assembly System.Runtime.Caching, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:41,210 INFO  File: API:Seeking methods in assembly Microsoft.JScript, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:41,220 INFO  File: ~API:Seeking methods in assembly Microsoft.JScript, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:41,224 INFO  File: API:Seeking methods in assembly Microsoft.VisualStudio.Web.PageInspector.Loader, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:41,227 INFO  File: ~API:Seeking methods in assembly Microsoft.VisualStudio.Web.PageInspector.Loader, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:41,230 INFO  File: API:Seeking methods in assembly System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-06-03 22:03:41,234 INFO  File: ~API:Seeking methods in assembly System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-06-03 22:03:41,238 INFO  File: API:Seeking methods in assembly System.Web.WebPages.Deployment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-06-03 22:03:41,242 INFO  File: ~API:Seeking methods in assembly System.Web.WebPages.Deployment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-06-03 22:03:41,246 INFO  File: API:Seeking methods in assembly Microsoft.VisualStudio.Web.PageInspector.Runtime, Version=12.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:41,253 INFO  File: ~API:Seeking methods in assembly Microsoft.VisualStudio.Web.PageInspector.Runtime, Version=12.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:41,257 INFO  File: API:Seeking methods in assembly Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-06-03 22:03:41,260 INFO  File: ~API:Seeking methods in assembly Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-06-03 22:03:41,265 INFO  File: API:Seeking methods in assembly App_global.asax.kqvuqhdp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-06-03 22:03:41,271 INFO  File: ~API:Seeking methods in assembly App_global.asax.kqvuqhdp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-06-03 22:03:41,274 INFO  File: API:Seeking methods in assembly Research.Web.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-06-03 22:03:41,278 INFO  File: API:Method added: Account.Login
+2015-06-03 22:03:41,283 INFO  File: API:Method added: Account.Read
+2015-06-03 22:03:41,286 INFO  File: API:Method added: Account.Registration
+2015-06-03 22:03:41,290 INFO  File: API:Method added: Account.Logout
+2015-06-03 22:03:41,293 INFO  File: API:Method added: Questions.Get
+2015-06-03 22:03:41,297 INFO  File: API:Method added: Questions.GetTypes
+2015-06-03 22:03:41,300 INFO  File: API:Method added: Questions.GetQuestionByType
+2015-06-03 22:03:41,304 INFO  File: API:Method added: Questions.GetNextQuestion
+2015-06-03 22:03:41,307 INFO  File: API:Method added: Questions.GetAllForQuestions
+2015-06-03 22:03:41,311 INFO  File: API:Method added: Questions.SetQuestion
+2015-06-03 22:03:41,315 INFO  File: ~API:Seeking methods in assembly Research.Web.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-06-03 22:03:41,320 INFO  File: API:Seeking methods in assembly System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-06-03 22:03:41,340 INFO  File: ~API:Seeking methods in assembly System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-06-03 22:03:41,344 INFO  File: API:Seeking methods in assembly log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a
+2015-06-03 22:03:41,359 INFO  File: ~API:Seeking methods in assembly log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a
+2015-06-03 22:03:41,366 INFO  File: API:Seeking methods in assembly DevReactor.Toolbox.Tools, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-06-03 22:03:41,382 INFO  File: ~API:Seeking methods in assembly DevReactor.Toolbox.Tools, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-06-03 22:03:41,388 INFO  File: API:Seeking methods in assembly DevReactor.Toolbox.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-06-03 22:03:41,436 INFO  File: ~API:Seeking methods in assembly DevReactor.Toolbox.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-06-03 22:03:41,473 INFO  File: API:Seeking methods in assembly System.Web.Mobile, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:41,556 INFO  File: ~API:Seeking methods in assembly System.Web.Mobile, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:41,561 INFO  File: API:Seeking methods in assembly System.Web.RegularExpressions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:41,569 INFO  File: ~API:Seeking methods in assembly System.Web.RegularExpressions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:41,575 INFO  File: API:Seeking methods in assembly Microsoft.VisualStudio.Web.PageInspector.Tracing, Version=12.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:41,613 INFO  File: ~API:Seeking methods in assembly Microsoft.VisualStudio.Web.PageInspector.Tracing, Version=12.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:41,619 INFO  File: API:Seeking methods in assembly App_Web_p34n2mks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-06-03 22:03:41,624 INFO  File: ~API:Seeking methods in assembly App_Web_p34n2mks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-06-03 22:03:41,629 INFO  File: API:Seeking methods in assembly Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+2015-06-03 22:03:41,652 INFO  File: ~API:Seeking methods in assembly Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+2015-06-03 22:03:41,660 INFO  File: API:Seeking methods in assembly System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-06-03 22:03:41,683 INFO  File: ~API:Seeking methods in assembly System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-06-03 22:03:41,698 INFO  File: API:Seeking methods in assembly System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-06-03 22:03:41,711 INFO  File: ~API:Seeking methods in assembly System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-06-03 22:03:41,727 INFO  File: API:Seeking methods in assembly System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-06-03 22:03:41,733 INFO  File: ~API:Seeking methods in assembly System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-06-03 22:03:41,738 INFO  File: API:Seeking methods in assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-06-03 22:03:41,759 INFO  File: ~API:Seeking methods in assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-06-03 22:03:41,838 INFO  File: API:Seeking methods in assembly System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-06-03 22:03:41,924 INFO  File: ~API:Seeking methods in assembly System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-06-03 22:03:41,935 INFO  File: API:Seeking methods in assembly System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-06-03 22:03:41,944 INFO  File: ~API:Seeking methods in assembly System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-06-03 22:03:41,952 INFO  File: API:Seeking methods in assembly Research.Logic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-06-03 22:03:41,957 INFO  File: ~API:Seeking methods in assembly Research.Logic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-06-03 22:03:41,962 INFO  File: API:Seeking methods in assembly Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:41,971 INFO  File: ~API:Seeking methods in assembly Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:41,978 INFO  File: API:Seeking methods in assembly System.Web.DynamicData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-06-03 22:03:41,998 INFO  File: ~API:Seeking methods in assembly System.Web.DynamicData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-06-03 22:03:42,033 INFO  File: API:Seeking methods in assembly RestSharp, Version=105.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-06-03 22:03:42,093 INFO  File: ~API:Seeking methods in assembly RestSharp, Version=105.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-06-03 22:03:42,113 INFO  File: API:Seeking methods in assembly System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:42,138 INFO  File: ~API:Seeking methods in assembly System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:42,143 INFO  File: API:Seeking methods in assembly System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:42,154 INFO  File: ~API:Seeking methods in assembly System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:42,158 INFO  File: API:Seeking methods in assembly System.ServiceModel.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-06-03 22:03:42,166 INFO  File: ~API:Seeking methods in assembly System.ServiceModel.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-06-03 22:03:42,171 INFO  File: API:Seeking methods in assembly System.ServiceModel.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-06-03 22:03:42,179 INFO  File: ~API:Seeking methods in assembly System.ServiceModel.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-06-03 22:03:42,183 INFO  File: API:Seeking methods in assembly System.ServiceModel.Activation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-06-03 22:03:42,189 INFO  File: ~API:Seeking methods in assembly System.ServiceModel.Activation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-06-03 22:03:42,193 INFO  File: API:Seeking methods in assembly System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-06-03 22:03:42,198 INFO  File: ~API:Seeking methods in assembly System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-06-03 22:03:42,203 INFO  File: API:Seeking methods in assembly System.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-06-03 22:03:42,224 INFO  File: ~API:Seeking methods in assembly System.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-06-03 22:03:42,228 INFO  File: API:Seeking methods in assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:42,235 INFO  File: ~API:Seeking methods in assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2015-06-03 22:03:42,240 INFO  File: API:Seeking methods in assembly MaxMind.GeoIP2, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null
+2015-06-03 22:03:42,245 INFO  File: ~API:Seeking methods in assembly MaxMind.GeoIP2, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null
+2015-06-03 22:03:42,250 INFO  File: API:Seeking methods in assembly MaxMind.Db, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-06-03 22:03:42,256 INFO  File: ~API:Seeking methods in assembly MaxMind.Db, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-06-03 22:03:42,260 INFO  File: API:Seeking methods in assembly Oracle.ManagedDataAccess, Version=4.121.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342
+2015-06-03 22:03:42,354 INFO  File: ~API:Seeking methods in assembly Oracle.ManagedDataAccess, Version=4.121.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342
+2015-06-03 22:03:42,361 INFO  File: API:Seeking methods in assembly DevReactor.Toolbox.Encrypting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-06-03 22:03:42,367 INFO  File: ~API:Seeking methods in assembly DevReactor.Toolbox.Encrypting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-06-03 22:03:42,371 INFO  File: API:Seeking methods in assembly DevReactor.Toolbox.BO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-06-03 22:03:42,376 INFO  File: ~API:Seeking methods in assembly DevReactor.Toolbox.BO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-06-03 22:03:42,381 INFO  File: API:Seeking methods in assembly System.WorkflowServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-06-03 22:03:42,477 INFO  File: ~API:Seeking methods in assembly System.WorkflowServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2015-06-03 22:03:42,495 INFO  File: API:Seeking methods in assembly System.IdentityModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-06-03 22:03:42,515 INFO  File: ~API:Seeking methods in assembly System.IdentityModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2015-06-03 22:03:42,521 INFO  File: API:Seeking methods in assembly Research.BO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-06-03 22:03:42,529 INFO  File: ~API:Seeking methods in assembly Research.BO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2015-06-03 22:03:42,533 INFO  File: multi-methods-mode=
+2015-06-03 22:03:42,534 INFO  File: {
+  "Name": "Account.Read",
+  "Result": {
+    "Error": {
+      "Code": 0
+    }
+  }
+}
+2015-06-03 22:03:42,534 INFO  File: {
+  "Name": "Account.Read",
+  "Result": {
+    "Error": {
+      "Code": 0
+    }
+  }
+}
+2015-06-03 22:03:42,542 INFO  File: {
+  "Name": "Questions.GetAllForQuestions",
+  "Result": {
+    "Error": {
+      "Code": 0
+    }
+  }
+}
+2015-06-03 22:24:39,376 INFO  File: Research.Api ended

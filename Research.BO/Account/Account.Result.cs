@@ -19,7 +19,10 @@ namespace Research.BO
             public String str_email { get { return GetValue<String>(Consts.str_email); } }
 
             public String str_password { get { return GetValue<String>(Consts.str_password); } }
+
             public decimal? dcm_avg_rating { get { return GetValueNullable<decimal>(Consts.dcm_avg_rating); } }
+
+            public int int_accounttype { get { return GetValue<int>(Consts.int_accounttype); } }
 
             public DateTime dt_created { get { return GetValue<DateTime>(Consts.dt_created); } }
 

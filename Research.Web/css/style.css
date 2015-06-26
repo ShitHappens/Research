@@ -694,7 +694,7 @@ body > .header .navbar .nav > li > a > .label {
 body > .header .navbar .nav > li > a:hover > .label {
   top: 3px;
 }
-body > .header .logo {
+.logo {
   float: left;
   font-size: 20px;
   line-height: 50px;
@@ -706,7 +706,7 @@ body > .header .logo {
   height: 50px;
   display: block;
 }
-body > .header .logo .icon {
+.logo .icon {
   margin-right: 10px;
 }
 .right-side > .content-header {
@@ -825,7 +825,7 @@ content: '';
   body > .header {
     position: relative;
   }
-  body > .header .logo,
+  .logo,
   body > .header .navbar {
     width: 100%;
     float: none;
@@ -2917,14 +2917,15 @@ vertical-align: top;
   background: #999999 !important;
 }
 /* skin-black logo */
-.skin-black .logo {
+ .logo {
+     width:250px;
   background-color: #283744;
   color: #f9f9f9;
 }
-.skin-black .logo > a {
+ .logo > a {
   color: #f9f9f9;
 }
-.skin-black .logo:hover {
+ .logo:hover {
   /*background: #303030;*/
   /*color: #fff;*/
 }

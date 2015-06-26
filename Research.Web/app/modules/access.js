@@ -13,7 +13,7 @@ factory('$access', function ($location, $localStorage) {
             $location.url('/login');
         }
         else if (isLogin && $localStorage.SessionID() !== undefined) {
-            $location.url('/profile');
+            $location.url('/dashboard');
 
         }
     }

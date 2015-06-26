@@ -9,8 +9,8 @@
     $routeSegmentProvider
     .when('/register', 'start.register')
     .when('/login', 'start.login')
-    .when('/request', 'start.request')
-    //.when('/emailConfirmation', 'start.emailConfirmation')
+    .when('/dashboard', 'site.dashboard')
+    .when('/question', 'site.question')
     .when('/test', 'site.test')
     //.when('/category/:categoryid', 'site.category')
     //.when('/category', 'site.category')
@@ -51,13 +51,13 @@
 
     $routeSegmentProvider.within('start').segment('login', { templateUrl: '/templates/start/login.html' });
 
-    //$routeSegmentProvider.within('start').segment('request', { templateUrl: '/templates/start/request.html' });
+    $routeSegmentProvider.within('site').segment('dashboard', { templateUrl: '/templates/dashboard/common.html' });
 
     //$routeSegmentProvider.within('start').segment('emailConfirmation', { templateUrl: '/templates/start/emailConfirmation.html' });
 
     $routeSegmentProvider.within('site').segment('test', { templateUrl: '/templates/test/common.html' });
 
-    //$routeSegmentProvider.within('site').segment('category', { templateUrl: '/templates/category/common.html', dependencies: ['categoryid'] });
+    $routeSegmentProvider.within('site').segment('question', { templateUrl: '/templates/question/common.html' });
 
     //$routeSegmentProvider.within('site').segment('product', { templateUrl: '/templates/product/common.html' });
 
@@ -94,7 +94,7 @@
     //#endregion segments
 
     $routeProvider.otherwise({
-        redirectTo: function () { return '/profile'; }
+        redirectTo: function () { return '/dashboard'; }
     });
 })
 .factory('Page', function () {

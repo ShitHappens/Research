@@ -47,6 +47,11 @@ namespace Research.BO
                 get { return (decimal?)this[Consts.dcm_avg_rating]; }
             }
 
+            public int int_accounttype
+            {
+                set { this[Consts.int_accounttype] = value; }
+                get { return (int)this[Consts.int_accounttype]; }
+            }
 
             public DateTime dt_created
             {

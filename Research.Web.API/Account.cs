@@ -87,6 +87,7 @@ namespace Research.Web
             jAccount["ID"] = account.pk;
             jAccount["Email"] = account.str_email;
             jAccount["Rate"] = account.dcm_avg_rating;
+            jAccount["Type"] = account.int_accounttype;
 
             mi.Result.Add("Account", jAccount);
         }
@@ -106,7 +107,8 @@ namespace Research.Web
                         new BO.Account.Filter()
                         {
                             str_email = email,
-                            str_password = password
+                            str_password = password,
+                            int_accounttype = (int)BO.Account.Consts.Type.User
                         });
                 }
                 catch (Exception ex)

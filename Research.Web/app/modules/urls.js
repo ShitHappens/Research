@@ -6,11 +6,11 @@ provider('urls', function () {
         var obj = {
             register: '/register',
             login: '/login',
-            //request: '/request',
+            dashboard: '/dashboard',
             //emailConfirmation: '/emailConfirmation',
             profile: '/profile',
             test: '/test',
-            //category: '/category',
+            question: '/question',
             //product: '/product',
             //country: '/country',
             //site: '/site',
@@ -59,18 +59,18 @@ service('$urls', function (urls, $location) {
     this.Login = function (params) {
         return this._build('login', params);
     }
-    //this.Request = function (params) {
-    //    return this._build('request', params);
-    //}
+    this.Dashboard = function (params) {
+        return this._build('dashboard', params);
+    }
     this.Profile = function (params) {
         return this._build('profile', params);
     }
     this.Test = function (params) {
         return this._build('test', params);
     }
-    //this.Category = function (params) {
-    //    return this._build('category', params);
-    //}
+    this.Question = function (params) {
+        return this._build('question', params);
+    }
     //this.Product = function (params) {
     //    return this._build('product', params);
     //}

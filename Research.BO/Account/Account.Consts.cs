@@ -19,11 +19,17 @@ namespace Research.BO
 
             public const string dcm_avg_rating = "dcm_avg_rating";
 
+            public const string int_accounttype = "int_accounttype";
+
             public const string dt_created = "dt_created";
 
             public const string dt_updated = "dt_updated";
 
-
+            public enum Type
+            {
+                User = 0,
+                Admin = 1
+            }
             public abstract class Sort
             {
             }

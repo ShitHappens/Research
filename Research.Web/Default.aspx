@@ -5,7 +5,7 @@
 <html lang="en" ng-app="app">
 <head ng-controller="HeadCtrl" ng-init="init()">
     <title ng-bind="Page"></title>
-    <link rel="icon" type="image/png" href="/img/favicon.jpg">
+    <link rel="icon" type="image/png" href="/img/favicon.png">
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="/css/ionicons.min.css" media="all" />
     <link rel="stylesheet" href="/css/style.css" media="all" />
     <link rel="stylesheet" href="/css/custom.css" media="all" />
+    <link rel="stylesheet" href="/css/small-business.css" media="all" />
 
 
 </head>
@@ -65,6 +66,8 @@
     <script src="/app/controllers/site/ctrl.header.js"></script>
     <script src="/app/controllers/profile/ctrl.profile.js"></script>
     <script src="/app/controllers/test/ctrl.test.js"></script>
+    <script src="/app/controllers/dashboard/ctrl.dashboard.js"></script>
+    <script src="/app/controllers/question/ctrl.question.js"></script>
 
 </body>
 </html>

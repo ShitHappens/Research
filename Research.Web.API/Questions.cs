@@ -162,5 +162,54 @@ namespace Research.Web
             }
         }
 
+        [AuthMethod]
+        public static void GetAllForQuestions(Method mi)
+        {
+            JArray jTypes = new JArray();
+            JArray jCategories = new JArray();
+
+            BO.QuestionType.Result types = BO.QuestionType.GetAll(new BO.QuestionType.Filter());
+            foreach (BO.QuestionType.Result type in types)
+            {
+                JObject jType = new JObject();
+                jType["ID"] = type.pk;
+                jType["Text"] = type.str_description;
+                jTypes.Add(jType);
+            }
+
+            BO.Theme.Result categories = BO.Theme.GetAll(new BO.Theme.Filter());
+            foreach (BO.Theme.Result category in categories)
+            {
+                JObject jCategory = new JObject();
+                jCategory["ID"] = category.pk;
+                jCategory["Name"] = category.str_name;
+                jCategories.Add(jCategory);
+            }
+            mi.Result["Types"] = jTypes;
+            mi.Result["Categories"] = jCategories;
+        }
+
+        [AuthMethod]
+        public static void SetQuestion(Method mi)
+        {
+            string text = mi.Args["Text"].ToString();
+            int type = mi.Args["Type"].Value<int>();
+            int theme = mi.Args["Category"].Value<int>();
+            string cmplx = mi.Args["Complexity"].ToString().Replace('.', ',');
+            decimal complexity = 0m;
+            decimal.TryParse(cmplx, out complexity);
+
+            BO.Question.Set(new BO.Question.Filter()
+            {
+                str_text = text,
+                fk_theme = theme,
+                fk_type = type,
+                int_time = 60,
+                dcm_complexity = complexity
+            });
+
+            mi.ErrorCode = 0;
+        }
+
     }
 }

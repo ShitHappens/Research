@@ -15,8 +15,14 @@
         $element.find('li').removeClass('active');
 
         switch (path) {
+            case $urls.Dashboard():
+                angular.element('#dashboard').addClass('active');
+                break
             case $urls.Test():
                 angular.element('#test').addClass('active');
+                break
+            case $urls.Question():
+                angular.element('#question').addClass('active');
                 break
             case $urls.Profile():
                 angular.element('#profile').addClass('active');
@@ -31,7 +37,6 @@
                 Name: 'Account.Read'
             },
             Callback: function (data) {
-
                 var user = data[0].Result.Account;
                 $scope.Email = user.Email;
             }

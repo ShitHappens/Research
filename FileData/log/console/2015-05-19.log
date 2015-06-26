@@ -1,0 +1,74 @@
+2015-05-19 13:59:16,124 INFO  File: db.config setting connection-string-regex is empty. Using default: (?:(?<engine>[^|]+?)\|)?(?<conn>[^|]+)
+2015-05-19 13:59:16,153 INFO  File: Decrypting connection string dbId=default
+2015-05-19 13:59:16,385 INFO  File: Config section 'encrypting' not found. Check web.config!
+2015-05-19 13:59:16,418 INFO  File: System.Exception: Error 'Failed to load direct softAES dbAccess encrypting profile.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.Exception: Failed to load direct softAES dbAccess encrypting profile. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+2015-05-19 13:59:16,442 INFO  File: System.Exception: Error 'Object reference not set to an instance of an object.' in method DevReactor.Toolbox.BO.Database.ConnectionInfo+StandardConnectionStringPreparer.decryptPwd ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevReactor.Toolbox.BO.Database.ConnectionInfo.StandardConnectionStringPreparer.decryptPwd(String pwdSrc)
+   --- End of inner exception stack trace ---
+2015-05-19 13:59:16,446 INFO  File: Error decrypting db password. Using password as is.
+2015-05-19 13:59:16,454 INFO  File: m_connectionStringsPrepared.Add(Server=.\SQL2012;User ID=sa;password=scauser1991;Database=ndr;Persist Security Info=True, Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991)
+2015-05-19 13:59:16,508 INFO  File: toolbox-command-timeout=30
+2015-05-19 13:59:16,633 INFO  File: XMLToLowerCase.xslt loaded successfully
+2015-05-19 13:59:16,656 INFO  File: 
+--Connection Open #60180891 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  137 ms;
+EXEC Account_get	@pk = 1
+
+
+2015-05-19 13:59:16,686 ERROR File: Error 'Failed to load toolbox-baseobject-cache-get-standard settings in db.config. Using default instead.' in method DevReactor.Toolbox.BO.Filter.get_cCacheTimeGetStandard
+System.Exception: Failed to load toolbox-baseobject-cache-get-standard settings in db.config. Using default instead. ---> System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at DevReactor.Toolbox.BO.Filter.get_cCacheTimeGetStandard()
+   --- End of inner exception stack trace ---
+2015-05-19 13:59:17,111 INFO  File: 
+--Connection Open #48661462 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  072 ms;
+EXEC Theme_get
+
+2015-05-19 13:59:19,008 INFO  File: 
+--Connection Open #42282156 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  065 ms;
+EXEC Question_get	@fk_theme = 2
+
+
+2015-05-19 13:59:19,097 INFO  File: 
+--Connection Open #23648863 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  061 ms;
+EXEC Answer_get	@fk_question = 7
+
+
+2015-05-19 13:59:22,400 INFO  File: 
+--Connection Open #57565882 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  044 ms;
+EXEC Answer_get	@fk_question = 8
+
+
+2015-05-19 13:59:24,030 INFO  File: 
+--Connection Open #40327891 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  035 ms;
+EXEC Answer_get	@fk_question = 9
+
+
+2015-05-19 13:59:24,640 INFO  File: 
+--Connection Open #2815801 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  040 ms;
+EXEC Answer_get	@fk_question = 10
+
+
+2015-05-19 13:59:25,107 INFO  File: 
+--Connection Open #59602202 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  036 ms;
+EXEC Answer_get	@fk_question = 11
+
+
+2015-05-19 13:59:25,356 INFO  File: 
+--Connection Open #64853398 MSSQL|default|Data Source=.\SQL2012;Initial Catalog=ndr;Persist Security Info=True;User ID=sa;Password=scauser1991
+--Took:  050 ms;
+EXEC Answer_get	@fk_question = 13
+
+
