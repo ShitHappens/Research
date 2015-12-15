@@ -18,6 +18,8 @@ namespace Research.BO
 
             public String str_email { get { return GetValue<String>(Consts.str_email); } }
 
+            public String str_name { get { return GetValue<String>(Consts.str_name); } }
+
             public String str_password { get { return GetValue<String>(Consts.str_password); } }
 
             public decimal? dcm_avg_rating { get { return GetValueNullable<decimal>(Consts.dcm_avg_rating); } }

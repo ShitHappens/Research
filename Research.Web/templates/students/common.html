@@ -1,0 +1,36 @@
+﻿<div data-ng-controller="StudentsCtrl" ng-init="init()">
+    <div class="panel">
+        <section class="panel">
+            <header class="panel-heading">
+                Students
+            </header>
+            <div class="panel-body">
+                <form class="form-horizontal tasi-form" method="get">
+                    <table class="table table-hover">
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Avg mark</th>
+                        </tr>
+                        <tr ng-repeat="s in students" ng-show="addStudent === false">
+                            <td>{{s.ID}}</td>
+                            <td>{{s.Name}}</td>
+                            <td>{{s.Email}}</td>
+                            <td>{{s.Mark}}</td>
+                        </tr>
+                        <tr ng-show="addStudent === true">
+                            <td></td>
+                            <td><input type="text" id="name"></td>
+                            <td><input type="text" id="email"></td>
+                            <td><input type="number" id="mark"></td>
+                        </tr>
+                    </table>
+                    <button ng-show="addStudent === false" type="submit" class="btn btn-default" style="margin-top: 20px;" ng-click="addStudent = true">Add student</button>
+                    <button ng-show="addStudent === true" type="submit" class="btn btn-success" style="margin-top: 20px;" ng-click="addStudent = false;AddStudent()">Submit</button>
+                    <button ng-show="addStudent === true" type="submit" class="btn btn-warning" style="margin-top: 20px;" ng-click="addStudent = false">Cancel</button>
+                </form>
+            </div>
+        </section>
+    </div><!-- /.box -->
+</div>

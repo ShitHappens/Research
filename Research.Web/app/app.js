@@ -12,6 +12,7 @@
     .when('/dashboard', 'site.dashboard')
     .when('/question', 'site.question')
     .when('/test', 'site.test')
+    .when('/students', 'site.students')
     //.when('/category/:categoryid', 'site.category')
     //.when('/category', 'site.category')
     //.when('/product', 'site.product')
@@ -58,6 +59,8 @@
     $routeSegmentProvider.within('site').segment('test', { templateUrl: '/templates/test/common.html' });
 
     $routeSegmentProvider.within('site').segment('question', { templateUrl: '/templates/question/common.html' });
+
+    $routeSegmentProvider.within('site').segment('students', { templateUrl: '/templates/students/common.html' });
 
     //$routeSegmentProvider.within('site').segment('product', { templateUrl: '/templates/product/common.html' });
 

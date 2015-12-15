@@ -108,7 +108,7 @@ namespace Research.Web
                         {
                             str_email = email,
                             str_password = password,
-                            int_accounttype = (int)BO.Account.Consts.Type.User
+                            int_accounttype = (int)BO.Account.Consts.AccountType.Admin
                         });
                 }
                 catch (Exception ex)
@@ -132,5 +132,41 @@ namespace Research.Web
         }
         #endregion logout
 
+        [AuthMethod]
+        public static void GetStudents(Method mi)
+        {
+            JArray jStudents = new JArray();
+            BO.Account.Result students = BO.Account.GetAll(new BO.Account.Filter() { int_accounttype = (int)BO.Account.Consts.AccountType.Student});
+
+            foreach(BO.Account.Result student in students)
+            {
+                JObject jStudent = new JObject();
+                jStudent["Name"] = student.str_name;
+                jStudent["Email"] = student.str_email;
+                jStudent["Mark"] = student.dcm_avg_rating;
+                jStudent["ID"] = student.pk;
+
+                jStudents.Add(jStudent);
+            }
+
+            mi.Result["Students"] = jStudents;
+            mi.ErrorCode = 0;
+        }
+        [AuthMethod]
+        public static void SetStudent(Method mi)
+        {
+            string name = mi.Args["Name"].Value<string>();
+            string email = mi.Args["Email"].Value<string>();
+            decimal mark = mi.Args["Mark"].Value<decimal>();
+
+            BO.Account.Set(new BO.Account.Filter()
+            {
+                str_name = name,
+                str_email = email,
+                dcm_avg_rating = mark,
+                str_password = "11111",
+                int_accounttype = (int)BO.Account.Consts.AccountType.Student,
+            });
+        } 
     }
 }

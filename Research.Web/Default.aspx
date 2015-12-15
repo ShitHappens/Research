@@ -68,6 +68,8 @@
     <script src="/app/controllers/test/ctrl.test.js"></script>
     <script src="/app/controllers/dashboard/ctrl.dashboard.js"></script>
     <script src="/app/controllers/question/ctrl.question.js"></script>
+    <script src="/app/controllers/students/ctrl.students.js"></script>
+
 
 </body>
 </html>

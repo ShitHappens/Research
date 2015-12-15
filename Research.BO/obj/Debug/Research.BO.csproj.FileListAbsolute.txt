@@ -13,3 +13,14 @@ C:\_\Research\Research.BO\bin\Debug\DevReactor.Toolbox.Tools.dll
 C:\_\Research\Research.BO\bin\Debug\log4net.dll
 C:\_\Research\Research.BO\obj\Debug\Research.BO.dll
 C:\_\Research\Research.BO\obj\Debug\Research.BO.pdb
+C:\_\Research\Research.BO\bin\Debug\Research.BO.dll.config
+C:\_\Research\Research.BO\bin\Debug\DevReactor.Toolbox.Encrypting.dll
+C:\_\Research\Research.BO\bin\Debug\MaxMind.DB.dll
+C:\_\Research\Research.BO\bin\Debug\MaxMind.GeoIP2.dll
+C:\_\Research\Research.BO\bin\Debug\Newtonsoft.Json.dll
+C:\_\Research\Research.BO\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\_\Research\Research.BO\bin\Debug\RestSharp.dll
+C:\_\Research\Research.BO\bin\Debug\log4net.xml
+C:\_\Research\Research.BO\bin\Debug\MaxMind.DB.xml
+C:\_\Research\Research.BO\bin\Debug\Newtonsoft.Json.xml
+C:\_\Research\Research.BO\bin\Debug\RestSharp.xml

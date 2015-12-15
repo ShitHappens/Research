@@ -21,3 +21,4 @@ C:\_\Research\Research.Form\obj\Debug\Research.Form.Properties.Resources.resourc
 C:\_\Research\Research.Form\obj\Debug\Research.Form.csproj.GenerateResource.Cache
 C:\_\Research\Research.Form\obj\Debug\Research.Form.exe
 C:\_\Research\Research.Form\obj\Debug\Research.Form.pdb
+C:\_\Research\Research.Form\obj\Debug\Research.Form.csprojResolveAssemblyReference.cache

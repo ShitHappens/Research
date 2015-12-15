@@ -10,6 +10,7 @@ provider('urls', function () {
             //emailConfirmation: '/emailConfirmation',
             profile: '/profile',
             test: '/test',
+            students: '/students',
             question: '/question',
             //product: '/product',
             //country: '/country',
@@ -70,6 +71,9 @@ service('$urls', function (urls, $location) {
     }
     this.Question = function (params) {
         return this._build('question', params);
+    }
+    this.Students = function (params) {
+        return this._build('students', params);
     }
     //this.Product = function (params) {
     //    return this._build('product', params);

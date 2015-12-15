@@ -16,17 +16,25 @@
                 <table class="table table-hover">
                     <tr>
                         <th>ID</th>
-                        <th>Description</th>
+                        <th>Subject</th>
                         <th>Number of questions</th>
+                        <th>Complexity</th>
                         <th>Pass the test</th>
                     </tr>
-                    <tr ng-repeat="t in types">
-                        <td>{{t.ID}}</td>
-                        <td>{{t.Description}}</td>
-                        <td>{{t.NumberOfQuestions}}</td>
-                        <td ng-show="t.NumberOfQuestions == 0"> Sorry, no questions </td>
-                        <td ng-show="t.NumberOfQuestions > 0">
-                            <button type="button" ng-click="passTest(t.ID)" class="btn btn-primary">Try</button>
+                    <tr ng-repeat="s in subjects">
+                        <td>{{s.ID}}</td>
+                        <td>{{s.Description}}</td>
+                        <td><input type="number" id="{{s.ID}}"></td>
+                        <td>
+                            <select>
+                                <option selected="selected">A</option>
+                                <option>B</option>
+                                <option>C</option>
+                                <option>D</option>
+                            </select>
+                        </td>
+                        <td>
+                            <button type="button" ng-click="GetQuestions(s.ID);" class="btn btn-primary">Try</button>
                         </td>
                     </tr>
                 </table>
@@ -39,18 +47,18 @@
             </header>
             <div class="panel-body">
                 <form class="form-horizontal tasi-form" method="get">
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label col-lg-2" for="inputSuccess">{{question.Text}}</label>
+
+                    <div class="form-group" ng-repeat="q in questions">
+                        <label class="col-sm-2 control-label col-lg-2" for="inputSuccess">{{q.Text}}</label>
                         <div class="col-lg-10">
-                            <div class="radio" ng-repeat="a in answers">
-                                <label>
-                                    <input type="radio" name="optionsRadios" id="a.ID" value="{{a.ID}}" checked="">
-                                    {{a.Text}}
+                            <div class="radio" ng-repeat="a in q.Answers">
+                                <label>{{a.Text}}
+                                    <input type="radio" name="a.ID" checked=""/>
                                 </label>
-                            </div>
-                            <button type="submit" class="btn btn-success" style="margin-top: 20px;" ng-click="nextQuestion()">Submit</button>
+                            </div>                           
                         </div>
                     </div>
+                    <button type="submit" class="btn btn-success" style="margin-top: 20px;" ng-click="">Submit</button>
                 </form>
             </div>
         </section>

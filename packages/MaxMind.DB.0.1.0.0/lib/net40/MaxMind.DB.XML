@@ -1,0 +1,685 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MaxMind.DB</name>
+    </assembly>
+    <members>
+        <member name="T:MaxMind.DB.BigInteger">
+            <summary>
+            Represents a integer of abitrary length.
+            </summary>
+            <remarks>
+            <para>
+            A BigInteger object is immutable like System.String. The object can not be modifed, and new BigInteger objects are
+            created by using the operations of existing BigInteger objects.
+            </para>
+            <para>
+            Internally a BigInteger object is an array of ? that is represents the digits of the n-place integer. Negative BigIntegers
+            are stored internally as 1's complements, thus every BigInteger object contains 1 or more padding elements to hold the sign.
+            </para>
+            </remarks>
+            <example>
+            <code>
+            public class MainProgram
+            {
+            	[STAThread]
+            	public static void Main(string[] args)
+            	{
+            		BigInteger a = new BigInteger(25);
+            		a = a + 100;
+            		
+            		BigInteger b = new BigInteger("139435810094598308945890230913");
+            		
+            		BigInteger c = b / a;
+            		BigInteger d = b % a;
+            		
+            		BigInteger e = (c * a) + d;
+            		if (e != b)
+            		{
+            			Console.WriteLine("Can never be true.");
+            		}
+            	}
+            </code>
+            </example>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.#ctor">
+            <summary>
+            Create a BigInteger with an integer value of 0.
+            </summary>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.#ctor(System.Int64)">
+            <summary>
+            Creates a BigInteger with the value of the operand.
+            </summary>
+            <param name="number">A long.</param>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.#ctor(System.UInt64)">
+            <summary>
+            Creates a BigInteger with the value of the operand. Can never be negative.
+            </summary>
+            <param name="number">A unsigned long.</param>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.#ctor(System.Byte[])">
+            <summary>
+            Creates a BigInteger initialized from the byte array.
+            </summary>
+            <param name="array"></param>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.#ctor(System.Byte[],System.Int32)">
+            <summary>
+            Creates a BigInteger initialized from the byte array ending at <paramref name="length" />.
+            </summary>
+            <param name="array">A byte array.</param>
+            <param name="length">Int number of bytes to use.</param>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.#ctor(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Creates a BigInteger initialized from <paramref name="length" /> bytes starting at <paramref name="offset" />.
+            </summary>
+            <param name="array">A byte array.</param>
+            <param name="offset">Int offset into the <paramref name="array" />.</param>
+            <param name="length">Int number of bytes.</param>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.#ctor(System.String)">
+            <summary>
+            Creates a BigInteger in base-10 from the parameter.
+            </summary>
+            <remarks>
+             The new BigInteger is negative if the <paramref name="digits" /> has a leading - (minus).
+            </remarks>
+            <param name="digits">A string</param>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.#ctor(System.String,System.Int32)">
+            <summary>
+            Creates a BigInteger in base and value from the parameters.
+            </summary>
+            <remarks>
+             The new BigInteger is negative if the <paramref name="digits" /> has a leading - (minus).
+            </remarks>
+            <param name="digits">A string</param>
+            <param name="radix">A int between 2 and 36.</param>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.#ctor(MaxMind.DB.DigitsArray)">
+            <summary>
+            Copy constructor, doesn't copy the digits parameter, assumes <code>this</code> owns the DigitsArray.
+            </summary>
+            <remarks>The <paramef name="digits" /> parameter is saved and reset.</remarks>
+            <param name="digits"></param>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.op_Implicit(System.Int64)~MaxMind.DB.BigInteger">
+            <summary>
+            Creates a BigInteger from a long.
+            </summary>
+            <param name="value">A long.</param>
+            <returns>A BigInteger initialzed by <paramref name="value" />.</returns>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.op_Implicit(System.UInt64)~MaxMind.DB.BigInteger">
+            <summary>
+            Creates a BigInteger from a ulong.
+            </summary>
+            <param name="value">A ulong.</param>
+            <returns>A BigInteger initialzed by <paramref name="value" />.</returns>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.op_Implicit(System.Int32)~MaxMind.DB.BigInteger">
+            <summary>
+            Creates a BigInteger from a int.
+            </summary>
+            <param name="value">A int.</param>
+            <returns>A BigInteger initialzed by <paramref name="value" />.</returns>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.op_Implicit(System.UInt32)~MaxMind.DB.BigInteger">
+            <summary>
+            Creates a BigInteger from a uint.
+            </summary>
+            <param name="value">A uint.</param>
+            <returns>A BigInteger initialzed by <paramref name="value" />.</returns>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.op_Addition(MaxMind.DB.BigInteger,MaxMind.DB.BigInteger)">
+            <summary>
+            Adds two BigIntegers and returns a new BigInteger that represents the sum.
+            </summary>
+            <param name="leftSide">A BigInteger</param>
+            <param name="rightSide">A BigInteger</param>
+            <returns>The BigInteger result of adding <paramref name="leftSide" /> and <paramref name="rightSide" />.</returns>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.Add(MaxMind.DB.BigInteger,MaxMind.DB.BigInteger)">
+            <summary>
+            Adds two BigIntegers and returns a new BigInteger that represents the sum.
+            </summary>
+            <param name="leftSide">A BigInteger</param>
+            <param name="rightSide">A BigInteger</param>
+            <returns>The BigInteger result of adding <paramref name="leftSide" /> and <paramref name="rightSide" />.</returns>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.op_Increment(MaxMind.DB.BigInteger)">
+            <summary>
+            Increments the BigInteger operand by 1.
+            </summary>
+            <param name="leftSide">The BigInteger operand.</param>
+            <returns>The value of <paramref name="leftSide" /> incremented by 1.</returns>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.Increment(MaxMind.DB.BigInteger)">
+            <summary>
+            Increments the BigInteger operand by 1.
+            </summary>
+            <param name="leftSide">The BigInteger operand.</param>
+            <returns>The value of <paramref name="leftSide" /> incremented by 1.</returns>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.op_Subtraction(MaxMind.DB.BigInteger,MaxMind.DB.BigInteger)">
+            <summary>
+            Substracts two BigIntegers and returns a new BigInteger that represents the sum.
+            </summary>
+            <param name="leftSide">A BigInteger</param>
+            <param name="rightSide">A BigInteger</param>
+            <returns>The BigInteger result of substracting <paramref name="leftSide" /> and <paramref name="rightSide" />.</returns>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.Subtract(MaxMind.DB.BigInteger,MaxMind.DB.BigInteger)">
+            <summary>
+            Substracts two BigIntegers and returns a new BigInteger that represents the sum.
+            </summary>
+            <param name="leftSide">A BigInteger</param>
+            <param name="rightSide">A BigInteger</param>
+            <returns>The BigInteger result of substracting <paramref name="leftSide" /> and <paramref name="rightSide" />.</returns>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.op_Decrement(MaxMind.DB.BigInteger)">
+            <summary>
+            Decrements the BigInteger operand by 1.
+            </summary>
+            <param name="leftSide">The BigInteger operand.</param>
+            <returns>The value of the <paramref name="leftSide" /> decremented by 1.</returns>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.Decrement(MaxMind.DB.BigInteger)">
+            <summary>
+            Decrements the BigInteger operand by 1.
+            </summary>
+            <param name="leftSide">The BigInteger operand.</param>
+            <returns>The value of the <paramref name="leftSide" /> decremented by 1.</returns>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.op_UnaryNegation(MaxMind.DB.BigInteger)">
+            <summary>
+            Negates the BigInteger, that is, if the BigInteger is negative return a positive BigInteger, and if the
+            BigInteger is negative return the postive.
+            </summary>
+            <param name="leftSide">A BigInteger operand.</param>
+            <returns>The value of the <paramref name="this" /> negated.</returns>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.Negate">
+            <summary>
+            Negates the BigInteger, that is, if the BigInteger is negative return a positive BigInteger, and if the
+            BigInteger is negative return the postive.
+            </summary>
+            <returns>The value of the <paramref name="this" /> negated.</returns>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.Abs(MaxMind.DB.BigInteger)">
+            <summary>
+            Creates a BigInteger absolute value of the operand.
+            </summary>
+            <param name="leftSide">A BigInteger.</param>
+            <returns>A BigInteger that represents the absolute value of <paramref name="leftSide" />.</returns>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.op_Multiply(MaxMind.DB.BigInteger,MaxMind.DB.BigInteger)">
+            <summary>
+            Multiply two BigIntegers returning the result.
+            </summary>
+            <remarks>
+            See Knuth.
+            </remarks>
+            <param name="leftSide">A BigInteger.</param>
+            <param name="rightSide">A BigInteger</param>
+            <returns></returns>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.Multiply(MaxMind.DB.BigInteger,MaxMind.DB.BigInteger)">
+            <summary>
+            Multiply two BigIntegers returning the result.
+            </summary>
+            <param name="leftSide">A BigInteger.</param>
+            <param name="rightSide">A BigInteger</param>
+            <returns></returns>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.op_Division(MaxMind.DB.BigInteger,MaxMind.DB.BigInteger)">
+            <summary>
+            Divide a BigInteger by another BigInteger and returning the result.
+            </summary>
+            <param name="leftSide">A BigInteger divisor.</param>
+            <param name="rightSide">A BigInteger dividend.</param>
+            <returns>The BigInteger result.</returns>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.Divide(MaxMind.DB.BigInteger,MaxMind.DB.BigInteger)">
+            <summary>
+            Divide a BigInteger by another BigInteger and returning the result.
+            </summary>
+            <param name="leftSide">A BigInteger divisor.</param>
+            <param name="rightSide">A BigInteger dividend.</param>
+            <returns>The BigInteger result.</returns>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.op_Modulus(MaxMind.DB.BigInteger,MaxMind.DB.BigInteger)">
+            <summary>
+            Perform the modulus of a BigInteger with another BigInteger and return the result.
+            </summary>
+            <param name="leftSide">A BigInteger divisor.</param>
+            <param name="rightSide">A BigInteger dividend.</param>
+            <returns>The BigInteger result.</returns>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.Modulus(MaxMind.DB.BigInteger,MaxMind.DB.BigInteger)">
+            <summary>
+            Perform the modulus of a BigInteger with another BigInteger and return the result.
+            </summary>
+            <param name="leftSide">A BigInteger divisor.</param>
+            <param name="rightSide">A BigInteger dividend.</param>
+            <returns>The BigInteger result.</returns>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.CompareTo(MaxMind.DB.BigInteger)">
+            <summary>
+            Compare this instance to a specified object and returns indication of their relative value.
+            </summary>
+            <param name="value">An object to compare, or a null reference (<b>Nothing</b> in Visual Basic).</param>
+            <returns>A signed number indicating the relative value of this instance and <i>value</i>.
+            <list type="table">
+            	<listheader>
+            		<term>Return Value</term>
+            		<description>Description</description>
+            	</listheader>
+            	<item>
+            		<term>Less than zero</term>
+            		<description>This instance is less than <i>value</i>.</description>
+            	</item>
+            	<item>
+            		<term>Zero</term>
+            		<description>This instance is equal to <i>value</i>.</description>
+            	</item>
+            	<item>
+            		<term>Greater than zero</term>
+            		<description>
+            			This instance is greater than <i>value</i>. 
+            			<para>-or-</para>
+            			<i>value</i> is a null reference (<b>Nothing</b> in Visual Basic).
+            		</description>
+            	</item>
+            </list>
+            </returns>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.Compare(MaxMind.DB.BigInteger,MaxMind.DB.BigInteger)">
+            <summary>
+            Compare two objects and return an indication of their relative value.
+            </summary>
+            <param name="leftSide">An object to compare, or a null reference (<b>Nothing</b> in Visual Basic).</param>
+            <param name="rightSide">An object to compare, or a null reference (<b>Nothing</b> in Visual Basic).</param>
+            <returns>A signed number indicating the relative value of this instance and <i>value</i>.
+            <list type="table">
+            	<listheader>
+            		<term>Return Value</term>
+            		<description>Description</description>
+            	</listheader>
+            	<item>
+            		<term>Less than zero</term>
+            		<description>This instance is less than <i>value</i>.</description>
+            	</item>
+            	<item>
+            		<term>Zero</term>
+            		<description>This instance is equal to <i>value</i>.</description>
+            	</item>
+            	<item>
+            		<term>Greater than zero</term>
+            		<description>
+            			This instance is greater than <i>value</i>. 
+            			<para>-or-</para>
+            			<i>value</i> is a null reference (<b>Nothing</b> in Visual Basic).
+            		</description>
+            	</item>
+            </list>
+            </returns>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.Equals(System.Object)">
+            <summary>
+            Determines whether two Object instances are equal.
+            </summary>
+            <param name="obj">An <see cref="T:System.Object">Object</see> to compare with this instance.</param>
+            <returns></returns>
+            <seealso cref="T:System.Object">System.Object</seealso> 
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.GetHashCode">
+            <summary>
+            Returns the hash code for this instance.
+            </summary>
+            <returns>A 32-bit signed integer has code.</returns>
+            <seealso cref="T:System.Object">System.Object</seealso> 
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.ToString">
+            <summary>
+            Converts the numeric value of this instance to its equivalent base 10 string representation.
+            </summary>
+            <returns>A <see cref="T:System.String">String</see> in base 10.</returns>
+            <seealso cref="T:System.Object">System.Object</seealso> 
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.ToString(System.Int32)">
+            <summary>
+            Converts the numeric value of this instance to its equivalent string representation in specified base.
+            </summary>
+            <param name="radix">Int radix between 2 and 36</param>
+            <returns>A string.</returns>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.ToHexString">
+            <summary>
+            Returns string in hexidecimal of the internal digit representation.
+            </summary>
+            <remarks>
+            This is not the same as ToString(16). This method does not return the sign, but instead
+            dumps the digits array into a string representation in base 16.
+            </remarks>
+            <returns>A string in base 16.</returns>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.ToInt16(MaxMind.DB.BigInteger)">
+            <summary>
+            Returns BigInteger as System.Int16 if possible.
+            </summary>
+            <param name="value"></param>
+            <returns>Int value of BigInteger</returns>
+            <exception cref="T:System.Exception">When BigInteger is too large to fit into System.Int16</exception>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.ToUInt16(MaxMind.DB.BigInteger)">
+            <summary>
+            Returns BigInteger as System.UInt16 if possible.
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+            <exception cref="T:System.Exception">When BigInteger is too large to fit into System.UInt16</exception>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.ToInt32(MaxMind.DB.BigInteger)">
+            <summary>
+            Returns BigInteger as System.Int32 if possible.
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+            <exception cref="T:System.Exception">When BigInteger is too large to fit into System.Int32</exception>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.ToUInt32(MaxMind.DB.BigInteger)">
+            <summary>
+            Returns BigInteger as System.UInt32 if possible.
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+            <exception cref="T:System.Exception">When BigInteger is too large to fit into System.UInt32</exception>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.ToInt64(MaxMind.DB.BigInteger)">
+            <summary>
+            Returns BigInteger as System.Int64 if possible.
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+            <exception cref="T:System.Exception">When BigInteger is too large to fit into System.Int64</exception>
+        </member>
+        <member name="M:MaxMind.DB.BigInteger.ToUInt64(MaxMind.DB.BigInteger)">
+            <summary>
+            Returns BigInteger as System.UInt64 if possible.
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+            <exception cref="T:System.Exception">When BigInteger is too large to fit into System.UInt64</exception>
+        </member>
+        <member name="P:MaxMind.DB.BigInteger.IsNegative">
+            <summary>
+            A bool value that is true when the BigInteger is negative (less than zero).
+            </summary>
+            <value>
+            A bool value that is true when the BigInteger is negative (less than zero).
+            </value>
+        </member>
+        <member name="P:MaxMind.DB.BigInteger.IsZero">
+            <summary>
+            A bool value that is true when the BigInteger is exactly zero.
+            </summary>
+            <value>
+            A bool value that is true when the BigInteger is exactly zero.
+            </value>
+        </member>
+        <member name="T:MaxMind.DB.ObjectType">
+            <summary>
+            Enumeration representing the types of objects read from the database
+            </summary>
+        </member>
+        <member name="T:MaxMind.DB.Result">
+            <summary>
+            A data structure to store an object read from the database
+            </summary>
+        </member>
+        <member name="M:MaxMind.DB.Result.#ctor(Newtonsoft.Json.Linq.JToken,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MaxMind.DB.Result"/> class.
+            </summary>
+            <param name="node">The node.</param>
+            <param name="offset">The offset.</param>
+        </member>
+        <member name="P:MaxMind.DB.Result.Node">
+            <summary>
+            The object read from the database
+            </summary>
+        </member>
+        <member name="P:MaxMind.DB.Result.Offset">
+            <summary>
+            The offset
+            </summary>
+        </member>
+        <member name="T:MaxMind.DB.Decoder">
+            <summary>
+            Given a stream, this class decodes the object graph at a particular location
+            </summary>
+        </member>
+        <member name="M:MaxMind.DB.Decoder.#ctor(System.Threading.ThreadLocal{System.IO.Stream},System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MaxMind.DB.Decoder"/> class.
+            </summary>
+            <param name="stream">The stream.</param>
+            <param name="pointerBase">The base address in the stream.</param>
+        </member>
+        <member name="M:MaxMind.DB.Decoder.Decode(System.Int32)">
+            <summary>
+            Decodes the object at the specified offset.
+            </summary>
+            <param name="offset">The offset.</param>
+            <returns>An object containing the data read from the stream</returns>
+        </member>
+        <member name="M:MaxMind.DB.Decoder.ReadOne(System.Int32)">
+            <summary>
+            Reads the one.
+            </summary>
+            <param name="position">The position.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MaxMind.DB.Decoder.ReadMany(System.Int32,System.Int32)">
+            <summary>
+            Reads the many.
+            </summary>
+            <param name="position">The position.</param>
+            <param name="size">The size.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MaxMind.DB.Decoder.DecodeByType(MaxMind.DB.ObjectType,System.Int32,System.Int32)">
+            <summary>
+            Decodes the type of the by.
+            </summary>
+            <param name="type">The type.</param>
+            <param name="offset">The offset.</param>
+            <param name="size">The size.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception">Unable to handle type!</exception>
+        </member>
+        <member name="M:MaxMind.DB.Decoder.FromControlByte(System.Byte)">
+            <summary>
+            Froms the control byte.
+            </summary>
+            <param name="b">The attribute.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MaxMind.DB.Decoder.SizeFromCtrlByte(System.Byte,System.Int32)">
+            <summary>
+            Sizes from control byte.
+            </summary>
+            <param name="ctrlByte">The control byte.</param>
+            <param name="offset">The offset.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MaxMind.DB.Decoder.DecodeBoolean(System.Int32)">
+            <summary>
+            Decodes the boolean.
+            </summary>
+            <param name="size">The size of the structure.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MaxMind.DB.Decoder.DecodeDouble(System.Byte[])">
+            <summary>
+            Decodes the double.
+            </summary>
+            <param name="buffer">The buffer.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MaxMind.DB.Decoder.DecodeFloat(System.Byte[])">
+            <summary>
+            Decodes the float.
+            </summary>
+            <param name="buffer">The buffer.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MaxMind.DB.Decoder.DecodeString(System.Byte[])">
+            <summary>
+            Decodes the string.
+            </summary>
+            <param name="buffer">The buffer.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MaxMind.DB.Decoder.DecodeMap(System.Int32,System.Int32)">
+            <summary>
+            Decodes the map.
+            </summary>
+            <param name="size">The size.</param>
+            <param name="offset">The offset.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MaxMind.DB.Decoder.DecodeLong(System.Byte[])">
+            <summary>
+            Decodes the long.
+            </summary>
+            <param name="buffer">The buffer.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MaxMind.DB.Decoder.DecodeIntegerToJValue(System.Byte[])">
+            <summary>
+            Decodes the integer.
+            </summary>
+            <param name="buffer">The buffer.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MaxMind.DB.Decoder.DecodeArray(System.Int32,System.Int32)">
+            <summary>
+            Decodes the array.
+            </summary>
+            <param name="size">The size.</param>
+            <param name="offset">The offset.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MaxMind.DB.Decoder.DecodeUInt64(System.Byte[])">
+            <summary>
+            Decodes the uint64.
+            </summary>
+            <param name="buffer">The buffer.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MaxMind.DB.Decoder.DecodeBigInteger(System.Byte[])">
+            <summary>
+            Decodes the big integer.
+            </summary>
+            <param name="buffer">The buffer.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MaxMind.DB.Decoder.DecodePointer(System.Int32,System.Int32,System.Int32@)">
+            <summary>
+            Decodes the pointer.
+            </summary>
+            <param name="ctrlByte">The control byte.</param>
+            <param name="offset">The offset.</param>
+            <param name="outOffset">The resulting offset</param>
+            <returns></returns>
+        </member>
+        <member name="M:MaxMind.DB.Decoder.DecodeInteger(System.Byte[])">
+            <summary>
+            Decodes the integer.
+            </summary>
+            <param name="buffer">The buffer.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MaxMind.DB.Decoder.DecodeInteger(System.Int32,System.Byte[])">
+            <summary>
+            Decodes the integer.
+            </summary>
+            <param name="baseValue">The base value.</param>
+            <param name="buffer">The buffer.</param>
+            <returns></returns>
+        </member>
+        <member name="T:MaxMind.DB.InvalidDatabaseException">
+            <summary>
+            Thrown when the MaxMind database file is incorrectly formatted
+            </summary>
+        </member>
+        <member name="M:MaxMind.DB.InvalidDatabaseException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MaxMind.DB.InvalidDatabaseException"/> class.
+            </summary>
+            <param name="message">A message that describes the error.</param>
+        </member>
+        <member name="M:MaxMind.DB.InvalidDatabaseException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MaxMind.DB.InvalidDatabaseException"/> class.
+            </summary>
+            <param name="message">The error message that explains the reason for the exception.</param>
+            <param name="innerException">The exception that is the cause of the current exception. If the <paramref name="innerException"/> parameter is not a null reference, the current exception is raised in a catch block that handles the inner exception.</param>
+        </member>
+        <member name="T:MaxMind.DB.FileAccessMode">
+            <summary>
+            An enumeration specifying the API to use to read the database
+            </summary>
+        </member>
+        <member name="T:MaxMind.DB.Reader">
+            <summary>
+            Given a MaxMind DB file, this class will retrieve information about an IP address
+            </summary>
+        </member>
+        <member name="M:MaxMind.DB.Reader.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MaxMind.DB.Reader"/> class.
+            </summary>
+            <param name="file">The file.</param>
+        </member>
+        <member name="M:MaxMind.DB.Reader.#ctor(System.String,MaxMind.DB.FileAccessMode)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MaxMind.DB.Reader"/> class.
+            </summary>
+            <param name="file">The MaxMind DB file.</param>
+            <param name="mode">The mode by which to access the DB file.</param>
+        </member>
+        <member name="M:MaxMind.DB.Reader.Find(System.String)">
+            <summary>
+            Finds the data related to the specified address.
+            </summary>
+            <param name="address">The IP address.</param>
+            <returns>An object containing the IP related data</returns>
+        </member>
+        <member name="M:MaxMind.DB.Reader.Find(System.Net.IPAddress)">
+            <summary>
+            Finds the data related to the specified address.
+            </summary>
+            <param name="address">The IP address.</param>
+            <returns>An object containing the IP related data</returns>
+        </member>
+        <member name="P:MaxMind.DB.Reader.Metadata">
+            <summary>
+            Gets the metadata.
+            </summary>
+            <value>
+            The metadata.
+            </value>
+        </member>
+        <member name="T:MaxMind.DB.Metadata">
+            <summary>
+            Data about the database file itself
+            </summary>
+        </member>
+    </members>
+</doc>

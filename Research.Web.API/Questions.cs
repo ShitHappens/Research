@@ -52,6 +52,33 @@ namespace Research.Web
         }
 
         [AuthMethod]
+        public static void GetSubjects(Method mi)
+        {
+            JArray jSubjects = new JArray();
+            BO.Theme.Result types = BO.Theme.GetAll(new BO.Theme.Filter());
+
+            foreach (BO.Theme.Result type in types)
+            {
+                JObject jSubject = new JObject();
+
+                jSubject["ID"] = type.pk;
+                jSubject["Description"] = type.str_name;
+                jSubjects.Add(jSubject);
+            }
+            mi.Result["Subjects"] = jSubjects;
+        }
+
+        [AuthMethod]
+        public static void SetSubject(Method mi)
+        {
+            string text = mi.Args["Text"].ToString();
+            BO.Theme.Filter f = new BO.Theme.Filter();
+            f.str_name = text;
+
+            BO.Theme.Set(f);
+        }
+
+        [AuthMethod]
         public static void GetQuestionByType(Method mi)
         {
             int typeId = mi.Args["TypeID"].Value<int>();
@@ -208,6 +235,53 @@ namespace Research.Web
                 dcm_complexity = complexity
             });
 
+            mi.ErrorCode = 0;
+        }
+
+        [AuthMethod]
+        public static void GetQuestions(Method mi)
+        {
+            string complexity = mi.Args["Complexity"].ToString();
+            int subjID = mi.Args["SubjectID"].Value<int>();
+            int numberOfQuestions;
+            if (!string.IsNullOrEmpty(mi.Args["NumberOfQuestions"].ToString()))
+                numberOfQuestions = mi.Args["NumberOfQuestions"].Value<int>();
+            else
+                numberOfQuestions = 10; 
+            BO.Question.Result questions = BO.Question.Get(new BO.Question.Filter()
+            {
+                fk_theme = subjID,
+                pagesize = numberOfQuestions,
+                page = 1
+            
+            });
+
+            JArray jQuestions = new JArray();
+
+            foreach(BO.Question.Result question in questions)
+            {
+                JObject jq = new JObject();
+                jq["ID"] = question.pk;
+                jq["Text"] = question.str_text;
+                jq["Type"] = question.fk_type;
+
+                JArray jAnswers = new JArray();
+                BO.Answer.Result answers = BO.Answer.GetAll(new BO.Answer.Filter() { fk_question = question.pk });
+                foreach(BO.Answer.Result answer in answers)
+                {
+                    JObject jAnswer = new JObject();
+                    jAnswer["ID"] = answer.pk;
+                    jAnswer["Text"] = answer.str_text;
+
+                    jAnswers.Add(jAnswer);
+                }
+
+                jq["Answers"] = jAnswers;
+
+                jQuestions.Add(jq);
+            }
+
+            mi.Result["Questions"] = jQuestions;
             mi.ErrorCode = 0;
         }
 

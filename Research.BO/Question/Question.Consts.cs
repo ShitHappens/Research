@@ -34,6 +34,13 @@ namespace Research.BO
             public abstract class RetCode
             {
             }
+
+            public enum Mark
+            {
+                A = 5,
+                B = 4,
+                C = 3
+            }
         }
     }
 }

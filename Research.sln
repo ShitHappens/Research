@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Research.Logic", "Research.Logic\Research.Logic.csproj", "{8920A4F9-8BC9-44CF-A05C-C4E04E15ED2D}"
 EndProject
@@ -30,6 +30,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Research.Web", "Research.Web\Research.Web.csproj", "{54A75AF0-CBA6-4400-AF19-33FC957AB6FE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Research.Web.API", "Research.Web.API\Research.Web.API.csproj", "{B0A0ED69-2725-4B8B-844F-EA69E203DA51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Research.Model", "Research.Model\Research.Model.csproj", "{EDBAB75F-0191-4C3E-812E-6A30C06345CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{B0A0ED69-2725-4B8B-844F-EA69E203DA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0A0ED69-2725-4B8B-844F-EA69E203DA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0A0ED69-2725-4B8B-844F-EA69E203DA51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDBAB75F-0191-4C3E-812E-6A30C06345CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDBAB75F-0191-4C3E-812E-6A30C06345CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDBAB75F-0191-4C3E-812E-6A30C06345CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDBAB75F-0191-4C3E-812E-6A30C06345CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

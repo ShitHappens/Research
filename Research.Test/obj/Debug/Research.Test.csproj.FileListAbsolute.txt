@@ -52,3 +52,5 @@ C:\_\Research\Research.Test\bin\Debug\MaxMind.GeoIP2.xml
 C:\_\Research\Research.Test\bin\Debug\Newtonsoft.Json.xml
 C:\_\Research\Research.Test\bin\Debug\RestSharp.xml
 C:\_\Research\Research.Test\obj\Debug\Research.Test.csprojResolveAssemblyReference.cache
+C:\_\Research\Research.Test\bin\Debug\Research.Model.dll
+C:\_\Research\Research.Test\bin\Debug\Research.Model.pdb

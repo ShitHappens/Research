@@ -1,0 +1,9 @@
+2015-12-14 18:39:58,693 INFO  File: Research.Web started
+2015-12-14 19:00:58,598 INFO  File: Cardport.Pro.Web stopped
+2015-12-14 19:39:32,137 INFO  File: Research.Web started
+2015-12-14 20:00:41,681 INFO  File: Cardport.Pro.Web stopped
+2015-12-14 20:05:40,059 INFO  File: Research.Web started
+2015-12-14 20:20:13,832 INFO  File: Cardport.Pro.Web stopped
+2015-12-14 21:15:18,842 INFO  File: Research.Web started
+2015-12-14 21:36:19,613 INFO  File: Cardport.Pro.Web stopped
+2015-12-14 23:50:25,786 INFO  File: Research.Web started

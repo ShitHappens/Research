@@ -1,0 +1,10 @@
+C:\_\Research\ndht\ndht\Dreams.Dht\TestNode\obj\Debug\TestNode.csprojResolveAssemblyReference.cache
+C:\_\Research\ndht\ndht\Dreams.Dht\TestNode\obj\Debug\TestNode.Form1.resources
+C:\_\Research\ndht\ndht\Dreams.Dht\TestNode\obj\Debug\TestNode.Properties.Resources.resources
+C:\_\Research\ndht\ndht\Dreams.Dht\TestNode\obj\Debug\TestNode.csproj.GenerateResource.Cache
+C:\_\Research\ndht\ndht\Dreams.Dht\TestNode\bin\Debug\TestNode.exe
+C:\_\Research\ndht\ndht\Dreams.Dht\TestNode\bin\Debug\TestNode.pdb
+C:\_\Research\ndht\ndht\Dreams.Dht\TestNode\bin\Debug\Dreams.Dht.dll
+C:\_\Research\ndht\ndht\Dreams.Dht\TestNode\bin\Debug\Dreams.Dht.pdb
+C:\_\Research\ndht\ndht\Dreams.Dht\TestNode\obj\Debug\TestNode.exe
+C:\_\Research\ndht\ndht\Dreams.Dht\TestNode\obj\Debug\TestNode.pdb

@@ -101,6 +101,10 @@
       <Project>{8920a4f9-8bc9-44cf-a05c-c4e04e15ed2d}</Project>
       <Name>Research.Logic</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Research.Model\Research.Model.csproj">
+      <Project>{edbab75f-0191-4c3e-812e-6a30c06345cb}</Project>
+      <Name>Research.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

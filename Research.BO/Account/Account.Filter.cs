@@ -34,6 +34,11 @@ namespace Research.BO
                 get { return (String)this[Consts.str_email]; }
             }
 
+            public String str_name
+            {
+                set { this[Consts.str_name] = value; }
+                get { return (String)this[Consts.str_name]; }
+            }
 
             public String str_password
             {

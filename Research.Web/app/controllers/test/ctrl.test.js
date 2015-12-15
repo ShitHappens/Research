@@ -1,13 +1,15 @@
 ﻿function TestCtrl($scope, ajax, $location) {
     
     $scope.types = [];
+    $scope.subjects = [];
     $scope.answers = [];
     $scope.questionIds = [];
     $scope.tryTest = false;
     $scope.question;
+    $scope.questions = [];
 
     $scope.init = function () {
-        GetTypes();
+        GetSubjects();
     }
 
     function GetTypes() {
@@ -30,6 +32,32 @@
                     }
 
                     $scope.types = types1;
+
+                }
+            }
+        });
+    }
+
+    function GetSubjects() {
+
+        var method = { Name: 'Questions.GetSubjects' };
+
+        var subjs = [];
+
+        ajax.send({
+            Method: method,
+            Callback: function (data) {
+
+                var subjects = data[0].Result.Subjects;
+
+                if (subjects !== undefined) {
+
+                    for (var i = 0; i < subjects.length; i++) {
+                        var subj = subjects[i];
+                        subjs.push(subj);
+                    }
+
+                    $scope.subjects = subjs;
 
                 }
             }
@@ -106,6 +134,51 @@
                 }
             }
         });
+    }
+
+    $scope.GetQuestions = function (ID) {
+        var numberOfQuestions = $('#' + ID).val();
+        var сomplexity = $('select option:selected').val();
+        var id = ID;
+
+        var method = {
+            Name: 'Questions.GetQuestions',
+            Args: {
+                NumberOfQuestions: numberOfQuestions,
+                Complexity: сomplexity,
+                SubjectID: ID
+            }
+        }
+
+        ajax.send({
+            Method: method,
+            Callback: function (data) {
+                if (data[0].Result.Error.Code === 0) {
+                    $scope.questions = data[0].Result.Questions;
+                    $scope.answers = $scope.questions.Answers;
+
+                    //if (!$scope.questionIds.contains(data[0].Result.Question.ID))
+                    //    $scope.questionIds.push(data[0].Result.Question.ID);
+                    //var answers1 = [];
+
+                    //for (var i = 0; i < answers.length; i++) {
+                    //    answers1.push(answers[i]);
+                    //}
+
+                    //$scope.answers = answers1;
+
+                    $scope.tryTest = true;
+                }
+                else {
+                    //alert(data[0].Result.Error.Message);
+                    $scope.question = {};
+                    $scope.answers = [];
+                    $location.path('/profile');
+                }
+            }
+        });
+
+
     }
 
     Array.prototype.contains = function (obj) {

@@ -1,4 +1,4 @@
-﻿function QuestionCtrl($scope, ajax, $location, $element) {
+﻿function QuestionCtrl($scope, ajax, $location, $element, $route) {
 
     $scope.types = [];
     $scope.categories = [];
@@ -18,7 +18,7 @@
         });
     }
 
-    $scope.CreateQuestion = function()
+    $scope.CreateQuestion = function ()
     {
         var text = angular.element('#questionInput').val();
         var type = angular.element('#type option:selected').val();
@@ -42,6 +42,29 @@
                     if (data[0].Result.Error.Code === 0) {
                         angular.element('#questionInput').val('');
                         angular.element('#complexity').val('');
+                    }
+                }
+            });
+        }
+    }
+
+    $scope.CreateSubject = function () {
+        var text = angular.element('#subjectInput').val();
+
+        if (text !== '') {
+            var method = {
+                Name: 'Questions.SetSubject',
+                Args: {
+                    Text: text,
+                }
+            };
+
+            ajax.send({
+                Method: method,
+                Callback: function (data) {
+                    if (data[0].Result.Error.Code === 0) {
+                        angular.element('#subjectInput').val('');
+                        $scope.init();
                     }
                 }
             });

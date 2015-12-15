@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreams.Dht", "Dreams.Dht\Dreams.Dht.csproj", "{6C51C762-B197-416D-92D3-206300F2F480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNode", "TestNode\TestNode.csproj", "{B5C34BC2-077B-4906-8A3C-C078ECDED4E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C51C762-B197-416D-92D3-206300F2F480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C51C762-B197-416D-92D3-206300F2F480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C51C762-B197-416D-92D3-206300F2F480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C51C762-B197-416D-92D3-206300F2F480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5C34BC2-077B-4906-8A3C-C078ECDED4E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5C34BC2-077B-4906-8A3C-C078ECDED4E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5C34BC2-077B-4906-8A3C-C078ECDED4E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5C34BC2-077B-4906-8A3C-C078ECDED4E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

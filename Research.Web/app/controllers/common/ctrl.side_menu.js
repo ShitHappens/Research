@@ -24,6 +24,9 @@
             case $urls.Question():
                 angular.element('#question').addClass('active');
                 break
+            case $urls.Students():
+                angular.element('#students').addClass('active');
+                break
             case $urls.Profile():
                 angular.element('#profile').addClass('active');
                 break

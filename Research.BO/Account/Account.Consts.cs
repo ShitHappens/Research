@@ -15,6 +15,8 @@ namespace Research.BO
 
             public const string str_email = "str_email";
 
+            public const string str_name = "str_name";
+
             public const string str_password = "str_password";
 
             public const string dcm_avg_rating = "dcm_avg_rating";
@@ -25,10 +27,10 @@ namespace Research.BO
 
             public const string dt_updated = "dt_updated";
 
-            public enum Type
+            public enum AccountType
             {
-                User = 0,
-                Admin = 1
+                Admin = 0,
+                Student = 1,
             }
             public abstract class Sort
             {
