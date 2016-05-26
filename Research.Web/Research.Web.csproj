@@ -118,6 +118,7 @@
     <Content Include="css\style.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="ImageHandler.aspx" />
     <Content Include="img\26115.jpg" />
     <Content Include="img\favicon.png" />
     <Content Include="js\angularjs\angular-route-segment.js" />
@@ -148,8 +149,18 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="FileHandler.ashx.cs">
+      <DependentUpon>FileHandler.ashx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="ImageHandler.aspx.cs">
+      <DependentUpon>ImageHandler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImageHandler.aspx.designer.cs">
+      <DependentUpon>ImageHandler.aspx</DependentUpon>
     </Compile>
     <Compile Include="js\config.aspx.cs">
       <DependentUpon>config.aspx</DependentUpon>
@@ -170,6 +181,7 @@
     <Content Include="config\processing.config" />
     <Content Include="config\web.config" />
     <Content Include="packages.config" />
+    <Content Include="FileHandler.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -179,6 +191,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\directives\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Research.BO\Research.BO.csproj">
+      <Project>{47d0a571-f287-42eb-af51-1e04e2f8d82e}</Project>
+      <Name>Research.BO</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

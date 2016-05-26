@@ -25,6 +25,7 @@ namespace Research.BO
 
             public const string dcm_complexity = "dcm_complexity";
 
+            public const string bin_image = "bin_image";
 
             public abstract class Sort
             {

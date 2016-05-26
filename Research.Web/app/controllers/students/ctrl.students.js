@@ -37,6 +37,6 @@
                 $("#mark").val('');
                 GetStudents();
             }
-        });
+        }); 
     }
 }

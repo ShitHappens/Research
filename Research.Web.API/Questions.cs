@@ -226,15 +226,16 @@ namespace Research.Web
             decimal complexity = 0m;
             decimal.TryParse(cmplx, out complexity);
 
-            BO.Question.Set(new BO.Question.Filter()
+            var q = (int)BO.Question.Set(new BO.Question.Filter()
             {
                 str_text = text,
                 fk_theme = theme,
                 fk_type = type,
                 int_time = 60,
                 dcm_complexity = complexity
-            });
+            }).Scalar;
 
+            mi.Result["ID"] = q;
             mi.ErrorCode = 0;
         }
 
@@ -253,7 +254,8 @@ namespace Research.Web
                 fk_theme = subjID,
                 pagesize = numberOfQuestions,
                 page = 1
-            
+                //pk = 9
+
             });
 
             JArray jQuestions = new JArray();
