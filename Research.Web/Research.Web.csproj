@@ -129,7 +129,8 @@
     <Content Include="js\FileSaver.min.js" />
     <Content Include="js\jquery\jquery-ui-1.10.3.min.js" />
     <Content Include="js\jquery\jquery.min.js" />
-    <Content Include="js\jspdf.js" />
+    <Content Include="js\pdfmake.min.js" />
+    <Content Include="js\vfs_fonts.js" />
     <Content Include="templates\dashboard\common.html" />
     <Content Include="templates\master\site.html" />
     <Content Include="templates\master\start.html" />
