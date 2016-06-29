@@ -47,18 +47,17 @@
             </header>
             <div class="panel-body">
                 <form class="form-horizontal tasi-form" method="get">
-
-                    <div class="form-group" ng-repeat="q in questions">
+                    <div class="form-group question" ng-repeat="q in questions">
                         <label class="col-sm-2 control-label col-lg-2" for="inputSuccess">{{q.Text}}</label>
                         <div class="col-lg-10">
-                            <div class="radio" ng-repeat="a in q.Answers">
-                                <label>{{a.Text}}
-                                    <input type="radio" name="a.ID" checked=""/>
-                                </label>
+                            <div ng-repeat="a in q.Answers">
+                                {{a.Text}}
+                                <input id="{{a.ID}}" type="radio" name="{{q.ID}}"  checked=""/>
                             </div>                           
                         </div>
+                        <hr />
                     </div>
-                    <button type="submit" class="btn btn-success" style="margin-top: 20px;" ng-click="">Submit</button>
+                    <button type="submit" class="btn btn-success" style="margin-top: 20px;" ng-click="SubmitTest();">Submit</button>
                 </form>
             </div>
         </section>

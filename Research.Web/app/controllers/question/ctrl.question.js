@@ -24,6 +24,14 @@
         var type = angular.element('#type option:selected').val();
         var category = angular.element('#category option:selected').val();
         var complexity = angular.element('#complexity').val();
+        var answer1 = angular.element('#answerInput1').val();
+        var answer2 = angular.element('#answerInput2').val();
+        var answer3 = angular.element('#answerInput3').val();
+        var answer4 = angular.element('#answerInput4').val();
+        var score1 = angular.element('#score1').val();
+        var score2 = angular.element('#score2').val();
+        var score3 = angular.element('#score3').val();
+        var score4 = angular.element('#score4').val();
 
         //var reader = new FileReader();
         if (text !== '') {
@@ -34,6 +42,11 @@
                     Type: type,
                     Category: category,
                     Complexity: complexity,
+                    Ans1: { text: answer1, score: score1 },
+                    Ans2: { text: answer2, score: score2 },
+                    Ans3: { text: answer3, score: score3 },
+                    Ans4: { text: answer4, score: score4 },
+
                 }
             };
 
@@ -43,6 +56,10 @@
                     if (data[0].Result.Error.Code === 0) {
                         angular.element('#questionInput').val('');
                         angular.element('#complexity').val('');
+                        angular.element('#answerInput1').val('');
+                        angular.element('#answerInput2').val('');
+                        angular.element('#answerInput3').val('');
+                        angular.element('#answerInput4').val('');
                         var id = data[0].Result.ID;
                         var file = $('#txtUploadFile')[0].files[0];
                         if (file != null && file != undefined && id > 0) {

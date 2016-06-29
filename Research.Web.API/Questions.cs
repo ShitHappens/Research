@@ -226,6 +226,11 @@ namespace Research.Web
             decimal complexity = 0m;
             decimal.TryParse(cmplx, out complexity);
 
+            JObject janswer1 = (JObject)mi.Args["Ans1"];
+            JObject janswer2 = (JObject)mi.Args["Ans2"];
+            JObject janswer3 = (JObject)mi.Args["Ans3"];
+            JObject janswer4 = (JObject)mi.Args["Ans4"];
+
             var q = (int)BO.Question.Set(new BO.Question.Filter()
             {
                 str_text = text,
@@ -235,6 +240,42 @@ namespace Research.Web
                 dcm_complexity = complexity
             }).Scalar;
 
+            if (janswer1 != null)
+            {
+                BO.Answer.Set(new BO.Answer.Filter()
+                {
+                    str_text = janswer1["text"].ToString(),
+                    dcm_mark = (int)janswer1["score"],
+                    fk_question = q
+                });
+            }
+            if (janswer2 != null)
+            {
+                BO.Answer.Set(new BO.Answer.Filter()
+                {
+                    str_text = janswer2["text"].ToString(),
+                    dcm_mark = (int)janswer2["score"],
+                    fk_question = q
+                });
+            }
+            if (janswer3 != null)
+            {
+                BO.Answer.Set(new BO.Answer.Filter()
+                {
+                    str_text = janswer3["text"].ToString(),
+                    dcm_mark = (int)janswer3["score"],
+                    fk_question = q
+                });
+            }
+            if (janswer4 != null && !string.IsNullOrEmpty(janswer4["text"].ToString()))
+            {
+                BO.Answer.Set(new BO.Answer.Filter()
+                {
+                    str_text = janswer4["text"].ToString(),
+                    dcm_mark = (int)janswer4["score"],
+                    fk_question = q
+                });
+            }
             mi.Result["ID"] = q;
             mi.ErrorCode = 0;
         }
@@ -244,11 +285,11 @@ namespace Research.Web
         {
             string complexity = mi.Args["Complexity"].ToString();
             int subjID = mi.Args["SubjectID"].Value<int>();
-            int numberOfQuestions;
-            if (!string.IsNullOrEmpty(mi.Args["NumberOfQuestions"].ToString()))
+            string qtyNumber = mi.Args["NumberOfQuestions"].ToString();
+            int numberOfQuestions = 10;
+            if (!string.IsNullOrEmpty(qtyNumber))
                 numberOfQuestions = mi.Args["NumberOfQuestions"].Value<int>();
-            else
-                numberOfQuestions = 10; 
+
             BO.Question.Result questions = BO.Question.Get(new BO.Question.Filter()
             {
                 fk_theme = subjID,

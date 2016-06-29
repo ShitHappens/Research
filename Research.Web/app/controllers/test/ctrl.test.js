@@ -181,7 +181,57 @@
 
     }
 
-    Array.prototype.contains = function (obj) {
+    $scope.SubmitTest = function (ID) {
+        var questions = $(".question");
+        var totalScore = questions.length;
+
+        var answersIds = [];
+
+        var answers = $("input[type='radio']:checked");
+
+        for (var i = 0; i < answers.length; i++) {
+            var scoreId = answers[i].id;
+            answersIds.push(scoreId);
+        }
+
+        var method = {
+            Name: 'Test.Submit',
+            Args: {
+                UserID: localStorage['UserID'],
+                AnswerIDs: answersIds,
+                Score: totalScore
+            }
+        }
+
+        ajax.send({
+            Method: method,
+            Callback: function (data) {
+                if (data[0].Result.Error.Code === 0) {
+                    var mark = data[0].Result.Mark;
+                    var userName = data[0].Result.UserName;
+                    var passed;
+                    if (mark > 60)
+                        passed = userName + ' допущеный до екзамену з результатом' + mark;
+                    else
+                        passed = userName + ' НЕ допущеный до екзамену з результатом ' + mark + '.';
+
+                    var doc = {
+                        content: [
+                          { text: 'Результати тестування', fontSize: 15, style: { alignment: 'center' } },
+                          {
+                              text: passed, fontSize: 12
+                          }
+                        ]
+                    };
+
+                    pdfMake.createPdf(doc).download();
+                    alert('Your mark is: ' + mark);
+                }
+            }
+        });
+    }
+
+    Array.prototype.contains = function (obj) {s
         var i = this.length;
         while (i--) {
             if (this[i] === obj) {

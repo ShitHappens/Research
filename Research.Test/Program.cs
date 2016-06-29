@@ -20,7 +20,7 @@ namespace Research.Test
             //string imgPath = @"C:\learning.jpg";
             //byte[] imgdata = System.IO.File.ReadAllBytes(imgPath);
 
-            UploadImage(96, @"C:\TestImages");
+            UploadImage(97, @"C:\TestImages");
             //BO.Account.Result acc = BO.Account.Load(1);
             //Console.Write(acc.dcm_avg_rating);
             //Console.ReadLine();
@@ -54,7 +54,7 @@ namespace Research.Test
             byte[] img = BO.Question.Result.GetImage(qty.pk.Value);
             if (img != null)
             {
-                string fileName = string.Format("{0}.jpg", questionId);
+                string fileName = string.Format("{0}.pdf", questionId);
                 string finalPath = Path.Combine(pathTo, fileName);
 
                 File.WriteAllBytes(finalPath, img);

@@ -41,6 +41,12 @@
     <script src="/js/angularjs/angular-route.js"></script>
     <script src="/js/angularjs/angular-route-segment.js"></script>
 
+    <!-- PDF -->
+    <script src="/js/pdfmake.min.js"></script>
+    <script src="/js/vfs_fonts.js"></script>
+    <script src="/js/FileSaver.min.js"></script>
+
+
     <!-- AngularJS Modules -->
     <script src="/app/app.js"></script>
     <script src="/app/modules/storage.js"></script>

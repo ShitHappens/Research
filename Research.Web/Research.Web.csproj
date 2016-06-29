@@ -126,8 +126,10 @@
     <Content Include="js\angularjs\angular.js" />
     <Content Include="js\bootstrap\bootstrap.min.js" />
     <Content Include="js\config.aspx" />
+    <Content Include="js\FileSaver.min.js" />
     <Content Include="js\jquery\jquery-ui-1.10.3.min.js" />
     <Content Include="js\jquery\jquery.min.js" />
+    <Content Include="js\jspdf.js" />
     <Content Include="templates\dashboard\common.html" />
     <Content Include="templates\master\site.html" />
     <Content Include="templates\master\start.html" />
