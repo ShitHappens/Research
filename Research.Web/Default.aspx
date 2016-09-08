@@ -46,7 +46,6 @@
     <script src="/js/vfs_fonts.js"></script>
     <script src="/js/FileSaver.min.js"></script>
 
-
     <!-- AngularJS Modules -->
     <script src="/app/app.js"></script>
     <script src="/app/modules/storage.js"></script>
@@ -66,7 +65,6 @@
     <script src="/app/controllers/start/ctrl.register.js"></script>
 <%--    <script src="/app/controllers/start/ctrl.passwordRequest.js"></script>
     <script src="/app/controllers/start/ctrl.email.confirm.js"></script>--%>
-
 
         <!-- Site -->
     <script src="/app/controllers/site/ctrl.header.js"></script>

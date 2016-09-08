@@ -108,7 +108,7 @@ namespace Research.Web
                         {
                             str_email = email,
                             str_password = password,
-                            int_accounttype = (int)BO.Account.Consts.AccountType.Admin
+                            int_accounttype = (int)BO.Account.Consts.AccountType.Operator
                         });
                 }
                 catch (Exception ex)

@@ -29,8 +29,9 @@ namespace Research.BO
 
             public enum AccountType
             {
-                Admin = 0,
+                Operator = 0,
                 Student = 1,
+                Analyst = 2
             }
             public abstract class Sort
             {

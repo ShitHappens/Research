@@ -1,5 +1,8 @@
 ﻿function SideMenuCtrl($scope, $location, $element, $urls, ajax, eventService, $rootScope, $routeParams, $window) {
 
+    $scope.Email;
+    $scope.AccountType;
+
     $scope.$watch('$location', function () {
         HighLight($location.path());
     });
@@ -42,6 +45,7 @@
             Callback: function (data) {
                 var user = data[0].Result.Account;
                 $scope.Email = user.Email;
+                $scope.AccountType = user.Type;
             }
         });
     }
