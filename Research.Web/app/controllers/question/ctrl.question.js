@@ -60,8 +60,30 @@
                         angular.element('#answerInput2').val('');
                         angular.element('#answerInput3').val('');
                         angular.element('#answerInput4').val('');
-                        var id = data[0].Result.ID;
+                    }
+                }
+            });
+        }
+    }
+
+    $scope.CreateSubject = function () {
+        var text = angular.element('#subjectInput').val();
+
+        if (text !== '') {
+            var method = {
+                Name: 'Questions.SetSubject',
+                Args: {
+                    Text: text,
+                }
+            };
+
+            ajax.send({
+                Method: method,
+                Callback: function (data) {
+                    if (data[0].Result.Error.Code === 0) {
+                        angular.element('#subjectInput').val('');
                         var file = $('#txtUploadFile')[0].files[0];
+                        var id = data[0].Result.ID;
                         if (file != null && file != undefined && id > 0) {
                             var formData = new FormData();
                             formData.append('file', file);
@@ -86,28 +108,6 @@
 
                             });
                         }
-                    }
-                }
-            });
-        }
-    }
-
-    $scope.CreateSubject = function () {
-        var text = angular.element('#subjectInput').val();
-
-        if (text !== '') {
-            var method = {
-                Name: 'Questions.SetSubject',
-                Args: {
-                    Text: text,
-                }
-            };
-
-            ajax.send({
-                Method: method,
-                Callback: function (data) {
-                    if (data[0].Result.Error.Code === 0) {
-                        angular.element('#subjectInput').val('');
                         $scope.init();
                     }
                 }

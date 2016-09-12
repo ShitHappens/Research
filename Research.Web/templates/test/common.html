@@ -51,8 +51,8 @@
                         <label class="col-sm-2 control-label col-lg-2" for="inputSuccess">{{q.Text}}</label>
                         <div class="col-lg-10">
                             <div ng-repeat="a in q.Answers">
+                                <input id="{{a.ID}}" type="radio" name="{{q.ID}}" checked="" />
                                 {{a.Text}}
-                                <input id="{{a.ID}}" type="radio" name="{{q.ID}}"  checked=""/>
                             </div>                           
                         </div>
                         <hr />

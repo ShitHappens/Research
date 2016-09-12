@@ -27,13 +27,11 @@ namespace Research.BO
                 get { return (int)base.pk; }
             }
 
-
             public String str_name
             {
                 set { this[Consts.str_name] = value; }
                 get { return (String)this[Consts.str_name]; }
             }
-
 
             public Int32 fk_parent
             {
@@ -41,6 +39,11 @@ namespace Research.BO
                 get { return (Int32)this[Consts.fk_parent]; }
             }
 
+            public Byte[] bin_image
+            {
+                set { this[Consts.bin_image] = value; }
+                get { return (Byte[])this[Consts.bin_image]; }
+            }
 
             #endregion
 

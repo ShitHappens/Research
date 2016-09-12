@@ -25,7 +25,7 @@ namespace Research.Web
                 }
 
                 if (fileData != null)
-                    BO.Question.Set(new BO.Question.Filter() {
+                    BO.Theme.Set(new BO.Theme.Filter() {
                         bin_image = fileData,
                         pk = id
                     });
@@ -37,7 +37,6 @@ namespace Research.Web
             }
 
             context.Response.ContentType = "text/plain";
-
         }
 
         public bool IsReusable

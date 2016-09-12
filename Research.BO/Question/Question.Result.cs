@@ -29,22 +29,6 @@ namespace Research.BO
 
             public decimal dcm_complexity { get { return GetValue<decimal>(Consts.dcm_complexity); } }
 
-            public static byte[] GetImage(int pk)
-            {
-                string conString = DevReactor.Toolbox.Tools.Config.Instance.Db["connection-string"];
-                using (SqlConnection cn = new SqlConnection(conString))
-                using (SqlCommand cm = cn.CreateCommand())
-                {
-                    cm.CommandText = @"
-            SELECT bin_image
-            FROM   question
-            WHERE  pk = @Id";
-                    cm.Parameters.AddWithValue("@Id", pk);
-                    cn.Open();
-                    return cm.ExecuteScalar() as byte[];
-                }
-            }
-
         }
     }
 }

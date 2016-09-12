@@ -75,7 +75,9 @@ namespace Research.Web
             BO.Theme.Filter f = new BO.Theme.Filter();
             f.str_name = text;
 
-            BO.Theme.Set(f);
+            var q = (int)BO.Theme.Set(f).Scalar;
+            mi.Result["ID"] = q;
+            mi.ErrorCode = 0;
         }
 
         [AuthMethod]

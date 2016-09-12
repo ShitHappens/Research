@@ -69,11 +69,6 @@ namespace Research.BO
                 get { return (decimal)this[Consts.dcm_complexity]; }
             }
 
-            public Byte[] bin_image
-            {
-                set { this[Consts.bin_image] = value; }
-                get { return (Byte[])this[Consts.bin_image]; }
-            }
             #endregion
 
             #region CacheTime

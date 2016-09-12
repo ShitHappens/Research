@@ -17,6 +17,7 @@ namespace Research.BO
 
             public const string fk_parent = "fk_parent";
 
+            public const string bin_image = "bin_image";
 
             public abstract class Sort
             {
