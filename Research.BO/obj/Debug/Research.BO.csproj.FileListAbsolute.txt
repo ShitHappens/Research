@@ -24,4 +24,3 @@ C:\_\Research\Research.BO\bin\Debug\log4net.xml
 C:\_\Research\Research.BO\bin\Debug\MaxMind.DB.xml
 C:\_\Research\Research.BO\bin\Debug\Newtonsoft.Json.xml
 C:\_\Research\Research.BO\bin\Debug\RestSharp.xml
-C:\_\Research\Research.BO\obj\Debug\Research.BO.csprojResolveAssemblyReference.cache

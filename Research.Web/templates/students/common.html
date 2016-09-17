@@ -9,15 +9,17 @@
                     <table class="table table-hover">
                         <tr>
                             <th>ID</th>
-                            <th>Name</th>
-                            <th>Email</th>
+                            <th>ПІП</th>
+                            <th>Пошта</th>
                             <th>Avg mark</th>
                         </tr>
                         <tr ng-repeat="s in students" ng-show="addStudent === false">
                             <td>{{s.ID}}</td>
                             <td>{{s.Name}}</td>
                             <td>{{s.Email}}</td>
-                            <td>{{s.Mark}}</td>
+                            <td>
+                                <p ng-repeat="subj in s.Subjects">{{subj.Text}}</p>
+                            </td>
                         </tr>
                         <tr ng-show="addStudent === true">
                             <td></td>
@@ -26,9 +28,9 @@
                             <td><input type="number" id="mark"></td>
                         </tr>
                     </table>
-                    <button ng-show="addStudent === false" type="submit" class="btn btn-default" style="margin-top: 20px;" ng-click="addStudent = true">Add student</button>
-                    <button ng-show="addStudent === true" type="submit" class="btn btn-success" style="margin-top: 20px;" ng-click="addStudent = false;AddStudent()">Submit</button>
-                    <button ng-show="addStudent === true" type="submit" class="btn btn-warning" style="margin-top: 20px;" ng-click="addStudent = false">Cancel</button>
+                    <button ng-show="addStudent === false" type="submit" class="btn btn-default" style="margin-top: 20px;" ng-click="addStudent = true">Додати курсанта</button>
+                    <button ng-show="addStudent === true" type="submit" class="btn btn-success" style="margin-top: 20px;" ng-click="addStudent = false;AddStudent()">Підтвердити</button>
+                    <button ng-show="addStudent === true" type="submit" class="btn btn-warning" style="margin-top: 20px;" ng-click="addStudent = false">Відмінити</button>
                 </form>
             </div>
         </section>

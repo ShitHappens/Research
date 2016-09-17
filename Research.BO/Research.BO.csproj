@@ -75,6 +75,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Account2Theme\Account2Theme.Consts.cs" />
+    <Compile Include="Account2Theme\Account2Theme.cs" />
+    <Compile Include="Account2Theme\Account2Theme.Filter.cs" />
+    <Compile Include="Account2Theme\Account2Theme.Result.cs" />
+    <Compile Include="Account2Theme\Account2Theme.TypeInfo.cs" />
     <Compile Include="Account\Account.Consts.cs" />
     <Compile Include="Account\Account.cs" />
     <Compile Include="Account\Account.Filter.cs" />
@@ -106,6 +111,7 @@
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

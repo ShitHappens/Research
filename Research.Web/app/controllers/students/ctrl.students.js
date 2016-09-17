@@ -25,7 +25,7 @@
             Args: {
                 Name:  $("#name").val(),
                 Email: $("#email").val(),
-                Mark:  $("#mark").val()
+                //Mark:  $("#mark").val()
             }
         };
 
@@ -34,7 +34,7 @@
             Callback: function () {
                 $("#name").val('');
                 $("#email").val('');
-                $("#mark").val('');
+                //$("#mark").val('');
                 GetStudents();
             }
         }); 

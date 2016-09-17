@@ -143,7 +143,24 @@ namespace Research.Web
                 JObject jStudent = new JObject();
                 jStudent["Name"] = student.str_name;
                 jStudent["Email"] = student.str_email;
-                jStudent["Mark"] = student.dcm_avg_rating;
+
+                JArray jSubjects = new JArray();
+                BO.Account2Theme.Result acc2Themes = BO.Account2Theme.GetAll(new BO.Account2Theme.Filter()
+                {
+                    fk_account = student.pk
+                });
+
+                foreach (BO.Account2Theme.Result acc2Theme in acc2Themes)
+                {
+                    JObject accTheme = new JObject();
+                    BO.Theme.Result theme = BO.Theme.Load(acc2Theme.fk_theme);
+                    string mark = string.Format("{0}: {1}", theme.str_name, acc2Theme.dcm_mark);
+                    accTheme["Text"] = mark;
+                    jSubjects.Add(accTheme);
+                }
+
+                jStudent["Subjects"] = jSubjects;
+                //jStudent["Mark"] = student.dcm_avg_rating;
                 jStudent["ID"] = student.pk;
 
                 jStudents.Add(jStudent);
@@ -157,13 +174,13 @@ namespace Research.Web
         {
             string name = mi.Args["Name"].Value<string>();
             string email = mi.Args["Email"].Value<string>();
-            decimal mark = mi.Args["Mark"].Value<decimal>();
+            //decimal mark = mi.Args["Mark"].Value<decimal>();
 
             BO.Account.Set(new BO.Account.Filter()
             {
                 str_name = name,
                 str_email = email,
-                dcm_avg_rating = mark,
+                //dcm_avg_rating = mark,
                 str_password = "11111",
                 int_accounttype = (int)BO.Account.Consts.AccountType.Student,
             });

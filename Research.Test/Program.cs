@@ -19,7 +19,7 @@ namespace Research.Test
 
             //string imgPath = @"C:\learning.jpg";
             //byte[] imgdata = System.IO.File.ReadAllBytes(imgPath);
-            DownloadImage(5, @"C:\TestImages\97.pdf");
+            //DownloadImage(5, @"C:\TestImages\97.pdf");
             //UploadImage(97, @"C:\TestImages");
             //BO.Account.Result acc = BO.Account.Load(1);
             //Console.Write(acc.dcm_avg_rating);
@@ -29,6 +29,13 @@ namespace Research.Test
             //LTest test = new LTest();
             //test.SimpleTestByTheme();
             //#endregion test
+
+            BO.Account2Theme.Set(new BO.Account2Theme.Filter()
+            {
+                fk_account = 11,
+                fk_theme = 11, 
+                dcm_mark = 5
+            });
 
             Console.ReadLine();
 

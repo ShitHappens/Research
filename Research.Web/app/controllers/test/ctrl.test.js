@@ -224,7 +224,7 @@
                         ]
                     };
 
-                    pdfMake.createPdf(doc).download();
+                    //pdfMake.createPdf(doc).download();
                     alert('Your mark is: ' + mark);
                 }
             }
