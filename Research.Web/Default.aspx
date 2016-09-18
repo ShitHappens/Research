@@ -5,7 +5,7 @@
 <html lang="en" ng-app="app">
 <head ng-controller="HeadCtrl" ng-init="init()">
     <title ng-bind="Page"></title>
-    <link rel="icon" type="image/png" href="/img/favicon.png">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
