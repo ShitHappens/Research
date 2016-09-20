@@ -35,8 +35,6 @@ namespace Research.Web
                 mark += answer.dcm_mark;
             }
 
-
-
             BO.Account.Result user = BO.Account.Load(userID);
 
             mark = decimal.Round(mark * 100 / ttlScore, 2, MidpointRounding.AwayFromZero);
@@ -71,6 +69,7 @@ namespace Research.Web
 
             mi.Result["UserName"] = user.str_name;
             mi.Result["Mark"] = mark;
+            mi.Result["Subject"] = theme.str_name;
         }
     }
 }

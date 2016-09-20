@@ -209,23 +209,30 @@
                 if (data[0].Result.Error.Code === 0) {
                     var mark = data[0].Result.Mark;
                     var userName = data[0].Result.UserName;
+                    var subject = data[0].Result.Subject;
                     var passed;
-                    if (mark > 60)
-                        passed = userName + ' допущеный до екзамену з результатом' + mark;
+                    if (mark >= 60)
+                        passed = userName + ' допущеный до екзамену з результатом' + mark + ' із 100.';
                     else
-                        passed = userName + ' НЕ допущеный до екзамену з результатом ' + mark + '.';
+                        passed = userName + ' НЕ допущеный до екзамену з результатом ' + mark +' із 100.';
 
                     var doc = {
                         content: [
-                          { text: 'Результати тестування', fontSize: 15, style: { alignment: 'center' } },
+                          { text: 'Київський національний унівеситет імені Тараса Шевченка', fontSize: 15, style: { alignment: 'center' } },
+                          { text: 'Факультет інформаційних технологій', fontSize: 15, style: { alignment: 'center' } },
+                          { text: 'Результати тестування з предмету ' + subject, fontSize: 15, style: { alignment: 'center' } },
+                          { text: ' ', fontSize: 15, style: { alignment: 'center' } },
                           {
-                              text: passed, fontSize: 12
-                          }
+                              text: passed, fontSize: 12, style: { alignment: 'center' }
+                          },
+                         { text: ' ', fontSize: 15, style: { alignment: 'center' } },
+                         { text: 'Викладач дисципліни _________________ ', fontSize: 12, style: { alignment: 'right' } },
                         ]
                     };
 
-                    //pdfMake.createPdf(doc).download();
-                    alert('Your mark is: ' + mark);
+                    pdfMake.createPdf(doc).download(userName + '_' + subject + '.pdf');
+                    //alert('Your mark is: ' + mark);
+                    $location.path('/dashboard');
                 }
             }
         });
@@ -240,4 +247,14 @@
         }
         return false;
     }
+
+    //$(function () {
+    //    $("#dialog").dialog({
+    //        autoOpen: false
+    //    });
+
+    //    $("#opener").click(function () {
+    //        $("#dialog").dialog("open");
+    //    });
+    //});
 }

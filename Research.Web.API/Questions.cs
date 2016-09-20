@@ -323,7 +323,8 @@ namespace Research.Web
 
                 jq["Answers"] = jAnswers;
 
-                jQuestions.Add(jq);
+                if (answers.Count > 0)
+                    jQuestions.Add(jq);
             }
 
             mi.Result["Questions"] = jQuestions;

@@ -4,3 +4,4 @@ C:\_\Research\Research.Model\obj\Debug\Research.Model.dll
 C:\_\Research\Research.Model\obj\Debug\Research.Model.pdb
 C:\_\Research\Research.Model\bin\Debug\System.Net.Http.dll
 C:\_\Research\Research.Model\bin\Debug\System.Net.Http.xml
+C:\_\Research\Research.Model\obj\Debug\Research.Model.csprojResolveAssemblyReference.cache
